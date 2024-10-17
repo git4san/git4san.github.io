@@ -1087,24 +1087,25 @@
 <div style="text-align: justify;">
     Sanoop Mallissery is a Lecturer at the School of Information Technology, Monash University Malaysia. He holds a Ph.D. in Computer Science from National Yang Ming Chiao Tung University (NYCU) in Taiwan, where he specializes in advanced cybersecurity research. He earned his Bachelor's degree in Information Technology and a Master's in Cyber Security, building a solid foundation.
 </div>
-<p><a id="toggleLink" href="javascript:void(0)" onclick="toggleContent()">Read more</a></p>
+<p><a id="toggleLink" href="#" onclick="toggleContent()" style="display: block; margin-top: 10px;">Read more</a></p>
 <div id="extraContent" style="display: none; text-align: justify;">
-    <p>Sanoop's professional experience includes a role as a threat researcher at TxOne Networks in Taiwan, where he contributed to innovative solutions in the Threat Research department. Before that, he spent four years as a cybersecurity engineer at the Industrial Technology Research Institute (ITRI) in Taiwan, developing cutting-edge security measures and techniques.</p>
-<pre><code>&lt;p&gt;Additionally, Sanoop served as an Assistant Professor in the Department of Information and Communication Technology at Manipal Institute of Technology, Manipal University in India, for 6.5 years. His teaching and mentorship have inspired numerous students in the field of computer science.&lt;/p&gt;
-
-&lt;p&gt;His research interests lie in dependable systems security, automated vulnerability discovery through fuzzing systems, and data protection and privacy. Sanoop is dedicated to advancing the landscape of cybersecurity and fostering a deeper understanding of security challenges in today's digital environment.&lt;/p&gt;
-</code></pre>
+    <p>Sanoop's professional experience includes a role as a threat researcher at TxOne Networks in Taiwan, where he contributed to innovative solutions in the Threat Research department. Before that, he spent four years as a cybersecurity engineer at the Industrial Technology Research Institute (ITRI) in Taiwan, developing cutting-edge security measures and techniques.</p> Additionally, Sanoop served as an Assistant Professor in the Department of Information and Communication Technology at Manipal Institute of Technology, Manipal University in India, for 6.5 years. His teaching and mentorship have inspired numerous students in the field of computer science.</p> His research interests lie in dependable systems security, automated vulnerability discovery through fuzzing systems, and data protection and privacy. Sanoop is dedicated to advancing the landscape of cybersecurity and fostering a deeper understanding of security challenges in today's digital environment.</p>
+   <a id="toggleLinkEnd" href="#" onclick="toggleContent()" style="display: block; margin-top: 10px;">Read less</a>
 </div>
 <script>
 function toggleContent() {
     var content = document.getElementById("extraContent");
-    var link = document.getElementById("toggleLink");
+    var toggleLink = document.getElementById("toggleLink");
+    var toggleLinkEnd = document.getElementById("toggleLinkEnd");
+
     if (content.style.display === "none") {
         content.style.display = "block";
-        link.textContent = "Read less";
+        toggleLink.style.display = "none";
+        toggleLinkEnd.style.display = "block";
     } else {
         content.style.display = "none";
-        link.textContent = "Read more";
+        toggleLink.style.display = "block";
+        toggleLinkEnd.style.display = "none";
     }
 }
 </script>
