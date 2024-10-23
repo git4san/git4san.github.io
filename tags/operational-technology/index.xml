@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operational Technology | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/operational-technology/</link>
+      <atom:link href="https://example.com/tags/operational-technology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Operational Technology</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>Operational Technology</title>
+      <link>https://example.com/tags/operational-technology/</link>
+    </image>
+    
+    <item>
+      <title>Fuzzing OT Applications and Protocols</title>
+      <link>https://example.com/project/fuzzing-ot-apps/</link>
+      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/fuzzing-ot-apps/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;In this project, the focus is on enhancing the security of Operational Technology (OT) applications and communication protocols. The objective is to identify and address vulnerabilities that could potentially compromise critical OT systems. The key steps involved in the project are:&lt;/p&gt;
+    &lt;/div&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #007BFF;&#34;&gt;Recreation of Proof of Concepts (PoCs):&lt;/strong&gt;
+            &lt;p&gt;Reconstruct and test known Proof of Concepts (PoCs) to understand the nature of existing threats and vulnerabilities in OT systems. Analyze how these PoCs exploit specific weaknesses and assess their impact on system operations.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #28A745;&#34;&gt;Fuzzing Implementation:&lt;/strong&gt;
+            &lt;p&gt;Utilize advanced fuzzing techniques to test OT applications and protocols extensively, simulate various edge cases and malformed inputs to expose hidden vulnerabilities.&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Combine different fuzzing strategies, such as mutation-based and generation-based fuzzing, to enhance test coverage and ensure thorough security assessment.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #FFC107;&#34;&gt;Threat Analysis and Vulnerability Research:&lt;/strong&gt;
+            &lt;p&gt;Conduct a comprehensive threat analysis to identify potential attack vectors in OT environments, leveraging information flow analysis to trace how vulnerabilities could propagate within systems.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #DC3545;&#34;&gt;Information Flow Analysis:&lt;/strong&gt;
+            &lt;p&gt;Integrate information flow analysis techniques to track data movement within OT applications, allowing the detection of unauthorized data flows that could signify exploitation attempts or misconfigurations.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;div style=&#34;text-align: justify;&#34;&gt;
+    &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Skills Applied:&lt;/h4&gt;
+    &lt;ul class=&#34;skills-list&#34;&gt;
+        &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Fuzzing:&lt;/span&gt; Implement various fuzzing tools and frameworks to identify vulnerabilities in OT protocols and applications.&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Threat Analysis:&lt;/span&gt; Assess and categorize security threats based on severity, providing actionable insights for mitigation.&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Information Flow Analysis:&lt;/span&gt; Track and analyze the flow of information to detect anomalies and potential security breaches.&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Vulnerability Research:&lt;/span&gt; Investigate and document security flaws, contributing to the development of security patches and improvements for OT systems.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;p style=&#34;margin-top: 20px;&#34;&gt;This project not only strengthens expertise in fuzzing and vulnerability research but also demonstrates the ability to protect critical infrastructure systems through proactive threat hunting and mitigation strategies.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://github.com/cpuu/awesome-fuzzing&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Fuzzing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/glossary/operational-technology-ot&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Operational Technology&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/cybersecurity-dictionary-industrial-control-systems-ics-security&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Control System&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Some Papers To Have a Good Start:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Neural Program Smoothing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;All You Ever Wanted to Know&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Soundness and Precision&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Information Flow Tracking System&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Tracking Meets Just-In-Time Compilation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Tracking With Static Binary Rewriting&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;libdft: Dynamic Data Flow&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Fine-Grained Binary Instrumentation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Using Dynamic Binary Instrumentation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Combining Static and Dynamic Analysis&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3623375&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Demystify the Fuzzing Methods&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI-Driven Security | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/ai-driven-security/</link>
+      <atom:link href="https://example.com/tags/ai-driven-security/index.xml" rel="self" type="application/rss+xml" />
+    <description>AI-Driven Security</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>AI-Driven Security</title>
+      <link>https://example.com/tags/ai-driven-security/</link>
+    </image>
+    
+    <item>
+      <title>AI-Driven Cybersecurity: Securing Systems with Machine Learning and Adversarial ML</title>
+      <link>https://example.com/project/ai-driven-cybersecurity/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/ai-driven-cybersecurity/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;This project aims to leverage advanced Machine Learning (ML) techniques to enhance cybersecurity by detecting and mitigating threats in real-time. The focus is also on developing adversarial ML defenses, which are crucial for securing AI systems against sophisticated attacks. The project’s scope covered the following key areas:&lt;/p&gt;
+    &lt;/div&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #007BFF;&#34;&gt;AI-Driven Threat Detection:&lt;/strong&gt;
+            &lt;p&gt;Develop and implement AI models to detect potential security threats by analyzing vast amounts of system data. The models identify anomalies in network traffic, user behavior, and application logs to spot indicators of compromise (IoCs).&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Utilize both supervised and unsupervised learning algorithms to improve threat detection accuracy.&lt;/li&gt;
+                &lt;li&gt;Integrate real-time data streams for prompt detection and response to evolving threats.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #28A745;&#34;&gt;Adversarial Machine Learning (AML) Defense Strategies:&lt;/strong&gt;
+            &lt;p&gt;Focuses on defending ML models against adversarial attacks that attempt to manipulate AI algorithms by injecting malicious data inputs. Explore techniques to harden models and reduce their susceptibility to adversarial examples.&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Implement adversarial training by generating adversarial examples and retraining models to improve their robustness.&lt;/li&gt;
+                &lt;li&gt;Utilize techniques like input preprocessing and gradient masking to counter adversarial threats.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #FFC107;&#34;&gt;Cyber Threat Intelligence (CTI) with AI:&lt;/strong&gt;
+            &lt;p&gt;Incorporate ML to improve cyber threat intelligence (CTI), automating the identification and classification of attack patterns and cybercriminal tactics, techniques, and procedures (TTPs).&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Develop ML models that predict and prevent potential attacks based on historical data and current threat landscapes.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #DC3545;&#34;&gt;Vulnerability Prediction and Mitigation:&lt;/strong&gt;
+            &lt;p&gt;Use ML models to predict software vulnerabilities based on code analysis, historical vulnerability data, and other indicators. The models provides recommendations for patching or mitigating potential risks before they get exploited.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Skills Applied:&lt;/h4&gt;
+        &lt;ul class=&#34;skills-list&#34;&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;ML for Threat Detection:&lt;/span&gt; Leverage ML algorithms, such as decision trees, neural networks, and clustering techniques, to detect anomalies and cybersecurity threats.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Adversarial ML Defenses:&lt;/span&gt; Develop techniques to defend against adversarial attacks, including adversarial retraining and gradient masking.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;AI-Driven Threat Intelligence:&lt;/span&gt; Automate the classification and analysis of cyber threats using ML models.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Vulnerability Prediction:&lt;/span&gt; Predict software vulnerabilities and recommend mitigations based on ML-driven insights.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;p style=&#34;margin-top: 20px;&#34;&gt;This project highlights the potential of AI and ML in fortifying cybersecurity defenses, focusing on real-time threat detection, adversarial ML defenses, and proactive vulnerability mitigation strategies.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.paloaltonetworks.com/cyberpedia/what-are-adversarial-attacks-on-AI-Machine-Learning&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Machine Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://cybersecurity.att.com/blogs/security-essentials/what-is-cybersecurity-threat-intelligence-sharing#:~:text=It%20involves%20gathering%20threat%20intelligence,and%20Analysis%20Centers%20(ISACs).&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Cyber Threat Intelligence and Sharing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.paloaltonetworks.com/blog/2024/04/ai-cybersecurity-and-large-language-models/&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;AI in Cybersecurity: State of the Art&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;A Good Path to Start with:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Software Security Analysis in 2030 and Beyond&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Attacks and Defenses in Deep Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Strategic Defense Against Adversarial Attacks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Defending Against Adversarial Attacks - Randomized Diversification&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Attack and Defense in RL&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Defense Against Adversarial Attacks - Feature Scattering&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Defense Against Adversarial Attacks - Guided Denoiser&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Attacks and Defenses&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Practical Defense Against Attribute Inference Attacks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Stateful Defense Against Adversarial Query Attacks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml11.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Security is not my field, Im a stats guy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml12.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Large-Scale Deep Learning Models Stealing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml13.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Preprocessing: Understanding and Preventing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml14.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Model and Data Independent Membership Inference Attacks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml15.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Evading Provenance-Based ML Detectors&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml16.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Dos and Donts of Machine Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml17.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Scalable Defense for Neural Networks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml18.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Why Do Adversarial Attacks Transfer?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml19.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Sparsity Brings Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
