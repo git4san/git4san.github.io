@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grey-Box Fuzzing | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/grey-box-fuzzing/</link>
+      <atom:link href="https://example.com/tags/grey-box-fuzzing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Grey-Box Fuzzing</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 05 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>Grey-Box Fuzzing</title>
+      <link>https://example.com/tags/grey-box-fuzzing/</link>
+    </image>
+    
+    <item>
+      <title>Demystify the fuzzing methods: A comprehensive survey</title>
+      <link>https://example.com/publication/journal-article/fuzzing-survey/</link>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article/fuzzing-survey/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

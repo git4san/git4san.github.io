@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zero-Day Vulnerabilities | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/zero-day-vulnerabilities/</link>
+      <atom:link href="https://example.com/tags/zero-day-vulnerabilities/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zero-Day Vulnerabilities</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>Zero-Day Vulnerabilities</title>
+      <link>https://example.com/tags/zero-day-vulnerabilities/</link>
+    </image>
+    
+    <item>
+      <title>Pervasive Micro Information Flow Tracking</title>
+      <link>https://example.com/publication/journal-article/permit-method/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article/permit-method/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enriching the Semantics of Information Flow Tracking with Source-Level Memory Allocation Event Logging</title>
+      <link>https://example.com/publication/conference-paper/squirrel/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/conference-paper/squirrel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
