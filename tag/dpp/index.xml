@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DPP | SaNs Portfolio</title>
+    <link>https://example.com/tag/dpp/</link>
+      <atom:link href="https://example.com/tag/dpp/index.xml" rel="self" type="application/rss+xml" />
+    <description>DPP</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu14484311124804984102.png</url>
+      <title>DPP</title>
+      <link>https://example.com/tag/dpp/</link>
+    </image>
+    
+    <item>
+      <title>Data Analytics for Edge</title>
+      <link>https://example.com/project/privacy-in-edge/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/privacy-in-edge/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;As the adoption of edge computing expands, data privacy concerns at the network’s edge have become paramount. This project investigates privacy-preserving mechanisms tailored for edge computing environments, where data is processed closer to its source rather than centralized in the cloud. We explore techniques that secure sensitive data during on-device processing, enabling real-time, privacy-conscious analytics in sectors such as healthcare, IoT, and smart cities.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #007BFF;&#34;&gt;Data Privacy Challenges in Edge Computing&lt;/strong&gt;
+            &lt;p&gt;Edge environments introduce unique privacy challenges due to limited processing power and distributed data collection. This section examines key privacy concerns specific to edge computing:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Data Minimization:&lt;/strong&gt; Strategies to collect and process only essential data, reducing exposure of sensitive information.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Decentralized Privacy Controls:&lt;/strong&gt; Privacy mechanisms must be managed locally at each device rather than centrally, adding complexity.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Enhanced Encryption Standards:&lt;/strong&gt; Lightweight encryption tailored for devices with limited resources, such as IoT sensors.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #28A745;&#34;&gt;Techniques for Privacy Preservation on the Edge&lt;/strong&gt;
+            &lt;p&gt;We investigate privacy techniques optimized for real-time, localized data processing, focusing on methods that minimize data transmission while maintaining security:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Federated Learning:&lt;/strong&gt; Enables model training on device data without transferring raw data to a central server, preserving privacy while generating insights.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Homomorphic Encryption:&lt;/strong&gt; Allows computation on encrypted data, keeping information secure throughout processing and preventing data leakage.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Trusted Execution Environments (TEEs):&lt;/strong&gt; Secure hardware enclaves that provide isolated environments for processing sensitive data directly on devices.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #FFC107;&#34;&gt;Privacy Considerations at Each Edge Device Lifecycle Stage&lt;/strong&gt;
+            &lt;p&gt;Privacy measures tailored for each stage of edge device lifecycles are crucial for maintaining long-term data security. We categorize the lifecycle stages as follows:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Device Setup:&lt;/strong&gt; Ensuring secure device initialization with encryption keys and privacy policies.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Data Collection:&lt;/strong&gt; Integrating data minimization techniques during sensor data acquisition to protect user privacy.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Data Processing:&lt;/strong&gt; Applying privacy-preserving analytics techniques, such as TEEs, to process sensitive information on-device.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Data Sharing:&lt;/strong&gt; Securing inter-device communication and data sharing within edge environments, mitigating exposure risks.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Device Decommissioning:&lt;/strong&gt; Ensuring secure data erasure to protect privacy when the device lifecycle ends.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #DC3545;&#34;&gt;Challenges and Limitations&lt;/strong&gt;
+            &lt;p&gt;Implementing privacy-preserving mechanisms at the edge presents unique challenges:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Device Resource Constraints:&lt;/strong&gt; Many edge devices have limited processing power and battery life, restricting complex privacy mechanisms.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Network Security:&lt;/strong&gt; Edge networks are susceptible to cyber attacks, requiring robust, decentralized security frameworks.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Data Synchronization:&lt;/strong&gt; Ensuring consistency and security across multiple distributed devices can be challenging in real-time environments.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #6C757D;&#34;&gt;Use Cases&lt;/strong&gt;
+            &lt;p&gt;Privacy-preserving data analytics is essential for various edge applications, including:&lt;/p&gt;
+            &lt;ul class=&#34;skills-list&#34;&gt;
+                &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Healthcare:&lt;/span&gt; On-device analysis of patient data for real-time diagnosis, maintaining privacy in sensitive environments.&lt;/li&gt;
+                &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Industrial IoT:&lt;/span&gt; Secure analysis of equipment data to enable predictive maintenance without exposing sensitive operational details.&lt;/li&gt;
+                &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Smart Cities:&lt;/span&gt; Processing citizen data locally on IoT devices to support public services while preserving individual privacy.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Future Directions&lt;/h4&gt;
+        &lt;p&gt;As the demand for edge computing grows, it is vital to continue developing privacy-preserving techniques that are resource-efficient and scalable. Federated learning, homomorphic encryption, and TEEs hold promise for enhanced security in edge environments. Balancing real-time data utility with privacy will be critical to addressing the future challenges of edge data security.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;p style=&#34;margin-top: 20px;&#34;&gt;This project aims to push the boundaries of edge computing privacy, offering insights into effective and scalable privacy-preserving technologies for decentralized systems.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.cisa.gov/ics&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Control Systems (ICS) Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/iiot-security-essentials&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial IoT (IIoT)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/cyber-physical-systems-security-is-the-new-ot-security&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Security Engineering for Cyber-Physical Systems&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data Privacy Preservation</title>
+      <link>https://example.com/project/privacy-preservation-mechanisms-/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/privacy-preservation-mechanisms-/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;As the digital world continues to grow, safeguarding sensitive data has become a top priority for organizations, governments, and individuals. In this project, we delve into various privacy preservation mechanisms that can be implemented at different stages of the data lifecycle, from collection to deletion. These methods ensure that sensitive information is protected against unauthorized access, exploitation, or misuse. The project also explores foundational techniques like k-anonymity, and advanced methods such as differential privacy and cryptographic solutions.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #007BFF;&#34;&gt;Overview of Privacy-Preserving Mechanisms&lt;/strong&gt;
+            &lt;p&gt;Privacy preservation mechanisms are essential for protecting sensitive data across its entire lifecycle, including collection, storage, processing, transmission, and deletion. Here, we outline the core methods employed to maintain data confidentiality and integrity:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Data Masking:&lt;/strong&gt; This technique hides specific elements of the data, ensuring sensitive parts (e.g., personal identifiers) are not exposed.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Pseudonymization:&lt;/strong&gt; Replaces identifiable information with pseudonyms to maintain the usefulness of data while protecting individuals&#39; identities.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Encryption:&lt;/strong&gt; Ensures that data is only accessible to authorized users through cryptographic techniques, providing protection during storage and transmission.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Randomized Response (RR):&lt;/strong&gt; This technique should introduce randomness into responses during data collection to protect individuals’ privacy, typically used in surveys or sensitive inquiries.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;strong style=&#34;color: #28A745;&#34;&gt;Advanced Privacy Preservation Methods&lt;/strong&gt;
+            &lt;p&gt;Beyond the foundational techniques, there are more advanced privacy mechanisms to enhance protection, especially in the realm of machine learning and data processing. These methods include:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Differential Privacy (DP):&lt;/strong&gt; DP introduce carefully calibrated noise to datasets to prevent the identification of individual data points while maintaining overall data utility.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Secure Multiparty Computation (MPC):&lt;/strong&gt; Enable multiple parties to compute a function over their inputs without revealing the inputs to each other.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Federated Learning:&lt;/strong&gt; This technique should enable model training on decentralized data, ensuring that sensitive data remains localized without being shared across systems.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Zero Knowledge Proofs (ZKPs):&lt;/strong&gt; A cryptographic method allowing one party to prove the validity of a statement without revealing the underlying data.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Blockchain for Privacy:&lt;/strong&gt; Distributed ledger technologies provide secure, transparent, and immutable records, ensuring data integrity and privacy, particularly for auditing and compliance purposes.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;strong style=&#34;color: #FFC107;&#34;&gt;Privacy at Different Stages of the Data Lifecycle&lt;/strong&gt;
+            &lt;p&gt;Privacy preservation mechanisms can be applied at each stage of the data lifecycle to provide comprehensive protection.&lt;/p&gt;
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;strong style=&#34;color: #DC3545;&#34;&gt;Challenges and Limitations of Privacy Preservation&lt;/strong&gt;
+            &lt;p&gt;Despite significant advances in privacy-preserving technologies, there are still critical challenges to overcome. These include:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Balancing Privacy and Data Utility:&lt;/strong&gt; Many privacy techniques, especially those adding noise (like differential privacy), must find the right balance between protecting data and preserving its usefulness.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Adversarial Attacks:&lt;/strong&gt; Attackers may use inference attacks or adversarial machine learning to bypass privacy mechanisms and extract sensitive data.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Scalability:&lt;/strong&gt; Implement advanced cryptographic or decentralized techniques (e.g., MPC, federated learning) can be computationally intensive, making them difficult to scale for large datasets or complex applications.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Regulatory Compliance:&lt;/strong&gt; With evolving global regulations, organizations must continuously adapt their privacy mechanisms to meet standards like GDPR, HIPAA, and other regional laws.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;strong style=&#34;color: #6C757D;&#34;&gt;Real-World Use Cases&lt;/strong&gt;
+            &lt;p&gt;Privacy preservation methods are used in various sectors, ranging from healthcare to finance. Here are a few notable examples:&lt;/p&gt;
+            &lt;ul class=&#34;skills-list&#34;&gt;
+                &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Healthcare:&lt;/span&gt; Hospitals use differential privacy to anonymize patient data while still enabling critical research. Secure multiparty computation is also used to allow collaborative medical research across institutions without sharing raw patient data.&lt;/li&gt;
+                &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Financial Sector:&lt;/span&gt; Banks use encryption and secure sharing protocols to allow cross-border transactions without exposing sensitive financial details. Blockchain-based systems are gaining traction for secure and transparent auditing.&lt;/li&gt;
+                &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Retail:&lt;/span&gt; Retail companies use privacy-preserving data analytics to understand consumer behavior without compromising individual privacy, often using pseudonymization or anonymization techniques.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Future Directions&lt;/h4&gt;
+        &lt;p&gt;As privacy concerns become increasingly significant in the digital age, developing and implementing effective privacy preservation mechanisms is crucial. While foundational methods like k-anonymity and encryption provide a baseline level of security, more advanced techniques like differential privacy, MPC, and federated learning are essential to tackle future challenges. As data usage continues to grow, so too must the sophistication of privacy preservation methods. Ensuring data privacy while maintaining utility and scalability remains the key challenge moving forward.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;p style=&#34;margin-top: 20px;&#34;&gt;This project explore the evolving landscape of privacy-preserving technologies, shedding light on current best practices and future trends to secure sensitive information in an increasingly data-driven world.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://hdsr.mitpress.mit.edu/pub/sl9we8gh/release/3&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://federated.withgoogle.com&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Federated Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://crypto.stanford.edu/pbc/notes/crypto/zk.html&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Zero Knowledge Proofs&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.internetsociety.org/resources/doc/2023/homomorphic-encryption/&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Homomorphic Encryption&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Privacy-Preserving Collaborative Data Collection&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/2976749.2978318&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Deep Learning with Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/10286086&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;PRIMϵ: Privacy-Preservation Model&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Privacy-Preserving Inventory Matching System&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Learning to Live with Privacy-Preserving Analytics&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Practical Guide to Machine Learning with Di!erential Privacy&lt;a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Algorithmic Foundations of Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning with Differentially Private Labels&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Survey on Differential Privacy with Machine Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Evaluating Differentially Private Machine Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Complexity of Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning with Feature Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp11.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Differential Privacy and Applications&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp12.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Learning with Privacy at Scale&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

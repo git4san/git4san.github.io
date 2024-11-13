@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Trustworthy/Explainable AI Research</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #004d99;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    section {
+      margin: 20px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #004d99;
+    }
+
+    footer {
+    background-color: #290107;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    }
+
+
+    .collapsible {
+      background-color: #008CBA;
+      color: white;
+      cursor: pointer;
+      padding: 10px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      font-size: 18px;
+    }
+
+    .active, .collapsible:hover {
+      background-color: #007bb5;
+    }
+
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: #f1f1f1;
+    }
+
+    .content p {
+      margin: 10px 0;
+    }
+
+    .accordion-container {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Trustworthy/Explainable AI Research</h1>
+  <p>A comprehensive guide to the key aspects of trust and explainability in AI systems.</p>
+  <p>by <span style="color: #FFD700;">Sanoop Mallissery</span></p> 
+</header>
+
+<nav>
+  <a href="#introduction">Introduction</a>
+  <a href="#importance">Importance of Trustworthy AI</a>
+  <a href="#methods">Methods for Explainability</a>
+  <a href="#challenges">Challenges in Trustworthy AI</a>
+  <a href="#future">Future Directions</a>
+</nav>
+
+<section id="introduction">
+  <h2>Introduction</h2>
+  <p>
+    Artificial Intelligence (AI) systems have the potential to revolutionize various fields, from healthcare to finance, by automating decision-making processes. However, the growing complexity and opacity of these systems raise significant concerns regarding their trustworthiness and accountability. 
+    Explainable AI (XAI) is a branch of AI focused on making the decision-making processes of AI systems transparent and understandable to humans.
+  </p>
+</section>
+
+<section id="importance">
+  <h2>Importance of Trustworthy AI</h2>
+  <p>
+    Trustworthy AI refers to systems that are fair, transparent, accountable, and operate with a level of reliability that can be trusted by human users. Ensuring that AI systems are trustworthy is crucial to their widespread adoption, especially in sectors that require high accountability like healthcare, legal systems, and autonomous vehicles.
+  </p>
+  <div class="accordion-container">
+    <button class="collapsible">Why Trustworthiness is Essential in AI</button>
+    <div class="content">
+      <p>Trustworthy AI ensures that AI systems make decisions in an understandable and ethical manner. Users must be able to trust that the AI's decisions are based on sound reasoning, free from biases, and in compliance with relevant regulations. Failure to trust AI systems may lead to underutilization or rejection in critical applications.</p>
+    </div>
+  </div>
+</section>
+
+<section id="methods">
+  <h2>Methods for Explainability</h2>
+  <p>
+    Explainable AI (XAI) focuses on creating models whose operations can be understood by humans. There are several methods used to increase explainability in AI systems:
+  </p>
+  <div class="accordion-container">
+    <button class="collapsible">Model-Agnostic Methods</button>
+    <div class="content">
+      <p>Model-agnostic methods can be applied to any AI model, regardless of its architecture. Techniques such as Local Interpretable Model-agnostic Explanations (LIME) and SHapley Additive exPlanations (SHAP) are popular approaches that help explain the decisions made by black-box models.</p>
+    </div>
+
+    <button class="collapsible">Model-Specific Methods</button>
+    <div class="content">
+      <p>Some AI models have inherent interpretability. Decision trees, linear models, and rule-based systems are often more interpretable than deep neural networks. Researchers are working on making complex models like deep learning more interpretable by focusing on their inner workings.</p>
+    </div>
+
+    <button class="collapsible">Post-hoc Explainability Techniques</button>
+    <div class="content">
+      <p>Post-hoc explainability techniques involve explaining decisions made by an AI system after the fact. Visualization tools, such as saliency maps for deep learning models, are commonly used to visualize which parts of an input contributed most to a decision.</p>
+    </div>
+  </div>
+</section>
+
+<section id="challenges">
+  <h2>Challenges in Trustworthy AI</h2>
+  <p>
+    Despite significant progress in AI, several challenges remain in ensuring the trustworthiness and explainability of these systems:
+  </p>
+  <div class="accordion-container">
+    <button class="collapsible">Bias in AI Systems</button>
+    <div class="content">
+      <p>AI systems can inadvertently incorporate bias from the data they are trained on. This can lead to unfair or discriminatory outcomes. Addressing bias requires developing methods to identify and mitigate biases in both data and models.</p>
+    </div>
+
+    <button class="collapsible">Complexity of Deep Learning Models</button>
+    <div class="content">
+      <p>Deep learning models, while powerful, are often seen as "black boxes" because they are difficult to interpret. Efforts to make these models explainable have led to various techniques, but achieving complete transparency remains a challenge.</p>
+    </div>
+
+    <button class="collapsible">Scalability of Explainability Solutions</button>
+    <div class="content">
+      <p>As AI systems grow in complexity, it becomes increasingly difficult to scale explainability methods. Researchers are exploring ways to make explainability techniques more efficient and scalable to handle large, complex systems.</p>
+    </div>
+  </div>
+</section>
+
+<section id="future">
+  <h2>Future Directions in Trustworthy AI</h2>
+  <p>
+    The future of AI will likely see increased integration of explainability into AI systems by default. Some potential future directions include:
+  </p>
+  <ul>
+    <li>Development of standardized frameworks for evaluating AI explainability.</li>
+    <li>Greater focus on fairness and equity in AI decision-making processes.</li>
+    <li>Enhanced regulatory frameworks for ensuring the trustworthiness of AI systems in critical applications.</li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2024 Trustworthy AI Research. All Rights Reserved. Created by <span style="color: #f5c27a;">Sanoop Mallissery</span></p>
+</footer>
+
+<script>
+  // Collapsible sections functionality
+  var coll = document.getElementsByClassName("collapsible");
+  for (var i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script>
+
+</body>
+</html>

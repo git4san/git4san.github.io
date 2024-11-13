@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Critical Infrastructure & CPS Security Research</title>
+  <style>
+    /* Updated styles */
+    body {
+      font-family: 'Verdana', sans-serif;
+      background-color: #e8f5e9;
+      margin: 0;
+      padding: 0;
+      color: #1b5e20;
+    }
+
+    header {
+      background-color: #1b5e20;
+      color: #ffffff;
+      padding: 30px;
+      text-align: center;
+      border-bottom: 5px solid #4caf50;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #4caf50;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      padding: 12px 20px;
+      margin: 0 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #388e3c;
+    }
+
+    section {
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 900px;
+    }
+
+    h2 {
+      color: #2e7d32;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #1b5e20;
+      color: #ffffff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      border-top: 3px solid #4caf50;
+    }
+
+    .collapsible {
+      background-color: #4caf50;
+      color: #ffffff;
+      cursor: pointer;
+      padding: 12px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .collapsible:hover {
+      background-color: #388e3c;
+    }
+
+    .active {
+      background-color: #2e7d32;
+    }
+
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: #f1f8e9;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    .content p, .content ul {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+
+    .content ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Critical Infrastructure & CPS Security Research</h1>
+  <p>by <span style="color: #FFD700;">Sanoop Mallissery</span></p> 
+</header>
+
+<nav>
+  <a href="#overview">Overview</a>
+  <a href="#latest-trends">Latest Trends</a>
+  <a href="#challenges">Key Challenges</a>
+  <a href="#solutions">Solutions & Mitigations</a>
+  <a href="#future-outlook">Future Outlook</a>
+</nav>
+
+<section id="overview">
+  <h2>Overview</h2>
+  <p>
+    Critical Infrastructure (CI) and Cyber-Physical Systems (CPS) are vital for the functioning of modern society, including energy grids, transportation systems, and industrial control systems. These systems are increasingly interconnected, making them targets for sophisticated cyber-attacks. Securing CI and CPS is paramount to ensure safety, reliability, and operational continuity.
+  </p>
+</section>
+
+<section id="latest-trends">
+  <h2>Latest Trends in CI & CPS Security</h2>
+  <div class="accordion-container">
+    <button class="collapsible">Increased Use of AI and Machine Learning</button>
+    <div class="content">
+      <p>
+        AI and machine learning are playing crucial roles in the detection and response to potential threats in real-time. Algorithms are becoming more sophisticated, helping identify patterns that indicate malicious activities within CI and CPS networks.
+      </p>
+    </div>
+
+    <button class="collapsible">Integration of Zero Trust Architectures</button>
+    <div class="content">
+      <p>
+        Zero Trust security models are being adopted across critical infrastructures to limit access to sensitive areas, ensuring that every user, device, and system component is verified and authenticated before gaining access.
+      </p>
+    </div>
+
+    <button class="collapsible">Use of Digital Twins for Enhanced Security</button>
+    <div class="content">
+      <p>
+        Digital twins, or virtual replicas of physical assets, are being used to simulate potential cyber-attacks and test security measures without affecting real operations. This proactive approach aids in identifying vulnerabilities and enhancing security strategies.
+      </p>
+    </div>
+
+    <button class="collapsible">Blockchain-Based Security Solutions</button>
+    <div class="content">
+      <p>
+        Blockchain technology is being leveraged for secure data management and transaction tracking, ensuring tamper-resistant logs and enhancing trust in CI and CPS data exchanges.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="challenges">
+  <h2>Key Challenges in Securing CI & CPS</h2>
+  <div class="accordion-container">
+    <button class="collapsible">Legacy Systems with Limited Upgrades</button>
+    <div class="content">
+      <p>
+        Many critical infrastructures still rely on outdated systems that are difficult to upgrade or patch, making them vulnerable to modern cyber-attacks.
+      </p>
+    </div>
+
+    <button class="collapsible">Increasing Sophistication of Cyber Threats</button>
+    <div class="content">
+      <p>
+        Threat actors are developing more advanced techniques such as AI-driven malware, ransomware, and multi-stage attacks that specifically target vulnerabilities in CI and CPS.
+      </p>
+    </div>
+
+    <button class="collapsible">Complexity of Monitoring and Response</button>
+    <div class="content">
+      <p>
+        Monitoring CI and CPS environments is a complex task due to the vast amount of data and diverse types of connected devices. Ensuring effective real-time response without false alarms remains a significant challenge.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="solutions">
+  <h2>Solutions & Mitigations</h2>
+  <div class="accordion-container">
+    <button class="collapsible">Adoption of Advanced Threat Detection Tools</button>
+    <div class="content">
+      <p>
+        New threat detection tools powered by machine learning and deep analytics are being used to detect anomalies and suspicious behavior early, preventing potential breaches.
+      </p>
+    </div>
+
+    <button class="collapsible">Cybersecurity Frameworks and Standards</button>
+    <div class="content">
+      <p>
+        Adhering to cybersecurity frameworks like NIST, IEC 62443, and ISO/IEC 27001 helps organizations implement best practices for securing CI and CPS.
+      </p>
+    </div>
+
+    <button class="collapsible">Training and Awareness Programs</button>
+    <div class="content">
+      <p>
+        Regular training programs for employees and stakeholders ensure that they are aware of security protocols and can respond effectively in the event of a cyber-attack.
+      </p>
+    </div>
+
+    <button class="collapsible">Collaboration with Government and Industry</button>
+    <div class="content">
+      <p>
+        Collaborative efforts between private organizations, government bodies, and cybersecurity experts are essential for sharing intelligence, developing robust policies, and enhancing overall security postures.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="future-outlook">
+  <h2>Future Outlook</h2>
+  <p>
+    The future of CI and CPS security will see a deeper integration of AI and machine learning for predictive threat analysis, quantum-resistant encryption for safeguarding communications, and more automated responses to cyber incidents. Global cooperation and continuous innovation will be pivotal to stay ahead of evolving cyber threats.
+  </p>
+</section>
+
+<footer>
+  <p>&copy; 2024 Critical Infrastructure & CPS Security Research. All Rights Reserved. Created by <span style="color: #f5c27a;">Sanoop Mallissery</span></p>
+</footer>
+
+<script>
+  const coll = document.querySelectorAll('.collapsible');
+  coll.forEach(button => {
+    button.addEventListener('click', function() {
+      this.classList.toggle('active');
+      const content = this.nextElementSibling;
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+
+</body>
+</html>
+

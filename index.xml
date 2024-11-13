@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SaNs Portfolio</title>
+    <link>https://example.com/</link>
+      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>SaNs Portfolio</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu14484311124804984102.png</url>
+      <title>SaNs Portfolio</title>
+      <link>https://example.com/</link>
+    </image>
+    
+    <item>
+      <title>AI-Driven Threat Detection VANETs</title>
+      <link>https://example.com/project/vanet-sec/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/vanet-sec/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;As vehicular ad-hoc networks (VANETs) expand, especially with autonomous and connected vehicle technologies, the need for robust security mechanisms is paramount. This project proposes a hybrid approach that combines AI-driven anomaly detection and blockchain-based trust management to enhance the security and reliability of VANET communications. By integrating machine learning models for real-time threat detection and blockchain for decentralized trust, this project aims to mitigate risks such as data tampering, spoofing, and unauthorized access.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;h2 id=&#34;project-objectives&#34;&gt;Project Objectives&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Develop an AI-Based Threat Detection System&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Design machine learning algorithms to detect anomalies in real-time, such as unauthorized access, spoofing, or data manipulation.&lt;/li&gt;
+            &lt;li&gt;Implement a lightweight model suitable for processing data on limited-resource vehicular on-board units (OBUs).&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+   &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;Implement a Blockchain-Enabled Trust Framework&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Use blockchain to create a decentralized, immutable record of transactions within the network to prevent data tampering.&lt;/li&gt;
+            &lt;li&gt;Enable trustless verification among vehicles, infrastructure nodes, and network servers to enhance message authenticity and reliability.&lt;/li&gt;
+        &lt;/ul&gt;
+   &lt;/li&gt;
+   &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;Secure Inter-Vehicle Communication (IVC) and Vehicle-to-Infrastructure (V2I) Communication&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Ensure secure communication protocols that can withstand attacks, particularly Man-in-the-Middle (MitM) and replay attacks.&lt;/li&gt;
+            &lt;li&gt;Investigate the use of cryptographic mechanisms and secure routing protocols to maintain message integrity and confidentiality.&lt;/li&gt;
+        &lt;/ul&gt;
+   &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;methodology&#34;&gt;Methodology&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Data Collection and Preprocessing&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Gather data from real-world VANET simulations and datasets, including traffic patterns, attack vectors, and normal driving behaviors.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;AI-Driven Threat Detection System&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Use deep learning techniques such as Convolutional Neural Networks (CNNs) or Recurrent Neural Networks (RNNs) to analyze patterns and detect anomalies.&lt;/li&gt;
+            &lt;li&gt;Implement lightweight AI algorithms optimized for resource-constrained vehicular hardware.&lt;/li&gt;
+            &lt;li&gt;Employ federated learning to allow vehicles to collectively learn threat patterns without sharing raw data, preserving privacy.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;Blockchain-Based Trust Management System&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Integrate a permissioned blockchain that allows verified nodes (e.g., vehicles and roadside units) to add new transactions.&lt;/li&gt;
+            &lt;li&gt;Use smart contracts to automate trust verification between network nodes.&lt;/li&gt;
+            &lt;li&gt;Apply consensus mechanisms optimized for VANETs, like Practical Byzantine Fault Tolerance (PBFT) or Proof of Authority (PoA), to reduce latency and energy consumption.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #DC3545;&#34;&gt;Secure Communication Protocols&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Implement secure message-passing protocols such as Elliptic Curve Cryptography (ECC) and Quantum-Resistant Cryptography (QRC) to future-proof communications.&lt;/li&gt;
+            &lt;li&gt;Evaluate multi-hop communication protocols and detect routing misbehavior to ensure data integrity in relayed messages.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;future-trends-and-challenges&#34;&gt;Future Trends and Challenges&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Scalability&lt;/strong&gt;
+        &lt;p&gt;As the number of connected vehicles grows, VANETs must manage larger volumes of data while maintaining low latency. Optimizing AI and blockchain for scalability in highly dynamic environments is crucial.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;Quantum-Resistant Security&lt;/strong&gt;
+        &lt;p&gt;With the rise of quantum computing, future VANET security must shift towards quantum-resistant cryptography to prevent future decryption of current encrypted communications.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;Edge Computing for Real-Time Processing&lt;/strong&gt;
+        &lt;p&gt;Leveraging edge computing to process data locally on OBUs will reduce response times and minimize dependency on central servers, making VANETs more resilient to network failures.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #DC3545;&#34;&gt;Interoperability and Standardization&lt;/strong&gt;
+        &lt;p&gt;Ensuring seamless communication across diverse vehicular networks and adhering to emerging standards (such as IEEE 802.11p and 5G-based C-V2X) will be vital for wider VANET adoption.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #6C757D;&#34;&gt;Privacy-Preserving Mechanisms&lt;/strong&gt;
+        &lt;p&gt;As vehicles collect sensitive data, preserving driver privacy while sharing necessary information for safety remains a significant challenge. Techniques like differential privacy and homomorphic encryption can help address this.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;Energy-Efficient Solutions&lt;/strong&gt;
+        &lt;p&gt;Given the limited energy resources of OBUs, designing low-power AI algorithms and lightweight blockchain frameworks is essential to extend device lifetimes and reduce operational costs.&lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;expected-outcomes&#34;&gt;Expected Outcomes&lt;/h2&gt;
+&lt;ul class=&#34;skills-list&#34;&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Enhanced Security:&lt;/span&gt; The system should demonstrate improved detection and prevention of various VANET-specific attacks.&lt;/li&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Increased Trust:&lt;/span&gt; Blockchain will provide a reliable, decentralized trust model, reducing the likelihood of message tampering and unauthorized access.&lt;/li&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Scalable and Resilient VANETs:&lt;/span&gt; The project aims to contribute a scalable, real-time secure communication framework suitable for future VANET implementations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+    &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Project Summary&lt;/h4&gt;
+    &lt;p&gt;This project leverages the latest trends in AI, blockchain, and cryptography to address emerging security concerns in VANETs, ensuring secure, trustworthy, and scalable vehicular communication networks for the future of autonomous and connected transportation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.cisa.gov/ics&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Control Systems (ICS) Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/iiot-security-essentials&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial IoT (IIoT)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/cyber-physical-systems-security-is-the-new-ot-security&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Security Engineering for Cyber-Physical Systems&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data Analytics for Edge</title>
+      <link>https://example.com/project/privacy-in-edge/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/privacy-in-edge/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;As the adoption of edge computing expands, data privacy concerns at the network’s edge have become paramount. This project investigates privacy-preserving mechanisms tailored for edge computing environments, where data is processed closer to its source rather than centralized in the cloud. We explore techniques that secure sensitive data during on-device processing, enabling real-time, privacy-conscious analytics in sectors such as healthcare, IoT, and smart cities.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #007BFF;&#34;&gt;Data Privacy Challenges in Edge Computing&lt;/strong&gt;
+            &lt;p&gt;Edge environments introduce unique privacy challenges due to limited processing power and distributed data collection. This section examines key privacy concerns specific to edge computing:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Data Minimization:&lt;/strong&gt; Strategies to collect and process only essential data, reducing exposure of sensitive information.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Decentralized Privacy Controls:&lt;/strong&gt; Privacy mechanisms must be managed locally at each device rather than centrally, adding complexity.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Enhanced Encryption Standards:&lt;/strong&gt; Lightweight encryption tailored for devices with limited resources, such as IoT sensors.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #28A745;&#34;&gt;Techniques for Privacy Preservation on the Edge&lt;/strong&gt;
+            &lt;p&gt;We investigate privacy techniques optimized for real-time, localized data processing, focusing on methods that minimize data transmission while maintaining security:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Federated Learning:&lt;/strong&gt; Enables model training on device data without transferring raw data to a central server, preserving privacy while generating insights.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Homomorphic Encryption:&lt;/strong&gt; Allows computation on encrypted data, keeping information secure throughout processing and preventing data leakage.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Trusted Execution Environments (TEEs):&lt;/strong&gt; Secure hardware enclaves that provide isolated environments for processing sensitive data directly on devices.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #FFC107;&#34;&gt;Privacy Considerations at Each Edge Device Lifecycle Stage&lt;/strong&gt;
+            &lt;p&gt;Privacy measures tailored for each stage of edge device lifecycles are crucial for maintaining long-term data security. We categorize the lifecycle stages as follows:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Device Setup:&lt;/strong&gt; Ensuring secure device initialization with encryption keys and privacy policies.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Data Collection:&lt;/strong&gt; Integrating data minimization techniques during sensor data acquisition to protect user privacy.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Data Processing:&lt;/strong&gt; Applying privacy-preserving analytics techniques, such as TEEs, to process sensitive information on-device.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Data Sharing:&lt;/strong&gt; Securing inter-device communication and data sharing within edge environments, mitigating exposure risks.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Device Decommissioning:&lt;/strong&gt; Ensuring secure data erasure to protect privacy when the device lifecycle ends.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #DC3545;&#34;&gt;Challenges and Limitations&lt;/strong&gt;
+            &lt;p&gt;Implementing privacy-preserving mechanisms at the edge presents unique challenges:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Device Resource Constraints:&lt;/strong&gt; Many edge devices have limited processing power and battery life, restricting complex privacy mechanisms.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Network Security:&lt;/strong&gt; Edge networks are susceptible to cyber attacks, requiring robust, decentralized security frameworks.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Data Synchronization:&lt;/strong&gt; Ensuring consistency and security across multiple distributed devices can be challenging in real-time environments.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #6C757D;&#34;&gt;Use Cases&lt;/strong&gt;
+            &lt;p&gt;Privacy-preserving data analytics is essential for various edge applications, including:&lt;/p&gt;
+            &lt;ul class=&#34;skills-list&#34;&gt;
+                &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Healthcare:&lt;/span&gt; On-device analysis of patient data for real-time diagnosis, maintaining privacy in sensitive environments.&lt;/li&gt;
+                &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Industrial IoT:&lt;/span&gt; Secure analysis of equipment data to enable predictive maintenance without exposing sensitive operational details.&lt;/li&gt;
+                &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Smart Cities:&lt;/span&gt; Processing citizen data locally on IoT devices to support public services while preserving individual privacy.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Future Directions&lt;/h4&gt;
+        &lt;p&gt;As the demand for edge computing grows, it is vital to continue developing privacy-preserving techniques that are resource-efficient and scalable. Federated learning, homomorphic encryption, and TEEs hold promise for enhanced security in edge environments. Balancing real-time data utility with privacy will be critical to addressing the future challenges of edge data security.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;p style=&#34;margin-top: 20px;&#34;&gt;This project aims to push the boundaries of edge computing privacy, offering insights into effective and scalable privacy-preserving technologies for decentralized systems.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.cisa.gov/ics&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Control Systems (ICS) Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/iiot-security-essentials&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial IoT (IIoT)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/cyber-physical-systems-security-is-the-new-ot-security&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Security Engineering for Cyber-Physical Systems&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Next-Generation Fuzzing Tool</title>
+      <link>https://example.com/project/fuzz-the-sw/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/fuzz-the-sw/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;As software systems become increasingly complex, detecting security vulnerabilities is a crucial challenge. This project proposes the development of a next-generation fuzzing tool that combines hybrid fuzzing techniques, AI-driven optimizations, and intelligent test case generation to uncover vulnerabilities in modern software applications. Leveraging both symbolic and concolic execution along with machine learning for intelligent input mutations, this project aims to efficiently explore edge cases and detect hard-to-find bugs that traditional methods may miss.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;h2 id=&#34;project-objectives&#34;&gt;Project Objectives&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Design an AI-Augmented Fuzzing Framework&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Integrate AI-driven input mutation techniques to generate test cases intelligently, adapting dynamically based on code coverage and path analysis.&lt;/li&gt;
+            &lt;li&gt;Optimize mutation strategies using reinforcement learning to improve fuzzing efficiency and focus on high-risk code regions.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;Develop a Hybrid Fuzzing Core&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Combine symbolic and concolic execution with coverage-based fuzzing to explore deep program states and reach uncovered code paths.&lt;/li&gt;
+            &lt;li&gt;Implement a lightweight symbolic execution engine to manage memory constraints while ensuring high detection rates for complex vulnerabilities.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;Automated Bug Classification and Analysis&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Utilize machine learning classifiers to categorize detected vulnerabilities, distinguishing between critical security bugs and less impactful issues.&lt;/li&gt;
+            &lt;li&gt;Implement real-time data analytics to evaluate fuzzing performance, providing insights on vulnerability severity and potential exploitability.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;methodology&#34;&gt;Methodology&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Data Collection and Initial Analysis&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Gather datasets from open-source software repositories, vulnerability databases, and historical fuzzing results to build a robust training set for the AI model.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;AI-Driven Fuzzing Techniques&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Apply reinforcement learning to guide test case mutations, prioritizing code areas with higher potential for vulnerabilities.&lt;/li&gt;
+            &lt;li&gt;Use clustering techniques to analyze test case outputs and identify patterns associated with specific classes of bugs.&lt;/li&gt;
+            &lt;li&gt;Incorporate natural language processing (NLP) to analyze code comments and metadata for context-aware mutation strategies.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;Hybrid Fuzzing with Symbolic and Concolic Execution&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Implement a hybrid fuzzing engine that leverages symbolic execution to handle constraints and concolic execution to explore complex branches effectively.&lt;/li&gt;
+            &lt;li&gt;Optimize for performance on low-resource devices, enabling use in embedded or IoT environments.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #DC3545;&#34;&gt;Automated Bug Reporting and Analysis&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Develop real-time analytics to provide detailed insights into detected vulnerabilities, including bug classification, impact analysis, and potential attack vectors.&lt;/li&gt;
+            &lt;li&gt;Integrate automated reporting tools to generate detailed logs and vulnerability reports with recommended mitigation strategies.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;future-trends-and-challenges&#34;&gt;Future Trends and Challenges&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Adaptation to Evolving Software Environments&lt;/strong&gt;
+        &lt;p&gt;As software becomes more complex, the fuzzing tool must adapt to diverse programming languages, frameworks, and software architectures, ensuring comprehensive coverage across platforms.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;AI Integration and Feedback Loops&lt;/strong&gt;
+        &lt;p&gt;Incorporating real-time feedback loops to dynamically adjust fuzzing parameters based on detected vulnerabilities will make the tool more responsive and adaptive to diverse security scenarios.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;Quantum-Resistant Fuzzing&lt;/strong&gt;
+        &lt;p&gt;As quantum computing capabilities evolve, adapting fuzzing techniques to assess software resilience against quantum-based attacks will be essential for future-proof security.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #DC3545;&#34;&gt;Privacy-Preserving Fuzzing&lt;/strong&gt;
+        &lt;p&gt;To handle sensitive software data, incorporating privacy-preserving techniques such as homomorphic encryption and differential privacy can enhance security without compromising data confidentiality.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #6C757D;&#34;&gt;Resource-Efficient Fuzzing&lt;/strong&gt;
+        &lt;p&gt;Designing low-power algorithms and optimizing resource usage for fuzzing in constrained environments (e.g., IoT and mobile devices) will be essential to broaden the applicability of the fuzzing tool.&lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;expected-outcomes&#34;&gt;Expected Outcomes&lt;/h2&gt;
+&lt;ul class=&#34;skills-list&#34;&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Enhanced Vulnerability Detection:&lt;/span&gt; The tool should achieve high accuracy in detecting a wide range of vulnerabilities, including complex, multi-step exploits.&lt;/li&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Adaptive Fuzzing Capabilities:&lt;/span&gt; With AI integration, the tool will learn from previous tests and adapt mutation strategies dynamically, improving vulnerability discovery rates.&lt;/li&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Detailed Analytics and Reporting:&lt;/span&gt; The tool will generate comprehensive reports with bug classification, impact assessment, and recommended mitigations, aiding in swift vulnerability management.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+    &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Project Summary&lt;/h4&gt;
+    &lt;p&gt;This project aims to push the boundaries of fuzzing by integrating advanced AI, hybrid fuzzing techniques, and automated bug analysis. The resulting tool will provide a powerful framework for vulnerability detection, supporting diverse applications and enhancing the security of modern software systems.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.cisa.gov/ics&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Control Systems (ICS) Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/iiot-security-essentials&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial IoT (IIoT)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/cyber-physical-systems-security-is-the-new-ot-security&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Security Engineering for Cyber-Physical Systems&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Quantum-Resilient Defense Sys. for OT</title>
+      <link>https://example.com/project/digital-twins/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/digital-twins/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;Securing Operational Technology (OT) in critical infrastructure is becoming increasingly challenging with the rise of cyber-physical attacks and advancements in quantum computing. This project proposes a quantum-resilient AI-driven defense system that utilizes digital twins, AI for threat prediction, and quantum-resistant cryptography. This approach provides a proactive, adaptive, and resilient security framework to ensure uninterrupted and secure operation of critical OT assets in sectors such as energy, manufacturing, and water supply.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;h2 id=&#34;project-objectives&#34;&gt;Project Objectives&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Develop AI-Powered Threat Prediction and Detection Models&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Implement AI algorithms to analyze real-time OT data, detect anomalies, and predict potential threats before they impact critical operations.&lt;/li&gt;
+            &lt;li&gt;Leverage reinforcement learning to adaptively update threat detection models based on emerging attack patterns.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;Create Digital Twins for Virtual Testing and Defense Simulation&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Design digital twin models to simulate OT assets and predict the impact of various attack scenarios in a controlled environment.&lt;/li&gt;
+            &lt;li&gt;Enable continuous testing of defense protocols using digital twins to ensure effectiveness without disrupting live systems.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+     &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;Integrate Quantum-Resistant Cryptographic Algorithms&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Incorporate quantum-resistant encryption methods to secure sensitive OT data from future quantum-based attacks.&lt;/li&gt;
+            &lt;li&gt;Utilize lattice-based or hash-based cryptographic protocols to ensure long-term data integrity and privacy.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;methodology&#34;&gt;Methodology&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Data Collection and AI Model Training&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Collect real-time data from OT devices, including system logs, network traffic, and sensor data, to train AI threat detection models.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;Digital Twin Development and Simulation&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Create digital twin environments replicating OT assets and integrate real-time data for accurate simulation and defense testing.&lt;/li&gt;
+            &lt;li&gt;Simulate cyber-physical threats to validate defense protocols and adjust response strategies based on simulation outcomes.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;Deployment of Quantum-Resilient Cryptography&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Implement quantum-resistant cryptographic algorithms within the OT network to secure data transmission and storage.&lt;/li&gt;
+            &lt;li&gt;Deploy secure communication channels between OT devices and control systems, preventing unauthorized data access.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #DC3545;&#34;&gt;Adaptive Response Mechanism&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Design an adaptive response system using reinforcement learning to improve reaction times and accuracy in identifying and neutralizing threats.&lt;/li&gt;
+            &lt;li&gt;Incorporate automated, multi-layered defense responses to isolate compromised systems and maintain operational continuity.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;future-trends-and-challenges&#34;&gt;Future Trends and Challenges&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Scalability for Large-Scale OT Environments&lt;/strong&gt;
+        &lt;p&gt;Scaling digital twin models across complex OT systems requires efficient data processing and modeling strategies, especially in large critical infrastructures.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;Quantum-Resistant Cryptography Integration&lt;/strong&gt;
+        &lt;p&gt;As quantum computing advances, implementing and standardizing quantum-resistant cryptographic protocols across OT networks will be crucial for long-term security.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;AI Model Reliability and Adaptability&lt;/strong&gt;
+        &lt;p&gt;AI models must adapt to evolving threats while ensuring high reliability in OT environments where uptime is essential. Continuous learning mechanisms are critical for this adaptability.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #DC3545;&#34;&gt;Energy and Resource Efficiency&lt;/strong&gt;
+        &lt;p&gt;Balancing robust security measures with energy efficiency will be vital to sustain OT security in energy-constrained environments, particularly in remote infrastructure locations.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #6C757D;&#34;&gt;Regulatory Compliance and Data Privacy&lt;/strong&gt;
+        &lt;p&gt;Ensuring compliance with industry standards and regulatory frameworks while maintaining data privacy in OT networks is a critical consideration.&lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;expected-outcomes&#34;&gt;Expected Outcomes&lt;/h2&gt;
+&lt;ul class=&#34;skills-list&#34;&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Enhanced Threat Detection:&lt;/span&gt; Improved accuracy in detecting emerging threats through AI-powered predictive models and digital twin simulations.&lt;/li&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Quantum-Resilient Security:&lt;/span&gt; Long-term data integrity and protection against quantum computing threats through advanced cryptographic methods.&lt;/li&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Resilient OT Operations:&lt;/span&gt; A proactive defense framework that ensures continuity and safety of critical infrastructure operations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+    &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Project Summary&lt;/h4&gt;
+    &lt;p&gt;This project proposes an adaptive and quantum-resilient defense system tailored for OT security in critical infrastructure sectors. By integrating digital twins for threat simulation, AI for predictive security, and quantum-resistant cryptography, this project aims to create a future-proof security framework that addresses emerging cyber-physical threats, ensures continuous operations, and secures sensitive OT environments.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.cisa.gov/ics&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Control Systems (ICS) Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/iiot-security-essentials&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial IoT (IIoT)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/cyber-physical-systems-security-is-the-new-ot-security&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Security Engineering for Cyber-Physical Systems&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Secure ITS for for Future Smart Cities</title>
+      <link>https://example.com/project/futuristic-trans/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/futuristic-trans/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;With the rise of autonomous vehicles, connected infrastructure, and IoT-enabled transportation, creating a secure and efficient Intelligent Transportation System (ITS) has become a core objective for future smart cities. This project proposes a multi-layered ITS framework that integrates AI for traffic prediction, blockchain for secure data sharing, and IoT sensors for real-time monitoring. The project aims to develop a resilient system capable of adapting to traffic conditions dynamically, ensuring secure data integrity, and optimizing resource use to reduce congestion and environmental impact.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;h2 id=&#34;project-objectives&#34;&gt;Project Objectives&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Develop AI-Driven Traffic Prediction Models&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Implement machine learning algorithms for real-time traffic forecasting based on historical and real-time data collected from IoT sensors, cameras, and GPS-enabled vehicles.&lt;/li&gt;
+            &lt;li&gt;Incorporate deep learning models to analyze complex traffic patterns and predict congestion, allowing proactive measures like rerouting or signal adjustments.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;Implement a Blockchain-Based Data Sharing Framework&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Use blockchain to create a decentralized, tamper-proof data-sharing platform for autonomous vehicles, city infrastructure, and transportation management systems.&lt;/li&gt;
+            &lt;li&gt;Enable secure peer-to-peer communication between vehicles, ensuring trusted interactions and reducing potential tampering risks in vehicle-to-everything (V2X) networks.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;Real-Time Traffic Monitoring with IoT Sensors&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Deploy IoT sensors at strategic locations (e.g., intersections, highways, parking areas) to monitor vehicle flow, pedestrian movements, and environmental data in real time.&lt;/li&gt;
+            &lt;li&gt;Integrate sensor data with the AI models and blockchain framework to ensure accurate, up-to-date data for traffic management decisions.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;methodology&#34;&gt;Methodology&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Data Collection and Initial Analysis&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Collect data from smart city infrastructures, including video surveillance, GPS, and IoT sensors, to establish a comprehensive dataset for training AI models.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;AI-Driven Traffic Management System&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Apply deep neural networks (DNN) and reinforcement learning to detect congestion patterns and adjust traffic signals dynamically.&lt;/li&gt;
+            &lt;li&gt;Incorporate computer vision for real-time analysis of camera feeds, identifying accidents, stalled vehicles, or unusual patterns that may require immediate response.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;Blockchain for Secure Data Sharing&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Develop a permissioned blockchain framework allowing verified nodes (e.g., vehicles and roadside units) to exchange data securely without a central authority.&lt;/li&gt;
+            &lt;li&gt;Use smart contracts to automate transactions, such as congestion pricing or toll payments, enhancing system transparency and accountability.&lt;/li&gt;
+            &lt;li&gt;Implement energy-efficient consensus mechanisms (e.g., Proof of Authority) to manage transactions and maintain low-latency communication.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #DC3545;&#34;&gt;IoT-Based Real-Time Traffic Monitoring&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Deploy IoT sensors for collecting traffic flow, weather, and environmental data, transmitting this information in real time to the AI and blockchain layers.&lt;/li&gt;
+            &lt;li&gt;Ensure interoperability among IoT devices using emerging standards such as 5G-V2X and IEEE 802.11p to achieve low-latency, high-availability communication.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;future-trends-and-challenges&#34;&gt;Future Trends and Challenges&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Scalability and Data Volume Management&lt;/strong&gt;
+        &lt;p&gt;With exponential growth in connected devices and data, managing data volume and ensuring low-latency processing will be essential to the ITS system’s success. Advanced data processing techniques like edge computing will be critical for scalability.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;Quantum-Resistant Security&lt;/strong&gt;
+        &lt;p&gt;To secure transportation data against future quantum computing threats, incorporating quantum-resistant encryption algorithms into blockchain frameworks will be crucial.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;Integration with Autonomous Vehicle Systems&lt;/strong&gt;
+        &lt;p&gt;The ITS must be compatible with autonomous vehicle protocols, including those used by various car manufacturers, to ensure seamless data sharing and cooperative traffic management.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #DC3545;&#34;&gt;Environmental and Energy Efficiency&lt;/strong&gt;
+        &lt;p&gt;Optimizing energy use across IoT, AI, and blockchain components will reduce the environmental footprint, especially important as cities push for greener transportation systems.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #6C757D;&#34;&gt;Privacy-Preserving Mechanisms&lt;/strong&gt;
+        &lt;p&gt;Ensuring privacy for individual drivers while collecting valuable traffic data remains a critical challenge. Techniques like differential privacy and homomorphic encryption can help balance data utility and privacy protection.&lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;expected-outcomes&#34;&gt;Expected Outcomes&lt;/h2&gt;
+&lt;ul class=&#34;skills-list&#34;&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Improved Traffic Efficiency:&lt;/span&gt; The AI-driven system will optimize traffic flow, reducing congestion and commute times.&lt;/li&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Enhanced Data Security:&lt;/span&gt; Blockchain will provide a secure, decentralized platform for data sharing, ensuring data integrity and tamper resistance.&lt;/li&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Scalable ITS Framework:&lt;/span&gt; The modular architecture will allow easy scaling and adaptability for future smart city expansions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+    &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Project Summary&lt;/h4&gt;
+    &lt;p&gt;This project offers a comprehensive ITS framework designed to adapt dynamically to real-world transportation needs in smart cities. By integrating AI for predictive insights, blockchain for secure data sharing, and IoT for real-time monitoring, this project will lay the foundation for a resilient, efficient, and future-proof transportation network that supports both human-driven and autonomous vehicles.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.cisa.gov/ics&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Control Systems (ICS) Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/iiot-security-essentials&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial IoT (IIoT)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/cyber-physical-systems-security-is-the-new-ot-security&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Security Engineering for Cyber-Physical Systems&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
+      <title>AI-Driven Cybersecurity</title>
+      <link>https://example.com/project/ai-driven-cybersecurity/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/ai-driven-cybersecurity/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;This project aims to leverage advanced Machine Learning (ML) techniques to enhance cybersecurity by detecting and mitigating threats in real-time. The focus is also on developing adversarial ML defenses, which are crucial for securing AI systems against sophisticated attacks. The project’s scope covered the following key areas:&lt;/p&gt;
+    &lt;/div&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #007BFF;&#34;&gt;AI-Driven Threat Detection:&lt;/strong&gt;
+            &lt;p&gt;Develop and implement AI models to detect potential security threats by analyzing vast amounts of system data. The models identify anomalies in network traffic, user behavior, and application logs to spot indicators of compromise (IoCs).&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Utilize both supervised and unsupervised learning algorithms to improve threat detection accuracy.&lt;/li&gt;
+                &lt;li&gt;Integrate real-time data streams for prompt detection and response to evolving threats.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #28A745;&#34;&gt;Adversarial Machine Learning (AML) Defense Strategies:&lt;/strong&gt;
+            &lt;p&gt;Focuses on defending ML models against adversarial attacks that attempt to manipulate AI algorithms by injecting malicious data inputs. Explore techniques to harden models and reduce their susceptibility to adversarial examples.&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Implement adversarial training by generating adversarial examples and retraining models to improve their robustness.&lt;/li&gt;
+                &lt;li&gt;Utilize techniques like input preprocessing and gradient masking to counter adversarial threats.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #FFC107;&#34;&gt;Cyber Threat Intelligence (CTI) with AI:&lt;/strong&gt;
+            &lt;p&gt;Incorporate ML to improve cyber threat intelligence (CTI), automating the identification and classification of attack patterns and cybercriminal tactics, techniques, and procedures (TTPs).&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Develop ML models that predict and prevent potential attacks based on historical data and current threat landscapes.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #DC3545;&#34;&gt;Vulnerability Prediction and Mitigation:&lt;/strong&gt;
+            &lt;p&gt;Use ML models to predict software vulnerabilities based on code analysis, historical vulnerability data, and other indicators. The models provides recommendations for patching or mitigating potential risks before they get exploited.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Skills Applied:&lt;/h4&gt;
+        &lt;ul class=&#34;skills-list&#34;&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;ML for Threat Detection:&lt;/span&gt; Leverage ML algorithms, such as decision trees, neural networks, and clustering techniques, to detect anomalies and cybersecurity threats.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Adversarial ML Defenses:&lt;/span&gt; Develop techniques to defend against adversarial attacks, including adversarial retraining and gradient masking.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;AI-Driven Threat Intelligence:&lt;/span&gt; Automate the classification and analysis of cyber threats using ML models.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Vulnerability Prediction:&lt;/span&gt; Predict software vulnerabilities and recommend mitigations based on ML-driven insights.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;p style=&#34;margin-top: 20px;&#34;&gt;This project highlights the potential of AI and ML in fortifying cybersecurity defenses, focusing on real-time threat detection, adversarial ML defenses, and proactive vulnerability mitigation strategies.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.paloaltonetworks.com/cyberpedia/what-are-adversarial-attacks-on-AI-Machine-Learning&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Machine Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://cybersecurity.att.com/blogs/security-essentials/what-is-cybersecurity-threat-intelligence-sharing#:~:text=It%20involves%20gathering%20threat%20intelligence,and%20Analysis%20Centers%20(ISACs).&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Cyber Threat Intelligence and Sharing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.paloaltonetworks.com/blog/2024/04/ai-cybersecurity-and-large-language-models/&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;AI in Cybersecurity: State of the Art&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;A Good Path to Start with:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Software Security Analysis in 2030 and Beyond&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Attacks and Defenses in Deep Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Strategic Defense Against Adversarial Attacks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Defending Against Adversarial Attacks - Randomized Diversification&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Attack and Defense in RL&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Defense Against Adversarial Attacks - Feature Scattering&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Defense Against Adversarial Attacks - Guided Denoiser&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Attacks and Defenses&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Practical Defense Against Attribute Inference Attacks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Stateful Defense Against Adversarial Query Attacks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml11.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Security is not my field, Im a stats guy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml12.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Large-Scale Deep Learning Models Stealing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml13.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Preprocessing: Understanding and Preventing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml14.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Model and Data Independent Membership Inference Attacks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml15.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Evading Provenance-Based ML Detectors&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml16.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Dos and Donts of Machine Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml17.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Scalable Defense for Neural Networks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml18.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Why Do Adversarial Attacks Transfer?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml19.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Sparsity Brings Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data Privacy Preservation</title>
+      <link>https://example.com/project/privacy-preservation-mechanisms-/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/privacy-preservation-mechanisms-/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;As the digital world continues to grow, safeguarding sensitive data has become a top priority for organizations, governments, and individuals. In this project, we delve into various privacy preservation mechanisms that can be implemented at different stages of the data lifecycle, from collection to deletion. These methods ensure that sensitive information is protected against unauthorized access, exploitation, or misuse. The project also explores foundational techniques like k-anonymity, and advanced methods such as differential privacy and cryptographic solutions.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #007BFF;&#34;&gt;Overview of Privacy-Preserving Mechanisms&lt;/strong&gt;
+            &lt;p&gt;Privacy preservation mechanisms are essential for protecting sensitive data across its entire lifecycle, including collection, storage, processing, transmission, and deletion. Here, we outline the core methods employed to maintain data confidentiality and integrity:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Data Masking:&lt;/strong&gt; This technique hides specific elements of the data, ensuring sensitive parts (e.g., personal identifiers) are not exposed.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Pseudonymization:&lt;/strong&gt; Replaces identifiable information with pseudonyms to maintain the usefulness of data while protecting individuals&#39; identities.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Encryption:&lt;/strong&gt; Ensures that data is only accessible to authorized users through cryptographic techniques, providing protection during storage and transmission.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Randomized Response (RR):&lt;/strong&gt; This technique should introduce randomness into responses during data collection to protect individuals’ privacy, typically used in surveys or sensitive inquiries.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;strong style=&#34;color: #28A745;&#34;&gt;Advanced Privacy Preservation Methods&lt;/strong&gt;
+            &lt;p&gt;Beyond the foundational techniques, there are more advanced privacy mechanisms to enhance protection, especially in the realm of machine learning and data processing. These methods include:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Differential Privacy (DP):&lt;/strong&gt; DP introduce carefully calibrated noise to datasets to prevent the identification of individual data points while maintaining overall data utility.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Secure Multiparty Computation (MPC):&lt;/strong&gt; Enable multiple parties to compute a function over their inputs without revealing the inputs to each other.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Federated Learning:&lt;/strong&gt; This technique should enable model training on decentralized data, ensuring that sensitive data remains localized without being shared across systems.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Zero Knowledge Proofs (ZKPs):&lt;/strong&gt; A cryptographic method allowing one party to prove the validity of a statement without revealing the underlying data.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Blockchain for Privacy:&lt;/strong&gt; Distributed ledger technologies provide secure, transparent, and immutable records, ensuring data integrity and privacy, particularly for auditing and compliance purposes.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;strong style=&#34;color: #FFC107;&#34;&gt;Privacy at Different Stages of the Data Lifecycle&lt;/strong&gt;
+            &lt;p&gt;Privacy preservation mechanisms can be applied at each stage of the data lifecycle to provide comprehensive protection.&lt;/p&gt;
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;strong style=&#34;color: #DC3545;&#34;&gt;Challenges and Limitations of Privacy Preservation&lt;/strong&gt;
+            &lt;p&gt;Despite significant advances in privacy-preserving technologies, there are still critical challenges to overcome. These include:&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;&lt;strong&gt;Balancing Privacy and Data Utility:&lt;/strong&gt; Many privacy techniques, especially those adding noise (like differential privacy), must find the right balance between protecting data and preserving its usefulness.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Adversarial Attacks:&lt;/strong&gt; Attackers may use inference attacks or adversarial machine learning to bypass privacy mechanisms and extract sensitive data.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Scalability:&lt;/strong&gt; Implement advanced cryptographic or decentralized techniques (e.g., MPC, federated learning) can be computationally intensive, making them difficult to scale for large datasets or complex applications.&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Regulatory Compliance:&lt;/strong&gt; With evolving global regulations, organizations must continuously adapt their privacy mechanisms to meet standards like GDPR, HIPAA, and other regional laws.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;strong style=&#34;color: #6C757D;&#34;&gt;Real-World Use Cases&lt;/strong&gt;
+            &lt;p&gt;Privacy preservation methods are used in various sectors, ranging from healthcare to finance. Here are a few notable examples:&lt;/p&gt;
+            &lt;ul class=&#34;skills-list&#34;&gt;
+                &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Healthcare:&lt;/span&gt; Hospitals use differential privacy to anonymize patient data while still enabling critical research. Secure multiparty computation is also used to allow collaborative medical research across institutions without sharing raw patient data.&lt;/li&gt;
+                &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Financial Sector:&lt;/span&gt; Banks use encryption and secure sharing protocols to allow cross-border transactions without exposing sensitive financial details. Blockchain-based systems are gaining traction for secure and transparent auditing.&lt;/li&gt;
+                &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Retail:&lt;/span&gt; Retail companies use privacy-preserving data analytics to understand consumer behavior without compromising individual privacy, often using pseudonymization or anonymization techniques.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Future Directions&lt;/h4&gt;
+        &lt;p&gt;As privacy concerns become increasingly significant in the digital age, developing and implementing effective privacy preservation mechanisms is crucial. While foundational methods like k-anonymity and encryption provide a baseline level of security, more advanced techniques like differential privacy, MPC, and federated learning are essential to tackle future challenges. As data usage continues to grow, so too must the sophistication of privacy preservation methods. Ensuring data privacy while maintaining utility and scalability remains the key challenge moving forward.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;p style=&#34;margin-top: 20px;&#34;&gt;This project explore the evolving landscape of privacy-preserving technologies, shedding light on current best practices and future trends to secure sensitive information in an increasingly data-driven world.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://hdsr.mitpress.mit.edu/pub/sl9we8gh/release/3&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://federated.withgoogle.com&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Federated Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://crypto.stanford.edu/pbc/notes/crypto/zk.html&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Zero Knowledge Proofs&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.internetsociety.org/resources/doc/2023/homomorphic-encryption/&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Homomorphic Encryption&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Privacy-Preserving Collaborative Data Collection&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/2976749.2978318&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Deep Learning with Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/10286086&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;PRIMϵ: Privacy-Preservation Model&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Privacy-Preserving Inventory Matching System&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Learning to Live with Privacy-Preserving Analytics&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Practical Guide to Machine Learning with Di!erential Privacy&lt;a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Algorithmic Foundations of Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning with Differentially Private Labels&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Survey on Differential Privacy with Machine Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Evaluating Differentially Private Machine Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Complexity of Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning with Feature Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp11.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Differential Privacy and Applications&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp12.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Learning with Privacy at Scale&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Explainable and Interpretable AI</title>
+      <link>https://example.com/project/explainable-and-interpretable-ai/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/explainable-and-interpretable-ai/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;This project focuses on integrating Explainable and Interpretable AI (XAI) models into cybersecurity systems to improve transparency, trust, and decision-making for threat detection and mitigation. The goal was to bridge the gap between AI&#39;s powerful predictive capabilities and the need for human-understandable insights, ensuring that AI-driven security decisions could be verified and trusted.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #007BFF;&#34;&gt;Explainability in AI-based Threat Detection:&lt;/strong&gt;
+            &lt;p&gt;Implement AI models that provided clear, human-readable explanations for detecting cybersecurity threats. This involves creating interpretable models that revealed the factors and features contributing to predictions, such as abnormal user behavior, network traffic anomalies, or malicious code patterns.&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Develop post-hoc explanation methods like SHAP (Shapley Additive Explanations) and LIME (Local Interpretable Model-Agnostic Explanations) to break down AI model predictions.&lt;/li&gt;
+                &lt;li&gt;Implement attention mechanisms and saliency maps to visualize which data points the AI focuses during threat detection.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #28A745;&#34;&gt;Interpretable Models for Decision Support:&lt;/strong&gt;
+            &lt;p&gt;Design interpretable machine learning models, such as decision trees and rule-based systems, for real-time cybersecurity monitoring. These models must offer transparent decision-making pathways, allowing security analysts to follow the logic behind threat detection results.&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Use inherently interpretable models such as decision trees and logistic regression, which naturally lend themselves to easier human interpretation.&lt;/li&gt;
+                &lt;li&gt;Provide detailed documentation on how AI-derived insights could be leveraged by analysts to prevent future threats.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #FFC107;&#34;&gt;Improving Trust in AI-Driven Cybersecurity:&lt;/strong&gt;
+            &lt;p&gt;Develop methods to build trust and reliability in AI-driven threat detection systems by making the underlying decision processes understandable to cybersecurity professionals. This increases the willingness of security teams to adopt AI solutions and act on the system&#39;s recommendations.&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Apply techniques that allows for traceability of AI decisions, mapping each step of the threat detection process back to explainable factors.&lt;/li&gt;
+                &lt;li&gt;Design evaluation metrics for explainability and interpretability to measure user satisfaction and confidence in AI decisions.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #DC3545;&#34;&gt;Adversarial Example Detection with Explainable AI:&lt;/strong&gt;
+            &lt;p&gt;Explore how XAI could assist in detecting adversarial attacks on machine learning models. By understanding how adversarial examples trick models, this project provides better defenses against such attacks in cybersecurity applications.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Skills Applied:&lt;/h4&gt;
+        &lt;ul class=&#34;skills-list&#34;&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Explainable AI:&lt;/span&gt; Use tools such as SHAP and LIME to decompose and explain AI decisions in cybersecurity applications.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Interpretable AI Models:&lt;/span&gt; Design models like decision trees and rule-based systems to provide clear and interpretable threat detection pathways.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Adversarial Defense:&lt;/span&gt; Apply explainable AI to detect adversarial examples and secure AI-driven systems against manipulation.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Trust Building:&lt;/span&gt; Enhance user trust in AI-driven cybersecurity systems by improving transparency in decision-making.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;p style=&#34;margin-top: 20px;&#34;&gt;This project showcase the importance of explainable and interpretable AI in modern cybersecurity, ensuring that AI models are not just powerful but also understandable and trustworthy for human operators in critical security environments.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://insights.sei.cmu.edu/blog/what-is-explainable-ai/&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Explainable AI&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.darpa.mil/program/explainable-artificial-intelligence&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;DARPA’s XAI Program&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1602.04938&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;LIME: Interpretable Model-Agnostic Explanations&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/https://dl.acm.org/doi/10.1109/TNSM.2023.3282740&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Survey on Explainable AI in Cybersecurity&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/xai1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Role of Machine Learning in Cybersecurity&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://insights.sei.cmu.edu/blog/explainability-in-cybersecurity-data-science/&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Explainability in Cybersecurity Data Science&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/xai2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards More Practical Threat Models&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/xai3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning (In) Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/xai4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Assessing Machine Learning Vulnerabilities on Public Models&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/xai5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Practitioners Mental Models&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fuzzing OT Apps and Protocols</title>
+      <link>https://example.com/project/fuzzing-ot-apps/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/fuzzing-ot-apps/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;In this project, the focus is on enhancing the security of Operational Technology (OT) applications and communication protocols. The objective is to identify and address vulnerabilities that could potentially compromise critical OT systems. The key steps involved in the project are:&lt;/p&gt;
+    &lt;/div&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #007BFF;&#34;&gt;Recreation of Proof of Concepts (PoCs):&lt;/strong&gt;
+            &lt;p&gt;Reconstruct and test known Proof of Concepts (PoCs) to understand the nature of existing threats and vulnerabilities in OT systems. Analyze how these PoCs exploit specific weaknesses and assess their impact on system operations.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #28A745;&#34;&gt;Fuzzing Implementation:&lt;/strong&gt;
+            &lt;p&gt;Utilize advanced fuzzing techniques to test OT applications and protocols extensively, simulate various edge cases and malformed inputs to expose hidden vulnerabilities.&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Combine different fuzzing strategies, such as mutation-based and generation-based fuzzing, to enhance test coverage and ensure thorough security assessment.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #FFC107;&#34;&gt;Threat Analysis and Vulnerability Research:&lt;/strong&gt;
+            &lt;p&gt;Conduct a comprehensive threat analysis to identify potential attack vectors in OT environments, leveraging information flow analysis to trace how vulnerabilities could propagate within systems.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #DC3545;&#34;&gt;Information Flow Analysis:&lt;/strong&gt;
+            &lt;p&gt;Integrate information flow analysis techniques to track data movement within OT applications, allowing the detection of unauthorized data flows that could signify exploitation attempts or misconfigurations.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;div style=&#34;text-align: justify;&#34;&gt;
+    &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Skills Applied:&lt;/h4&gt;
+    &lt;ul class=&#34;skills-list&#34;&gt;
+        &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Fuzzing:&lt;/span&gt; Implement various fuzzing tools and frameworks to identify vulnerabilities in OT protocols and applications.&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Threat Analysis:&lt;/span&gt; Assess and categorize security threats based on severity, providing actionable insights for mitigation.&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Information Flow Analysis:&lt;/span&gt; Track and analyze the flow of information to detect anomalies and potential security breaches.&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Vulnerability Research:&lt;/span&gt; Investigate and document security flaws, contributing to the development of security patches and improvements for OT systems.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;p style=&#34;margin-top: 20px;&#34;&gt;This project not only strengthens expertise in fuzzing and vulnerability research but also demonstrates the ability to protect critical infrastructure systems through proactive threat hunting and mitigation strategies.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://github.com/cpuu/awesome-fuzzing&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Fuzzing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/glossary/operational-technology-ot&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Operational Technology&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/cybersecurity-dictionary-industrial-control-systems-ics-security&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Control System&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Some Papers To Have a Good Start:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Neural Program Smoothing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;All You Ever Wanted to Know&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Soundness and Precision&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Information Flow Tracking System&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Tracking Meets Just-In-Time Compilation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Tracking With Static Binary Rewriting&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;libdft: Dynamic Data Flow&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Fine-Grained Binary Instrumentation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Using Dynamic Binary Instrumentation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Combining Static and Dynamic Analysis&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3623375&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Demystify the Fuzzing Methods&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
+      <title>SCADA Systems Security</title>
+      <link>https://example.com/project/scada-systems-security/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/scada-systems-security/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;This project aimed to secure Supervisory Control and Data Acquisition (SCADA) systems by identifying and mitigating vulnerabilities in their communication protocols and control applications. SCADA systems are critical for industrial automation and infrastructure, making them prime targets for cyber attacks. The primary focus was to enhance the security posture of these systems through fuzzing techniques combined with other analysis methods. The key activities involved:&lt;/p&gt;
+    &lt;/div&gt;
+&lt;ul class=&#34;project-steps justified-text&#34;&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #007BFF;&#34;&gt;Protocol Analysis and Reverse Engineering:&lt;/strong&gt;
+            &lt;p&gt;Conducted reverse engineering of SCADA protocols to understand their structure, behavior, and potential vulnerabilities. Developed custom parsers for undocumented or proprietary protocols used in industrial control systems to facilitate fuzzing and vulnerability detection.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #28A745;&#34;&gt;Fuzzing Implementation for SCADA Protocols:&lt;/strong&gt;
+            &lt;p&gt;Implemented fuzzing frameworks tailored for SCADA systems, focusing on field device communication and Human-Machine Interface (HMI) interactions. Applied generation-based fuzzing to craft input sequences that mimic realistic yet potentially malicious communications, maximizing the potential for uncovering security flaws.&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Used mutation-based fuzzing to generate a wide range of malformed and boundary case inputs, targeting the resilience and robustness of SCADA components.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #FFC107;&#34;&gt;Vulnerability Detection and Mitigation:&lt;/strong&gt;
+            &lt;p&gt;Analyzed the results of fuzzing tests to detect anomalies, such as unexpected crashes, memory corruption, and protocol deviations, indicating potential vulnerabilities. Conducted root cause analysis for identified vulnerabilities and collaborated with development teams to design patches or mitigation techniques, enhancing the overall security of SCADA systems.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #DC3545;&#34;&gt;Information Flow and Data Integrity Monitoring:&lt;/strong&gt;
+            &lt;p&gt;Applied information flow tracking within SCADA environments to ensure data integrity and trace unauthorized modifications or leakages during fuzzing tests. Integrated these insights with fuzzing outcomes to gain a comprehensive understanding of how vulnerabilities could impact system operations and lead to data breaches.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Skills Applied:&lt;/h4&gt;
+        &lt;ul class=&#34;skills-list&#34;&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Protocol Reverse Engineering:&lt;/span&gt; Deciphered proprietary and standard SCADA protocols, creating custom fuzzing scripts and parsers.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Fuzzing:&lt;/span&gt; Developed and applied specialized fuzzing techniques to uncover vulnerabilities unique to SCADA communication and control systems.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Vulnerability Analysis:&lt;/span&gt; Investigated the root causes of security flaws and suggested fixes or mitigations to strengthen SCADA system resilience.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Information Flow Analysis:&lt;/span&gt; Tracked and validated data flow to detect unauthorized activities, ensuring the security and integrity of SCADA components.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;p style=&#34;margin-top: 20px;&#34;&gt;This project contributed to the development of more secure and resilient SCADA systems by identifying vulnerabilities that could have been exploited by attackers. It demonstrated the effectiveness of combining fuzzing techniques with information flow analysis, reinforcing expertise in OT and ICS security.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://github.com/cpuu/awesome-fuzzing&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Fuzzing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/a-comprehensive-guide-to-scada-cybersecurity&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;SCADA Systems&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/cybersecurity-dictionary-industrial-control-systems-ics-security&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Control System&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/scada1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Vulnerabilities in SCADA Systems&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/scada2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Manipulating I/Os and Repurposing Binary Code&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/scada3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Cyber-Physical Systems Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/scada4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;SCADA Securing System using Deep Learning&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Secure Protocol Design - IIOT</title>
+      <link>https://example.com/project/iiot-secure-protocol-design/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/iiot-secure-protocol-design/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;This project focuses on enhancing the security of Industrial Internet of Things (IIoT) devices by designing and evaluating secure communication protocols. IIoT devices are integral to modern industrial environments, but their increasing connectivity also exposes them to potential cyber threats. The goal is to develop protocols that are both robust and resilient against a wide array of attacks, ensuring the safe and secure operation of industrial systems. The project&#39;s primary activities included:&lt;/p&gt;
+    &lt;/div&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #007BFF;&#34;&gt;Threat Modeling and Risk Assessment:&lt;/strong&gt;
+            &lt;p&gt;Conduct comprehensive threat modeling to identify the attack surface of IIoT devices, assessing potential vulnerabilities based on common threat vectors such as Man-in-the-Middle (MitM) attacks, replay attacks, and unauthorized data manipulation.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #28A745;&#34;&gt;Design of Secure Communication Protocols:&lt;/strong&gt;
+            &lt;p&gt;Develop secure communication protocols for IIoT devices, emphasizing encryption, authentication, and data integrity. Incorporate lightweight cryptographic algorithms to ensure that protocols are not only secure but also resource-efficient for low-power IIoT devices.&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Utilize public-key and symmetric-key encryption techniques to secure communication channels.&lt;/li&gt;
+                &lt;li&gt;Implement challenge-response mechanisms to prevent replay and spoofing attacks.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #FFC107;&#34;&gt;Vulnerability Assessment and Penetration Testing:&lt;/strong&gt;
+            &lt;p&gt;Perform penetration testing on the designed protocols, simulating various attack scenarios to validate their security. Identify weaknesses through rigorous testing, leading to iterative improvements in the protocol design.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #DC3545;&#34;&gt;Implementation of Security Controls and Best Practices:&lt;/strong&gt;
+            &lt;p&gt;Incorporate security controls such as access control, secure key management, and anomaly detection mechanisms. Apply best practices to minimize the attack surface, such as input validation, error handling, and secure firmware updates.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Skills Applied:&lt;/h4&gt;
+        &lt;ul class=&#34;skills-list&#34;&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Threat Modeling:&lt;/span&gt; Identify and prioritize potential threats to IIoT devices, developing mitigation strategies for each identified risk.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Protocol Design:&lt;/span&gt; Create secure communication protocols tailored to the unique requirements of IIoT environments, balancing security and resource efficiency.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Cryptographic Implementation:&lt;/span&gt; Integrate encryption and authentication mechanisms, safeguarding data transmission between IIoT devices and control systems.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Penetration Testing:&lt;/span&gt; Simulate attacks on protocols to identify vulnerabilities, leading to robust and secure implementations.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;p style=&#34;margin-top: 20px;&#34;&gt;This project showcase expertise in the security of IIoT environments, demonstrating the ability to design, evaluate, and improve secure communication protocols. It also highlights the skills in threat modeling, vulnerability assessment, and cryptographic implementation for industrial applications.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.cisa.gov/ics&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Control Systems (ICS) Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/iiot-security-essentials&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial IoT (IIoT)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/cyber-physical-systems-security-is-the-new-ot-security&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Security Engineering for Cyber-Physical Systems&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Surge of IoT Devices by AI</title>
+      <link>https://example.com/project/surge-of-iot-devices/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/surge-of-iot-devices/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;The explosive growth of the Internet of Things (IoT) has been propelled by the rise of artificial intelligence (AI), making it easier than ever to connect smart devices. From smart homes to industrial systems, AI-enabled IoT devices are revolutionizing modern living and business operations. However, this rapid increase in interconnected devices brings serious security challenges. The scale, variety, and inherent vulnerabilities of IoT devices present significant risks, leading to one of the most urgent cybersecurity concerns today.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #007BFF;&#34;&gt;Proliferation of IoT Devices and AI Integration:&lt;/strong&gt;
+            &lt;p&gt;AI has dramatically enhanced the capabilities of IoT devices, allowing them to perform complex tasks autonomously. This includes everything from voice-controlled assistants and smart thermostats to industrial robots and medical monitoring systems. However, the growing presence of AI in these devices increases their attack surface.&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;AI-driven automation has enabled IoT devices to make real-time decisions without human intervention, exposing them to new vulnerabilities.&lt;/li&gt;
+                &lt;li&gt;In many cases, the rush to market IoT devices has led to insufficient security testing and updates.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #28A745;&#34;&gt;Security Risks in AI-Powered IoT Ecosystems:&lt;/strong&gt;
+            &lt;p&gt;The integration of AI in IoT has introduced several complex security challenges, exacerbating traditional risks like data breaches and system hijacking. Security risks are heightened due to the large number of devices, lack of standardization, and weak encryption protocols.&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Many IoT devices have limited computational power, which restricts the implementation of robust encryption and security mechanisms.&lt;/li&gt;
+                &lt;li&gt;AI-driven devices generate vast amounts of data, making privacy breaches particularly dangerous. Compromised devices can lead to massive data leaks or unauthorized access to sensitive personal or corporate information.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #FFC107;&#34;&gt;Real-World Threats and Consequences:&lt;/strong&gt;
+            &lt;p&gt;The widespread adoption of IoT devices has resulted in an alarming number of security breaches. Incidents of hackers taking control of AI-powered devices, launching distributed denial-of-service (DDoS) attacks, or exploiting weaknesses in smart systems have become increasingly common.&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;The infamous Mirai botnet attack leveraged insecure IoT devices to create one of the largest DDoS attacks in history.&lt;/li&gt;
+                &lt;li&gt;Weak security protocols in home security cameras, smart appliances, and healthcare devices have allowed attackers to spy on users, manipulate systems, and even cause physical harm.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong style=&#34;color: #DC3545;&#34;&gt;AI-Specific Vulnerabilities in IoT Devices:&lt;/strong&gt;
+            &lt;p&gt;AI models integrated into IoT devices introduce their own vulnerabilities. Attackers can exploit AI algorithms through adversarial inputs, causing devices to malfunction or make incorrect decisions. This type of threat could impact anything from autonomous vehicles to industrial machinery.&lt;/p&gt;
+            &lt;ul class=&#34;sub-steps&#34;&gt;
+                &lt;li&gt;Adversarial attacks on AI models can fool smart devices into behaving unpredictably, leading to potentially dangerous consequences.&lt;/li&gt;
+                &lt;li&gt;There is a growing concern over data poisoning, where attackers manipulate training data to weaken AI models embedded in IoT devices.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Security Measures to Mitigate Risks:&lt;/h4&gt;
+        &lt;ul class=&#34;skills-list&#34;&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Edge Computing:&lt;/span&gt; Processing data locally on IoT devices rather than sending it to the cloud reduces latency and exposure to cyberattacks.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Zero Trust Architecture:&lt;/span&gt; Implementing Zero Trust security protocols ensures that every IoT device is authenticated and verified before gaining access to the network.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;AI for Security:&lt;/span&gt; Using AI to monitor and detect unusual behaviors in IoT devices can enhance real-time threat detection and response capabilities.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Firmware Updates and Patching:&lt;/span&gt; Ensuring regular security updates and patches for IoT devices to address known vulnerabilities.&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Encryption and Secure Communication:&lt;/span&gt; Implementing end-to-end encryption for all IoT device communications to prevent unauthorized access and tampering.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;p style=&#34;margin-top: 20px;&#34;&gt;As AI continues to drive the expansion of IoT, the associated security challenges become more pressing. Addressing these challenges with robust cybersecurity practices is critical to ensuring the safe integration of AI-powered IoT devices in homes, businesses, and industrial settings.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.internetsociety.org/iot/&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet of Things (IoT)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://spectrum.ieee.org/mirai-botnet&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Mirai Botnet&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://openai.com/index/attacking-machine-learning-with-adversarial-examples/&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Attacks on AI Systems&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Some Papers to Explore:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/fullHtml/10.1145/3623652.3623667#&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Security Analysis for Real-World IoT Devices&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.paloaltonetworks.com/blog/security-operations/made-for-each-other-ai-and-iot/&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Made for Each Other: AI and IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/aiml1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Machine Learning and IoT Device Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/aiml2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;All You Need to Know About On-Device ML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/aiml3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Acquisitional Rule-based Engine for Discovering IoT Devices&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/aiml4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Generative Intrusion Detection on IoT Dataset&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/aiml5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;ASecurity Risks Concerns of Generative AI in the IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/aiml6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning-Enabled IoT Security&lt;/a&gt;&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pervasive Micro Information Flow Tracking</title>
+      <link>https://example.com/publications/journal-article/permit-method/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/journal-article/permit-method/</guid>
+      <description>&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
+&lt;div class=&#34;citation&#34;&gt;
+Sanoop Mallissery, Kun-Yi Chiang, Chun-An Bau, and Yu-Sung Wu, &#34;Pervasive Micro Information Flow Tracking,&#34; in IEEE Transactions on Dependable and Secure Computing, vol. 20, no. 6, pp. 4957-4975, Nov.-Dec. 2023, doi: 10.1109/TDSC.2023.3238547.
+&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-BibTeX&#34; data-lang=&#34;BibTeX&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@article&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;10023951&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Mallissery, Sanoop and Chiang, Kun-Yi and Bau, Chun-An and Wu, Yu-Sung}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;journal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{IEEE Transactions on Dependable and Secure Computing}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Pervasive Micro Information Flow Tracking}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;year&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{2023}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;volume&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{20}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{6}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;pages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{4957-4975}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;keywords&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Target tracking;Security;Codes;Malware;Source coding;Emulation;Anomaly detection;Anomaly detection;dynamic information flow tracking;online taint analysis;production system;zero-day attacks}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;doi&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{10.1109/TDSC.2023.3238547}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h5 id=&#34;related-material&#34;&gt;Related material&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://example.com/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Enriching the Semantics of Information Flow Tracking with Source-Level Memory Allocation Event Logging</title>
+      <link>https://example.com/publications/conference-paper/squirrel/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/conference-paper/squirrel/</guid>
+      <description>&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
+&lt;div class=&#34;citation&#34;&gt;
+Sanoop Mallissery and Yu-Sung Wu, &#34;Enriching the Semantics of Information Flow Tracking with Source-Level Memory Allocation Event Logging,&#34; 2023 IEEE Conference on Dependable and Secure Computing (DSC), Tampa, FL, USA, 2023, pp. 1-10, doi: 10.1109/DSC61021.2023.10354156.
+&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-BibTeX&#34; data-lang=&#34;BibTeX&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@inproceedings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;10354156&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Mallissery, Sanoop and Wu, Yu-Sung}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;booktitle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{2023 IEEE Conference on Dependable and Secure Computing (DSC)}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Enriching the Semantics of Information Flow Tracking with Source-Level Memory Allocation Event Logging}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;year&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{2023}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;volume&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;pages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{1-10}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;keywords&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Analytical models;Runtime;Codes;Instruments;Computational modeling;Semantics;Memory management;code instrumentation;code analysis;dynamic information flow tracking code sanitization}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;doi&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{10.1109/DSC61021.2023.10354156}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h5 id=&#34;related-material&#34;&gt;Related material&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://example.com/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Demystify the fuzzing methods: A comprehensive survey</title>
+      <link>https://example.com/publications/journal-article/fuzzing-survey/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/journal-article/fuzzing-survey/</guid>
+      <description>&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
+&lt;p&gt;Sanoop Mallissery and Yu-Sung Wu. 2023. Demystify the Fuzzing Methods: A Comprehensive Survey. ACM Comput. Surv. 56, 3, Article 71 (March 2024), 38 pages. &lt;a href=&#34;https://doi.org/10.1145/3623375&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1145/3623375&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-BibTeX&#34; data-lang=&#34;BibTeX&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@article&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;10.1145/3623375&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;author&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Mallissery, Sanoop and Wu, Yu-Sung}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;title&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Demystify the Fuzzing Methods: A Comprehensive Survey}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;year&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{2023}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;issue_date&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{March 2024}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;publisher&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Association for Computing Machinery}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;address&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{New York, NY, USA}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;volume&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{56}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;number&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{3}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;issn&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{0360-0300}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{https://doi.org/10.1145/3623375}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;doi&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{10.1145/3623375}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;journal&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{ACM Comput. Surv.}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;month&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;oct&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;articleno&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{71}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;numpages&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{38}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;keywords&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{vulnerability discovery, code inspection, fuzzing, Automated testing}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h5 id=&#34;related-material&#34;&gt;Related material&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://example.com/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data leakage detection for health information system based on memory introspection</title>
+      <link>https://example.com/publications/conference-paper/data-leak/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/conference-paper/data-leak/</guid>
+      <description>&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
+&lt;div class=&#34;citation&#34;&gt;
+Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, Wei-Chun Lin, and Yu-Sung Wu. 2020. POSTER: Data Leakage Detection for Health Information System based on Memory Introspection. In Proceedings of the 15th ACM Asia Conference on Computer and Communications Security (ASIA CCS &#39;20). Association for Computing Machinery, New York, NY, USA, 898–900. https://doi.org/10.1145/3320269.3405437
+&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-BibTeX&#34; data-lang=&#34;BibTeX&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@inproceedings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;10.1145/3320269.3405437&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;author&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Mallissery, Sanoop and Wu, Min-Chieh and Bau, Chun-An and Huang, Guan-Zhang and Yang, Chen-Yu and Lin, Wei-Chun and Wu, Yu-Sung}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;title&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{POSTER: Data Leakage Detection for Health Information System based on Memory Introspection}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;year&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{2020}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;isbn&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{9781450367509}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;publisher&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Association for Computing Machinery}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;address&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{New York, NY, USA}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{https://doi.org/10.1145/3320269.3405437}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;doi&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{10.1145/3320269.3405437}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;booktitle&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Proceedings of the 15th ACM Asia Conference on Computer and Communications Security}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;pages&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{898–900}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;numpages&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{3}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;keywords&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{convolutional neural networks, data privacy, electronic health record, health information system, memory inspection, virtualization}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Taipei, Taiwan}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;series&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{ASIA CCS &amp;#39;20}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h5 id=&#34;related-material&#34;&gt;Related material&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://example.com/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mixed-mode information flow tracking with compile-time taint semantics extraction and offline replay</title>
+      <link>https://example.com/publications/conference-paper/mixed-mode/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/conference-paper/mixed-mode/</guid>
+      <description>&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
+&lt;div class=&#34;citation&#34;&gt;
+Yu-Hsin Hung, Bing-Jhong Jheng, Hong-Wei Li, Wen-Yang Lai, Sanoop Mallissery and Yu-Sung Wu, &#34;Mixed-mode Information Flow Tracking with Compile-time Taint Semantics Extraction and Offline Replay,&#34; 2021 IEEE Conference on Dependable and Secure Computing (DSC), Aizuwakamatsu, Fukushima, Japan, 2021, pp. 1-8, doi: 10.1109/DSC49826.2021.9346239.
+&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-BibTeX&#34; data-lang=&#34;BibTeX&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@inproceedings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;9346239&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Hung, Yu-Hsin and Jheng, Bing-Jhong and Li, Hong-Wei and Lai, Wen-Yang and Mallissery, Sanoop and Wu, Yu-Sung}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;booktitle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{2021 IEEE Conference on Dependable and Secure Computing (DSC)}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Mixed-mode Information Flow Tracking with Compile-time Taint Semantics Extraction and Offline Replay}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;year&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{2021}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;volume&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;pages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{1-8}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;keywords&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Runtime;Target tracking;Runtime library;Semantics;Memory management;Servers;Anomaly detection;decoupled dynamic information flow tracking;static information flow tracking;taint propagation;application logic vulnerabilities;anomaly detection}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;doi&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{10.1109/DSC49826.2021.9346239}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h5 id=&#34;related-material&#34;&gt;Related material&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://example.com/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Identification of data propagation paths for efficient dynamic information flow tracking</title>
+      <link>https://example.com/publications/conference-paper/data-prop/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/conference-paper/data-prop/</guid>
+      <description>&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
+&lt;div class=&#34;citation&#34;&gt;
+Sanoop Mallissery, Yu-Sung Wu, Chih-Hao Hsieh, and Chun-An Bau. 2020. Identification of data propagation paths for efficient dynamic information flow tracking. In Proceedings of the 35th Annual ACM Symposium on Applied Computing (SAC &#39;20). Association for Computing Machinery, New York, NY, USA, 92–99. https://doi.org/10.1145/3341105.3373876.
+&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-BibTeX&#34; data-lang=&#34;BibTeX&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@inproceedings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;10.1145/3341105.3373876&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;author&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Mallissery, Sanoop and Wu, Yu-Sung and Hsieh, Chih-Hao and Bau, Chun-An}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;title&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Identification of data propagation paths for efficient dynamic information flow tracking}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;year&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{2020}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;isbn&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{9781450368667}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;publisher&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Association for Computing Machinery}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;address&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{New York, NY, USA}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{https://doi.org/10.1145/3341105.3373876}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;doi&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{10.1145/3341105.3373876}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;booktitle&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Proceedings of the 35th Annual ACM Symposium on Applied Computing}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;pages&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{92–99}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;numpages&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{8}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;keywords&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{information flow tracking, software security, source code analysis, static taint tracking, taint analysis and propagation}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Brno, Czech Republic}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;series&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{SAC &amp;#39;20}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h5 id=&#34;related-material&#34;&gt;Related material&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://example.com/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
