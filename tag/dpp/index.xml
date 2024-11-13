@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DPP | SaNs Portfolio</title>
-    <link>https://example.com/tag/dpp/</link>
-      <atom:link href="https://example.com/tag/dpp/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://git4san.github.io/tag/dpp/</link>
+      <atom:link href="https://git4san.github.io/tag/dpp/index.xml" rel="self" type="application/rss+xml" />
     <description>DPP</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14484311124804984102.png</url>
+      <url>https://git4san.github.io/media/icon_hu14484311124804984102.png</url>
       <title>DPP</title>
-      <link>https://example.com/tag/dpp/</link>
+      <link>https://git4san.github.io/tag/dpp/</link>
     </image>
     
     <item>
       <title>Data Analytics for Edge</title>
-      <link>https://example.com/project/privacy-in-edge/</link>
+      <link>https://git4san.github.io/project/privacy-in-edge/</link>
       <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/privacy-in-edge/</guid>
+      <guid>https://git4san.github.io/project/privacy-in-edge/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;As the adoption of edge computing expands, data privacy concerns at the network’s edge have become paramount. This project investigates privacy-preserving mechanisms tailored for edge computing environments, where data is processed closer to its source rather than centralized in the cloud. We explore techniques that secure sensitive data during on-device processing, enabling real-time, privacy-conscious analytics in sectors such as healthcare, IoT, and smart cities.&lt;/p&gt;
@@ -87,14 +87,14 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
@@ -102,9 +102,9 @@
     
     <item>
       <title>Data Privacy Preservation</title>
-      <link>https://example.com/project/privacy-preservation-mechanisms-/</link>
+      <link>https://git4san.github.io/project/privacy-preservation-mechanisms-/</link>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/privacy-preservation-mechanisms-/</guid>
+      <guid>https://git4san.github.io/project/privacy-preservation-mechanisms-/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;As the digital world continues to grow, safeguarding sensitive data has become a top priority for organizations, governments, and individuals. In this project, we delve into various privacy preservation mechanisms that can be implemented at different stages of the data lifecycle, from collection to deletion. These methods ensure that sensitive information is protected against unauthorized access, exploitation, or misuse. The project also explores foundational techniques like k-anonymity, and advanced methods such as differential privacy and cryptographic solutions.&lt;/p&gt;
@@ -173,20 +173,20 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Privacy-Preserving Collaborative Data Collection&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Privacy-Preserving Collaborative Data Collection&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/2976749.2978318&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Deep Learning with Differential Privacy&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/10286086&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;PRIMϵ: Privacy-Preservation Model&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Privacy-Preserving Inventory Matching System&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Learning to Live with Privacy-Preserving Analytics&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Practical Guide to Machine Learning with Di!erential Privacy&lt;a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Algorithmic Foundations of Differential Privacy&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning with Differentially Private Labels&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Survey on Differential Privacy with Machine Learning&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Evaluating Differentially Private Machine Learning&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Complexity of Differential Privacy&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning with Feature Differential Privacy&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp11.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Differential Privacy and Applications&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp12.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Learning with Privacy at Scale&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Privacy-Preserving Inventory Matching System&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Learning to Live with Privacy-Preserving Analytics&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Practical Guide to Machine Learning with Di!erential Privacy&lt;a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Algorithmic Foundations of Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning with Differentially Private Labels&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Survey on Differential Privacy with Machine Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Evaluating Differentially Private Machine Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Complexity of Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning with Feature Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp11.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Differential Privacy and Applications&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp12.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Learning with Privacy at Scale&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>

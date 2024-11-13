@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SSS | SaNs Portfolio</title>
-    <link>https://example.com/tag/sss/</link>
-      <atom:link href="https://example.com/tag/sss/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://git4san.github.io/tag/sss/</link>
+      <atom:link href="https://git4san.github.io/tag/sss/index.xml" rel="self" type="application/rss+xml" />
     <description>SSS</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14484311124804984102.png</url>
+      <url>https://git4san.github.io/media/icon_hu14484311124804984102.png</url>
       <title>SSS</title>
-      <link>https://example.com/tag/sss/</link>
+      <link>https://git4san.github.io/tag/sss/</link>
     </image>
     
     <item>
       <title>Quantum-Resilient Defense Sys. for OT</title>
-      <link>https://example.com/project/digital-twins/</link>
+      <link>https://git4san.github.io/project/digital-twins/</link>
       <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/digital-twins/</guid>
+      <guid>https://git4san.github.io/project/digital-twins/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;Securing Operational Technology (OT) in critical infrastructure is becoming increasingly challenging with the rise of cyber-physical attacks and advancements in quantum computing. This project proposes a quantum-resilient AI-driven defense system that utilizes digital twins, AI for threat prediction, and quantum-resistant cryptography. This approach provides a proactive, adaptive, and resilient security framework to ensure uninterrupted and secure operation of critical OT assets in sectors such as energy, manufacturing, and water supply.&lt;/p&gt;
@@ -111,14 +111,14 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
@@ -126,9 +126,9 @@
     
     <item>
       <title>SCADA Systems Security</title>
-      <link>https://example.com/project/scada-systems-security/</link>
+      <link>https://git4san.github.io/project/scada-systems-security/</link>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/scada-systems-security/</guid>
+      <guid>https://git4san.github.io/project/scada-systems-security/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;This project aimed to secure Supervisory Control and Data Acquisition (SCADA) systems by identifying and mitigating vulnerabilities in their communication protocols and control applications. SCADA systems are critical for industrial automation and infrastructure, making them prime targets for cyber attacks. The primary focus was to enhance the security posture of these systems through fuzzing techniques combined with other analysis methods. The key activities involved:&lt;/p&gt;
@@ -176,10 +176,10 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/scada1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Vulnerabilities in SCADA Systems&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/scada2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Manipulating I/Os and Repurposing Binary Code&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/scada3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Cyber-Physical Systems Security&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/scada4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;SCADA Securing System using Deep Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/scada1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Vulnerabilities in SCADA Systems&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/scada2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Manipulating I/Os and Repurposing Binary Code&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/scada3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Cyber-Physical Systems Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/scada4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;SCADA Securing System using Deep Learning&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security Perimeter | SaNs Portfolio</title>
-    <link>https://example.com/tag/security-perimeter/</link>
-      <atom:link href="https://example.com/tag/security-perimeter/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://git4san.github.io/tag/security-perimeter/</link>
+      <atom:link href="https://git4san.github.io/tag/security-perimeter/index.xml" rel="self" type="application/rss+xml" />
     <description>Security Perimeter</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14484311124804984102.png</url>
+      <url>https://git4san.github.io/media/icon_hu14484311124804984102.png</url>
       <title>Security Perimeter</title>
-      <link>https://example.com/tag/security-perimeter/</link>
+      <link>https://git4san.github.io/tag/security-perimeter/</link>
     </image>
     
     <item>
       <title>Data leakage detection for health information system based on memory introspection</title>
-      <link>https://example.com/publications/conference-paper/data-leak/</link>
+      <link>https://git4san.github.io/publications/conference-paper/data-leak/</link>
       <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/conference-paper/data-leak/</guid>
+      <guid>https://git4san.github.io/publications/conference-paper/data-leak/</guid>
       <description>&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
 &lt;div class=&#34;citation&#34;&gt;
 Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, Wei-Chun Lin, and Yu-Sung Wu. 2020. POSTER: Data Leakage Detection for Health Information System based on Memory Introspection. In Proceedings of the 15th ACM Asia Conference on Computer and Communications Security (ASIA CCS &#39;20). Association for Computing Machinery, New York, NY, USA, 898–900. https://doi.org/10.1145/3320269.3405437
@@ -40,16 +40,16 @@ Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, We
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h5 id=&#34;related-material&#34;&gt;Related material&lt;/h5&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://example.com/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git4san.github.io/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Identification of data propagation paths for efficient dynamic information flow tracking</title>
-      <link>https://example.com/publications/conference-paper/data-prop/</link>
+      <link>https://git4san.github.io/publications/conference-paper/data-prop/</link>
       <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/conference-paper/data-prop/</guid>
+      <guid>https://git4san.github.io/publications/conference-paper/data-prop/</guid>
       <description>&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
 &lt;div class=&#34;citation&#34;&gt;
 Sanoop Mallissery, Yu-Sung Wu, Chih-Hao Hsieh, and Chun-An Bau. 2020. Identification of data propagation paths for efficient dynamic information flow tracking. In Proceedings of the 35th Annual ACM Symposium on Applied Computing (SAC &#39;20). Association for Computing Machinery, New York, NY, USA, 92–99. https://doi.org/10.1145/3341105.3373876.
@@ -73,7 +73,7 @@ Sanoop Mallissery, Yu-Sung Wu, Chih-Hao Hsieh, and Chun-An Bau. 2020. Identifica
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h5 id=&#34;related-material&#34;&gt;Related material&lt;/h5&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://example.com/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git4san.github.io/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

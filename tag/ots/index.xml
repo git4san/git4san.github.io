@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OTS | SaNs Portfolio</title>
-    <link>https://example.com/tag/ots/</link>
-      <atom:link href="https://example.com/tag/ots/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://git4san.github.io/tag/ots/</link>
+      <atom:link href="https://git4san.github.io/tag/ots/index.xml" rel="self" type="application/rss+xml" />
     <description>OTS</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14484311124804984102.png</url>
+      <url>https://git4san.github.io/media/icon_hu14484311124804984102.png</url>
       <title>OTS</title>
-      <link>https://example.com/tag/ots/</link>
+      <link>https://git4san.github.io/tag/ots/</link>
     </image>
     
     <item>
       <title>Next-Generation Fuzzing Tool</title>
-      <link>https://example.com/project/fuzz-the-sw/</link>
+      <link>https://git4san.github.io/project/fuzz-the-sw/</link>
       <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/fuzz-the-sw/</guid>
+      <guid>https://git4san.github.io/project/fuzz-the-sw/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;As software systems become increasingly complex, detecting security vulnerabilities is a crucial challenge. This project proposes the development of a next-generation fuzzing tool that combines hybrid fuzzing techniques, AI-driven optimizations, and intelligent test case generation to uncover vulnerabilities in modern software applications. Leveraging both symbolic and concolic execution along with machine learning for intelligent input mutations, this project aims to efficiently explore edge cases and detect hard-to-find bugs that traditional methods may miss.&lt;/p&gt;
@@ -112,14 +112,14 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
@@ -127,9 +127,9 @@
     
     <item>
       <title>Fuzzing OT Apps and Protocols</title>
-      <link>https://example.com/project/fuzzing-ot-apps/</link>
+      <link>https://git4san.github.io/project/fuzzing-ot-apps/</link>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/fuzzing-ot-apps/</guid>
+      <guid>https://git4san.github.io/project/fuzzing-ot-apps/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;In this project, the focus is on enhancing the security of Operational Technology (OT) applications and communication protocols. The objective is to identify and address vulnerabilities that could potentially compromise critical OT systems. The key steps involved in the project are:&lt;/p&gt;
@@ -176,16 +176,16 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Some Papers To Have a Good Start:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Neural Program Smoothing&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;All You Ever Wanted to Know&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Soundness and Precision&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Information Flow Tracking System&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Tracking Meets Just-In-Time Compilation&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Tracking With Static Binary Rewriting&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;libdft: Dynamic Data Flow&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Fine-Grained Binary Instrumentation&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Using Dynamic Binary Instrumentation&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Combining Static and Dynamic Analysis&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Neural Program Smoothing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;All You Ever Wanted to Know&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Soundness and Precision&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Information Flow Tracking System&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Tracking Meets Just-In-Time Compilation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Tracking With Static Binary Rewriting&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;libdft: Dynamic Data Flow&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Fine-Grained Binary Instrumentation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Using Dynamic Binary Instrumentation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Combining Static and Dynamic Analysis&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3623375&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Demystify the Fuzzing Methods&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;

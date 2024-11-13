@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | SaNs Portfolio</title>
-    <link>https://example.com/project/</link>
-      <atom:link href="https://example.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://git4san.github.io/project/</link>
+      <atom:link href="https://git4san.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14484311124804984102.png</url>
+      <url>https://git4san.github.io/media/icon_hu14484311124804984102.png</url>
       <title>Projects</title>
-      <link>https://example.com/project/</link>
+      <link>https://git4san.github.io/project/</link>
     </image>
     
     <item>
       <title>AI-Driven Threat Detection VANETs</title>
-      <link>https://example.com/project/vanet-sec/</link>
+      <link>https://git4san.github.io/project/vanet-sec/</link>
       <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/vanet-sec/</guid>
+      <guid>https://git4san.github.io/project/vanet-sec/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;As vehicular ad-hoc networks (VANETs) expand, especially with autonomous and connected vehicle technologies, the need for robust security mechanisms is paramount. This project proposes a hybrid approach that combines AI-driven anomaly detection and blockchain-based trust management to enhance the security and reliability of VANET communications. By integrating machine learning models for real-time threat detection and blockchain for decentralized trust, this project aims to mitigate risks such as data tampering, spoofing, and unauthorized access.&lt;/p&gt;
@@ -116,14 +116,14 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
@@ -131,9 +131,9 @@
     
     <item>
       <title>Data Analytics for Edge</title>
-      <link>https://example.com/project/privacy-in-edge/</link>
+      <link>https://git4san.github.io/project/privacy-in-edge/</link>
       <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/privacy-in-edge/</guid>
+      <guid>https://git4san.github.io/project/privacy-in-edge/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;As the adoption of edge computing expands, data privacy concerns at the network’s edge have become paramount. This project investigates privacy-preserving mechanisms tailored for edge computing environments, where data is processed closer to its source rather than centralized in the cloud. We explore techniques that secure sensitive data during on-device processing, enabling real-time, privacy-conscious analytics in sectors such as healthcare, IoT, and smart cities.&lt;/p&gt;
@@ -204,14 +204,14 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
@@ -219,9 +219,9 @@
     
     <item>
       <title>Next-Generation Fuzzing Tool</title>
-      <link>https://example.com/project/fuzz-the-sw/</link>
+      <link>https://git4san.github.io/project/fuzz-the-sw/</link>
       <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/fuzz-the-sw/</guid>
+      <guid>https://git4san.github.io/project/fuzz-the-sw/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;As software systems become increasingly complex, detecting security vulnerabilities is a crucial challenge. This project proposes the development of a next-generation fuzzing tool that combines hybrid fuzzing techniques, AI-driven optimizations, and intelligent test case generation to uncover vulnerabilities in modern software applications. Leveraging both symbolic and concolic execution along with machine learning for intelligent input mutations, this project aims to efficiently explore edge cases and detect hard-to-find bugs that traditional methods may miss.&lt;/p&gt;
@@ -317,14 +317,14 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
@@ -332,9 +332,9 @@
     
     <item>
       <title>Quantum-Resilient Defense Sys. for OT</title>
-      <link>https://example.com/project/digital-twins/</link>
+      <link>https://git4san.github.io/project/digital-twins/</link>
       <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/digital-twins/</guid>
+      <guid>https://git4san.github.io/project/digital-twins/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;Securing Operational Technology (OT) in critical infrastructure is becoming increasingly challenging with the rise of cyber-physical attacks and advancements in quantum computing. This project proposes a quantum-resilient AI-driven defense system that utilizes digital twins, AI for threat prediction, and quantum-resistant cryptography. This approach provides a proactive, adaptive, and resilient security framework to ensure uninterrupted and secure operation of critical OT assets in sectors such as energy, manufacturing, and water supply.&lt;/p&gt;
@@ -429,14 +429,14 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
@@ -444,9 +444,9 @@
     
     <item>
       <title>Secure ITS for for Future Smart Cities</title>
-      <link>https://example.com/project/futuristic-trans/</link>
+      <link>https://git4san.github.io/project/futuristic-trans/</link>
       <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/futuristic-trans/</guid>
+      <guid>https://git4san.github.io/project/futuristic-trans/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;With the rise of autonomous vehicles, connected infrastructure, and IoT-enabled transportation, creating a secure and efficient Intelligent Transportation System (ITS) has become a core objective for future smart cities. This project proposes a multi-layered ITS framework that integrates AI for traffic prediction, blockchain for secure data sharing, and IoT sensors for real-time monitoring. The project aims to develop a resilient system capable of adapting to traffic conditions dynamically, ensuring secure data integrity, and optimizing resource use to reduce congestion and environmental impact.&lt;/p&gt;
@@ -542,14 +542,14 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
@@ -557,9 +557,9 @@
     
     <item>
       <title>AI-Driven Cybersecurity</title>
-      <link>https://example.com/project/ai-driven-cybersecurity/</link>
+      <link>https://git4san.github.io/project/ai-driven-cybersecurity/</link>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/ai-driven-cybersecurity/</guid>
+      <guid>https://git4san.github.io/project/ai-driven-cybersecurity/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;This project aims to leverage advanced Machine Learning (ML) techniques to enhance cybersecurity by detecting and mitigating threats in real-time. The focus is also on developing adversarial ML defenses, which are crucial for securing AI systems against sophisticated attacks. The project’s scope covered the following key areas:&lt;/p&gt;
@@ -615,25 +615,25 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;A Good Path to Start with:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Software Security Analysis in 2030 and Beyond&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Attacks and Defenses in Deep Learning&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Strategic Defense Against Adversarial Attacks&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Defending Against Adversarial Attacks - Randomized Diversification&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Attack and Defense in RL&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Defense Against Adversarial Attacks - Feature Scattering&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Defense Against Adversarial Attacks - Guided Denoiser&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Attacks and Defenses&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Practical Defense Against Attribute Inference Attacks&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Stateful Defense Against Adversarial Query Attacks&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml11.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Security is not my field, Im a stats guy&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml12.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Large-Scale Deep Learning Models Stealing&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml13.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Preprocessing: Understanding and Preventing&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml14.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Model and Data Independent Membership Inference Attacks&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml15.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Evading Provenance-Based ML Detectors&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml16.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Dos and Donts of Machine Learning&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml17.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Scalable Defense for Neural Networks&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml18.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Why Do Adversarial Attacks Transfer?&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/ml19.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Sparsity Brings Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Software Security Analysis in 2030 and Beyond&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Attacks and Defenses in Deep Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Strategic Defense Against Adversarial Attacks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Defending Against Adversarial Attacks - Randomized Diversification&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Attack and Defense in RL&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Defense Against Adversarial Attacks - Feature Scattering&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Defense Against Adversarial Attacks - Guided Denoiser&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Attacks and Defenses&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Practical Defense Against Attribute Inference Attacks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Stateful Defense Against Adversarial Query Attacks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml11.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Security is not my field, Im a stats guy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml12.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Large-Scale Deep Learning Models Stealing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml13.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Preprocessing: Understanding and Preventing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml14.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Model and Data Independent Membership Inference Attacks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml15.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Evading Provenance-Based ML Detectors&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml16.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Dos and Donts of Machine Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml17.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Scalable Defense for Neural Networks&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml18.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Why Do Adversarial Attacks Transfer?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/ml19.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Sparsity Brings Vulnerabilities&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
@@ -641,9 +641,9 @@
     
     <item>
       <title>Data Privacy Preservation</title>
-      <link>https://example.com/project/privacy-preservation-mechanisms-/</link>
+      <link>https://git4san.github.io/project/privacy-preservation-mechanisms-/</link>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/privacy-preservation-mechanisms-/</guid>
+      <guid>https://git4san.github.io/project/privacy-preservation-mechanisms-/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;As the digital world continues to grow, safeguarding sensitive data has become a top priority for organizations, governments, and individuals. In this project, we delve into various privacy preservation mechanisms that can be implemented at different stages of the data lifecycle, from collection to deletion. These methods ensure that sensitive information is protected against unauthorized access, exploitation, or misuse. The project also explores foundational techniques like k-anonymity, and advanced methods such as differential privacy and cryptographic solutions.&lt;/p&gt;
@@ -712,20 +712,20 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Privacy-Preserving Collaborative Data Collection&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Privacy-Preserving Collaborative Data Collection&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/2976749.2978318&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Deep Learning with Differential Privacy&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/10286086&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;PRIMϵ: Privacy-Preservation Model&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Privacy-Preserving Inventory Matching System&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Learning to Live with Privacy-Preserving Analytics&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Practical Guide to Machine Learning with Di!erential Privacy&lt;a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Algorithmic Foundations of Differential Privacy&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning with Differentially Private Labels&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Survey on Differential Privacy with Machine Learning&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Evaluating Differentially Private Machine Learning&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Complexity of Differential Privacy&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning with Feature Differential Privacy&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp11.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Differential Privacy and Applications&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pp12.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Learning with Privacy at Scale&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Privacy-Preserving Inventory Matching System&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Learning to Live with Privacy-Preserving Analytics&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Practical Guide to Machine Learning with Di!erential Privacy&lt;a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Algorithmic Foundations of Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning with Differentially Private Labels&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Survey on Differential Privacy with Machine Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Evaluating Differentially Private Machine Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Complexity of Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning with Feature Differential Privacy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp11.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Differential Privacy and Applications&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pp12.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Learning with Privacy at Scale&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
@@ -733,9 +733,9 @@
     
     <item>
       <title>Explainable and Interpretable AI</title>
-      <link>https://example.com/project/explainable-and-interpretable-ai/</link>
+      <link>https://git4san.github.io/project/explainable-and-interpretable-ai/</link>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/explainable-and-interpretable-ai/</guid>
+      <guid>https://git4san.github.io/project/explainable-and-interpretable-ai/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;This project focuses on integrating Explainable and Interpretable AI (XAI) models into cybersecurity systems to improve transparency, trust, and decision-making for threat detection and mitigation. The goal was to bridge the gap between AI&#39;s powerful predictive capabilities and the need for human-understandable insights, ensuring that AI-driven security decisions could be verified and trusted.&lt;/p&gt;
@@ -792,13 +792,13 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/https://dl.acm.org/doi/10.1109/TNSM.2023.3282740&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Survey on Explainable AI in Cybersecurity&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/xai1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Role of Machine Learning in Cybersecurity&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/https://dl.acm.org/doi/10.1109/TNSM.2023.3282740&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;A Survey on Explainable AI in Cybersecurity&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/xai1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Role of Machine Learning in Cybersecurity&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;https://insights.sei.cmu.edu/blog/explainability-in-cybersecurity-data-science/&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Explainability in Cybersecurity Data Science&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/xai2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards More Practical Threat Models&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/xai3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning (In) Security&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/xai4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Assessing Machine Learning Vulnerabilities on Public Models&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/xai5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Practitioners Mental Models&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/xai2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards More Practical Threat Models&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/xai3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning (In) Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/xai4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Assessing Machine Learning Vulnerabilities on Public Models&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/xai5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Practitioners Mental Models&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
@@ -806,9 +806,9 @@
     
     <item>
       <title>Fuzzing OT Apps and Protocols</title>
-      <link>https://example.com/project/fuzzing-ot-apps/</link>
+      <link>https://git4san.github.io/project/fuzzing-ot-apps/</link>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/fuzzing-ot-apps/</guid>
+      <guid>https://git4san.github.io/project/fuzzing-ot-apps/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;In this project, the focus is on enhancing the security of Operational Technology (OT) applications and communication protocols. The objective is to identify and address vulnerabilities that could potentially compromise critical OT systems. The key steps involved in the project are:&lt;/p&gt;
@@ -855,16 +855,16 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Some Papers To Have a Good Start:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Neural Program Smoothing&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;All You Ever Wanted to Know&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Soundness and Precision&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Information Flow Tracking System&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Tracking Meets Just-In-Time Compilation&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Tracking With Static Binary Rewriting&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;libdft: Dynamic Data Flow&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Fine-Grained Binary Instrumentation&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Using Dynamic Binary Instrumentation&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/pap10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Combining Static and Dynamic Analysis&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Neural Program Smoothing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;All You Ever Wanted to Know&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Soundness and Precision&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Information Flow Tracking System&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Tracking Meets Just-In-Time Compilation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Tracking With Static Binary Rewriting&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;libdft: Dynamic Data Flow&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Fine-Grained Binary Instrumentation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap9.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Using Dynamic Binary Instrumentation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/pap10.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Combining Static and Dynamic Analysis&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3623375&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Demystify the Fuzzing Methods&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
@@ -873,9 +873,9 @@
     
     <item>
       <title>SCADA Systems Security</title>
-      <link>https://example.com/project/scada-systems-security/</link>
+      <link>https://git4san.github.io/project/scada-systems-security/</link>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/scada-systems-security/</guid>
+      <guid>https://git4san.github.io/project/scada-systems-security/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;This project aimed to secure Supervisory Control and Data Acquisition (SCADA) systems by identifying and mitigating vulnerabilities in their communication protocols and control applications. SCADA systems are critical for industrial automation and infrastructure, making them prime targets for cyber attacks. The primary focus was to enhance the security posture of these systems through fuzzing techniques combined with other analysis methods. The key activities involved:&lt;/p&gt;
@@ -923,10 +923,10 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/scada1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Vulnerabilities in SCADA Systems&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/scada2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Manipulating I/Os and Repurposing Binary Code&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/scada3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Cyber-Physical Systems Security&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/scada4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;SCADA Securing System using Deep Learning&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/scada1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Vulnerabilities in SCADA Systems&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/scada2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Manipulating I/Os and Repurposing Binary Code&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/scada3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Cyber-Physical Systems Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/scada4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;SCADA Securing System using Deep Learning&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
@@ -934,9 +934,9 @@
     
     <item>
       <title>Secure Protocol Design - IIOT</title>
-      <link>https://example.com/project/iiot-secure-protocol-design/</link>
+      <link>https://git4san.github.io/project/iiot-secure-protocol-design/</link>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/iiot-secure-protocol-design/</guid>
+      <guid>https://git4san.github.io/project/iiot-secure-protocol-design/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;This project focuses on enhancing the security of Industrial Internet of Things (IIoT) devices by designing and evaluating secure communication protocols. IIoT devices are integral to modern industrial environments, but their increasing connectivity also exposes them to potential cyber threats. The goal is to develop protocols that are both robust and resilient against a wide array of attacks, ensuring the safe and secure operation of industrial systems. The project&#39;s primary activities included:&lt;/p&gt;
@@ -985,14 +985,14 @@
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
@@ -1000,9 +1000,9 @@
     
     <item>
       <title>Surge of IoT Devices by AI</title>
-      <link>https://example.com/project/surge-of-iot-devices/</link>
+      <link>https://git4san.github.io/project/surge-of-iot-devices/</link>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/surge-of-iot-devices/</guid>
+      <guid>https://git4san.github.io/project/surge-of-iot-devices/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
         &lt;p&gt;The explosive growth of the Internet of Things (IoT) has been propelled by the rise of artificial intelligence (AI), making it easier than ever to connect smart devices. From smart homes to industrial systems, AI-enabled IoT devices are revolutionizing modern living and business operations. However, this rapid increase in interconnected devices brings serious security challenges. The scale, variety, and inherent vulnerabilities of IoT devices present significant risks, leading to one of the most urgent cybersecurity concerns today.&lt;/p&gt;
@@ -1066,12 +1066,12 @@
     &lt;ul&gt;
         &lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/fullHtml/10.1145/3623652.3623667#&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Security Analysis for Real-World IoT Devices&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;https://www.paloaltonetworks.com/blog/security-operations/made-for-each-other-ai-and-iot/&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Made for Each Other: AI and IoT&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/aiml1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Machine Learning and IoT Device Security&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/aiml2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;All You Need to Know About On-Device ML&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/aiml3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Acquisitional Rule-based Engine for Discovering IoT Devices&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/aiml4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Generative Intrusion Detection on IoT Dataset&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/aiml5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;ASecurity Risks Concerns of Generative AI in the IoT&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://example.com/Papers/aiml6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning-Enabled IoT Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/aiml1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Adversarial Machine Learning and IoT Device Security&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/aiml2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;All You Need to Know About On-Device ML&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/aiml3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Acquisitional Rule-based Engine for Discovering IoT Devices&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/aiml4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Generative Intrusion Detection on IoT Dataset&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/aiml5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;ASecurity Risks Concerns of Generative AI in the IoT&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/aiml6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Machine Learning-Enabled IoT Security&lt;/a&gt;&lt;/li&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;/ul&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;

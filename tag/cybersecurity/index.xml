@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cybersecurity | SaNs Portfolio</title>
-    <link>https://example.com/tag/cybersecurity/</link>
-      <atom:link href="https://example.com/tag/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://git4san.github.io/tag/cybersecurity/</link>
+      <atom:link href="https://git4san.github.io/tag/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
     <description>Cybersecurity</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14484311124804984102.png</url>
+      <url>https://git4san.github.io/media/icon_hu14484311124804984102.png</url>
       <title>Cybersecurity</title>
-      <link>https://example.com/tag/cybersecurity/</link>
+      <link>https://git4san.github.io/tag/cybersecurity/</link>
     </image>
     
     <item>
       <title>Demystify the fuzzing methods: A comprehensive survey</title>
-      <link>https://example.com/publications/journal-article/fuzzing-survey/</link>
+      <link>https://git4san.github.io/publications/journal-article/fuzzing-survey/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/journal-article/fuzzing-survey/</guid>
+      <guid>https://git4san.github.io/publications/journal-article/fuzzing-survey/</guid>
       <description>&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
 &lt;p&gt;Sanoop Mallissery and Yu-Sung Wu. 2023. Demystify the Fuzzing Methods: A Comprehensive Survey. ACM Comput. Surv. 56, 3, Article 71 (March 2024), 38 pages. &lt;a href=&#34;https://doi.org/10.1145/3623375&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1145/3623375&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-BibTeX&#34; data-lang=&#34;BibTeX&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@article&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;10.1145/3623375&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
@@ -40,7 +40,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h5 id=&#34;related-material&#34;&gt;Related material&lt;/h5&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://example.com/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git4san.github.io/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

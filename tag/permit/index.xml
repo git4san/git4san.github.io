@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PerMIT | SaNs Portfolio</title>
-    <link>https://example.com/tag/permit/</link>
-      <atom:link href="https://example.com/tag/permit/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://git4san.github.io/tag/permit/</link>
+      <atom:link href="https://git4san.github.io/tag/permit/index.xml" rel="self" type="application/rss+xml" />
     <description>PerMIT</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14484311124804984102.png</url>
+      <url>https://git4san.github.io/media/icon_hu14484311124804984102.png</url>
       <title>PerMIT</title>
-      <link>https://example.com/tag/permit/</link>
+      <link>https://git4san.github.io/tag/permit/</link>
     </image>
     
     <item>
       <title>Pervasive Micro Information Flow Tracking</title>
-      <link>https://example.com/publications/journal-article/permit-method/</link>
+      <link>https://git4san.github.io/publications/journal-article/permit-method/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/journal-article/permit-method/</guid>
+      <guid>https://git4san.github.io/publications/journal-article/permit-method/</guid>
       <description>&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
 &lt;div class=&#34;citation&#34;&gt;
 Sanoop Mallissery, Kun-Yi Chiang, Chun-An Bau, and Yu-Sung Wu, &#34;Pervasive Micro Information Flow Tracking,&#34; in IEEE Transactions on Dependable and Secure Computing, vol. 20, no. 6, pp. 4957-4975, Nov.-Dec. 2023, doi: 10.1109/TDSC.2023.3238547.
@@ -35,7 +35,7 @@ Sanoop Mallissery, Kun-Yi Chiang, Chun-An Bau, and Yu-Sung Wu, &#34;Pervasive Mi
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h5 id=&#34;related-material&#34;&gt;Related material&lt;/h5&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://example.com/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git4san.github.io/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
