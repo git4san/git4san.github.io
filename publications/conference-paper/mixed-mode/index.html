@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: November 13, 2024 --><html lang="en-us" >
+<!-- Last Published: November 16, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -269,7 +269,7 @@
 
 
 
-  <meta name="author" content="Sanoop Mallissery" />
+  <meta name="author" content="Sanoop Mallissery, Ph.D." />
 
 
 
@@ -277,7 +277,25 @@
 
   
 
-<meta name="description" content="MIT, a mixed-mode information flow tracking system that integrates static information flow analysis (IFA) and dynamic information flow tracking (DIFT) for online production environments. MIT operates at byte-granularity with moderate performance overhead by utilizing taint semantics intermediate representation (TSIR) extracted at compile-time." />
+<meta name="description" content="
+Yu-Hsin Hung, Bing-Jhong Jheng, Hong-Wei Li, Wen-Yang Lai, Sanoop Mallissery, 
+and Yu-Sung Wu, &#34;Mixed-mode Information Flow Tracking with Compile-time Taint 
+Semantics Extraction and Offline Replay,&#34; 2021 IEEE Conference on Dependable 
+and Secure Computing (DSC), Aizuwakamatsu, Fukushima, Japan, 2021, pp. 1-8, 
+doi: 10.1109/DSC49826.2021.9346239.
+
+BibTeX
+@inproceedings{9346239,
+  author={Hung, Yu-Hsin and Jheng, Bing-Jhong and Li, Hong-Wei and Lai, 
+  Wen-Yang and Mallissery, Sanoop and Wu, Yu-Sung},
+  booktitle={2021 IEEE Conference on Dependable and Secure Computing (DSC)}, 
+  title={Mixed-mode Information Flow Tracking with Compile-time Taint 
+  Semantics Extraction and Offline Replay}, 
+  year={2021},
+  pages={1-8},
+  doi={10.1109/DSC49826.2021.9346239}
+}
+" />
 
 
 
@@ -290,8 +308,8 @@
 
 
 
-<link rel="icon" type="image/png" href="/media/icon_hu3793647621638756154.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu9755463213840541313.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu882995034642304356.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu12000565598491371461.png" />
 
 <meta name="theme-color" content="#2962ff" />
 
@@ -321,8 +339,26 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="SaNs Portfolio" />
 <meta property="og:url" content="https://git4san.github.io/publications/conference-paper/mixed-mode/" />
-<meta property="og:title" content="Mixed-mode information flow tracking with compile-time taint semantics extraction and offline replay | SaNs Portfolio" />
-<meta property="og:description" content="MIT, a mixed-mode information flow tracking system that integrates static information flow analysis (IFA) and dynamic information flow tracking (DIFT) for online production environments. MIT operates at byte-granularity with moderate performance overhead by utilizing taint semantics intermediate representation (TSIR) extracted at compile-time." /><meta property="og:image" content="https://git4san.github.io/publications/conference-paper/mixed-mode/featured.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="Mixed-mode Information Flow Tracking with Compile-time Taint Semantics Extraction and Offline Replay | SaNs Portfolio" />
+<meta property="og:description" content="
+Yu-Hsin Hung, Bing-Jhong Jheng, Hong-Wei Li, Wen-Yang Lai, Sanoop Mallissery, 
+and Yu-Sung Wu, &#34;Mixed-mode Information Flow Tracking with Compile-time Taint 
+Semantics Extraction and Offline Replay,&#34; 2021 IEEE Conference on Dependable 
+and Secure Computing (DSC), Aizuwakamatsu, Fukushima, Japan, 2021, pp. 1-8, 
+doi: 10.1109/DSC49826.2021.9346239.
+
+BibTeX
+@inproceedings{9346239,
+  author={Hung, Yu-Hsin and Jheng, Bing-Jhong and Li, Hong-Wei and Lai, 
+  Wen-Yang and Mallissery, Sanoop and Wu, Yu-Sung},
+  booktitle={2021 IEEE Conference on Dependable and Secure Computing (DSC)}, 
+  title={Mixed-mode Information Flow Tracking with Compile-time Taint 
+  Semantics Extraction and Offline Replay}, 
+  year={2021},
+  pages={1-8},
+  doi={10.1109/DSC49826.2021.9346239}
+}
+" /><meta property="og:image" content="https://git4san.github.io/publications/conference-paper/mixed-mode/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -356,7 +392,7 @@
 
 
   
-  <title>Mixed-mode information flow tracking with compile-time taint semantics extraction and offline replay | SaNs Portfolio</title>
+  <title>Mixed-mode Information Flow Tracking with Compile-time Taint Semantics Extraction and Offline Replay | SaNs Portfolio</title>
 
   
   
@@ -606,7 +642,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Mixed-mode information flow tracking with compile-time taint semantics extraction and offline replay</h1>
+  <h1>Mixed-mode Information Flow Tracking with Compile-time Taint Semantics Extraction and Offline Replay</h1>
 
   
 
@@ -615,21 +651,6 @@
 
 <div class="article-metadata">
 
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      Yu-Hsin Hung</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Bing-Jhong Jheng</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Hong-Wei Li</span>, <span >
-      Wen-Yang Lai</span>, <span >
-      Sanoop Mallissery</span>, <span >
-      Yu-Sung Wu</span>
-  </div>
   
   
 
@@ -685,52 +706,21 @@
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publications/conference-paper/mixed-mode/cite.bib">
-  Cite
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/https://ieeexplore.ieee.org/abstract/document/9346239" target="_blank" rel="noopener">
+  DOI
 </a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://ieeexplore.ieee.org/abstract/document/9346239" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/project/ai-driven-cybersecurity/">
-    Project
-  </a>
-  
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="/My_Paper_Slides/mixedmode.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://ieeexplore.ieee.org/document/9346239" target="_blank" rel="noopener">
-  Source Document
-</a>
-
 
 
 
@@ -743,7 +733,7 @@
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 330px;">
   <div style="position: relative">
     <img src="/publications/conference-paper/mixed-mode/featured_hu10982384747724121343.webp" width="720" height="330" alt="" class="featured-image">
-    <span class="article-header-caption">Mixed-Mode DIFT</span>
+    
   </div>
 </div>
 
@@ -752,26 +742,25 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h5 id="citation">Citation</h5>
-<div class="citation">
-Yu-Hsin Hung, Bing-Jhong Jheng, Hong-Wei Li, Wen-Yang Lai, Sanoop Mallissery and Yu-Sung Wu, "Mixed-mode Information Flow Tracking with Compile-time Taint Semantics Extraction and Offline Replay," 2021 IEEE Conference on Dependable and Secure Computing (DSC), Aizuwakamatsu, Fukushima, Japan, 2021, pp. 1-8, doi: 10.1109/DSC49826.2021.9346239.
+      <div class="citation">
+Yu-Hsin Hung, Bing-Jhong Jheng, Hong-Wei Li, Wen-Yang Lai, Sanoop Mallissery, 
+and Yu-Sung Wu, "Mixed-mode Information Flow Tracking with Compile-time Taint 
+Semantics Extraction and Offline Replay," 2021 IEEE Conference on Dependable 
+and Secure Computing (DSC), Aizuwakamatsu, Fukushima, Japan, 2021, pp. 1-8, 
+doi: 10.1109/DSC49826.2021.9346239.
 </div>
+<h5 id="bibtex">BibTeX</h5>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-BibTeX" data-lang="BibTeX"><span class="line"><span class="cl"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">9346239</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="na">author</span><span class="p">=</span><span class="s">{Hung, Yu-Hsin and Jheng, Bing-Jhong and Li, Hong-Wei and Lai, Wen-Yang and Mallissery, Sanoop and Wu, Yu-Sung}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">author</span><span class="p">=</span><span class="s">{Hung, Yu-Hsin and Jheng, Bing-Jhong and Li, Hong-Wei and Lai, 
+</span></span></span><span class="line"><span class="cl"><span class="s">  Wen-Yang and Mallissery, Sanoop and Wu, Yu-Sung}</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">  <span class="na">booktitle</span><span class="p">=</span><span class="s">{2021 IEEE Conference on Dependable and Secure Computing (DSC)}</span><span class="p">,</span> 
-</span></span><span class="line"><span class="cl">  <span class="na">title</span><span class="p">=</span><span class="s">{Mixed-mode Information Flow Tracking with Compile-time Taint Semantics Extraction and Offline Replay}</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">  <span class="na">title</span><span class="p">=</span><span class="s">{Mixed-mode Information Flow Tracking with Compile-time Taint 
+</span></span></span><span class="line"><span class="cl"><span class="s">  Semantics Extraction and Offline Replay}</span><span class="p">,</span> 
 </span></span><span class="line"><span class="cl">  <span class="na">year</span><span class="p">=</span><span class="s">{2021}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="na">volume</span><span class="p">=</span><span class="s">{}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="na">number</span><span class="p">=</span><span class="s">{}</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">  <span class="na">pages</span><span class="p">=</span><span class="s">{1-8}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="na">keywords</span><span class="p">=</span><span class="s">{Runtime;Target tracking;Runtime library;Semantics;Memory management;Servers;Anomaly detection;decoupled dynamic information flow tracking;static information flow tracking;taint propagation;application logic vulnerabilities;anomaly detection}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="na">doi</span><span class="p">=</span><span class="s">{10.1109/DSC49826.2021.9346239}</span><span class="p">}</span>
-</span></span></code></pre></div><hr>
-<h5 id="related-material">Related material</h5>
-<ul>
-<li><a href="/2p.pdf">Presentation slides</a></li>
-</ul>
-
+</span></span><span class="line"><span class="cl">  <span class="na">doi</span><span class="p">=</span><span class="s">{10.1109/DSC49826.2021.9346239}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
     </div>
 
     
@@ -815,7 +804,7 @@ Yu-Hsin Hung, Bing-Jhong Jheng, Hong-Wei Li, Wen-Yang Lai, Sanoop Mallissery and
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fmixed-mode%2F&amp;text=Mixed-mode&#43;information&#43;flow&#43;tracking&#43;with&#43;compile-time&#43;taint&#43;semantics&#43;extraction&#43;and&#43;offline&#43;replay" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fmixed-mode%2F&amp;text=Mixed-mode&#43;Information&#43;Flow&#43;Tracking&#43;with&#43;Compile-time&#43;Taint&#43;Semantics&#43;Extraction&#43;and&#43;Offline&#43;Replay" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -832,7 +821,7 @@ Yu-Hsin Hung, Bing-Jhong Jheng, Hong-Wei Li, Wen-Yang Lai, Sanoop Mallissery and
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fmixed-mode%2F&amp;t=Mixed-mode&#43;information&#43;flow&#43;tracking&#43;with&#43;compile-time&#43;taint&#43;semantics&#43;extraction&#43;and&#43;offline&#43;replay" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fmixed-mode%2F&amp;t=Mixed-mode&#43;Information&#43;Flow&#43;Tracking&#43;with&#43;Compile-time&#43;Taint&#43;Semantics&#43;Extraction&#43;and&#43;Offline&#43;Replay" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -851,7 +840,7 @@ Yu-Hsin Hung, Bing-Jhong Jheng, Hong-Wei Li, Wen-Yang Lai, Sanoop Mallissery and
         
       
       <li>
-        <a href="mailto:?subject=Mixed-mode%20information%20flow%20tracking%20with%20compile-time%20taint%20semantics%20extraction%20and%20offline%20replay&amp;body=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fmixed-mode%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Mixed-mode%20Information%20Flow%20Tracking%20with%20Compile-time%20Taint%20Semantics%20Extraction%20and%20Offline%20Replay&amp;body=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fmixed-mode%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -868,7 +857,7 @@ Yu-Hsin Hung, Bing-Jhong Jheng, Hong-Wei Li, Wen-Yang Lai, Sanoop Mallissery and
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fmixed-mode%2F&amp;title=Mixed-mode&#43;information&#43;flow&#43;tracking&#43;with&#43;compile-time&#43;taint&#43;semantics&#43;extraction&#43;and&#43;offline&#43;replay" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fmixed-mode%2F&amp;title=Mixed-mode&#43;Information&#43;Flow&#43;Tracking&#43;with&#43;Compile-time&#43;Taint&#43;Semantics&#43;Extraction&#43;and&#43;Offline&#43;Replay" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -885,7 +874,7 @@ Yu-Hsin Hung, Bing-Jhong Jheng, Hong-Wei Li, Wen-Yang Lai, Sanoop Mallissery and
       
       
       <li>
-        <a href="whatsapp://send?text=Mixed-mode&#43;information&#43;flow&#43;tracking&#43;with&#43;compile-time&#43;taint&#43;semantics&#43;extraction&#43;and&#43;offline&#43;replay%20https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fmixed-mode%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Mixed-mode&#43;Information&#43;Flow&#43;Tracking&#43;with&#43;Compile-time&#43;Taint&#43;Semantics&#43;Extraction&#43;and&#43;Offline&#43;Replay%20https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fmixed-mode%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -902,7 +891,7 @@ Yu-Hsin Hung, Bing-Jhong Jheng, Hong-Wei Li, Wen-Yang Lai, Sanoop Mallissery and
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fmixed-mode%2F&amp;title=Mixed-mode&#43;information&#43;flow&#43;tracking&#43;with&#43;compile-time&#43;taint&#43;semantics&#43;extraction&#43;and&#43;offline&#43;replay" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fmixed-mode%2F&amp;title=Mixed-mode&#43;Information&#43;Flow&#43;Tracking&#43;with&#43;Compile-time&#43;Taint&#43;Semantics&#43;Extraction&#43;and&#43;Offline&#43;Replay" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -922,42 +911,130 @@ Yu-Hsin Hung, Bing-Jhong Jheng, Hong-Wei Li, Wen-Yang Lai, Sanoop Mallissery and
 
   
   
-    
-
-
-
-
-  
-    
-
 
 
 
   
-    
-
-
-
-
+  
   
     
-
-
-
-
   
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://git4san.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/sanoop-mallissery-ph.d./avatar_hu991634858224825110.jpg" alt="Sanoop Mallissery, Ph.D."></a>
     
 
-
-
-
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://git4san.github.io/">Sanoop Mallissery, Ph.D.</a></h5>
+      <h6 class="card-subtitle"><p>Lecturer</p>
+<p>School of Information Technology</p>
+</h6>
+      <p class="card-text">My research interests include advancing dependable systems security, privacy preservation, and cybersecurity in Operational Technology (OT) and Industrial Control Systems (ICS).</p>
+      <ul class="network-icon" aria-hidden="true">
   
     
-
-
-
-
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:sanoopmallissery@gmil.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
   
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/git4san" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/sanoop-mallissery-ph-d-711616a2/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.in/citations?user=2SUBIBkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-3472-2717" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
 
 
 

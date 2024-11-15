@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trust Architecture | SaNs Portfolio</title>
+    <link>https://git4san.github.io/tag/trust-architecture/</link>
+      <atom:link href="https://git4san.github.io/tag/trust-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <description>Trust Architecture</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Feb 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://git4san.github.io/media/icon_hu13840853971166444976.png</url>
+      <title>Trust Architecture</title>
+      <link>https://git4san.github.io/tag/trust-architecture/</link>
+    </image>
+    
+    <item>
+      <title>Improving the Public Key Infrastructure to Build Trust Architecture for VANET by Using Short-Time Certificate Management and Merkle Signature Scheme</title>
+      <link>https://git4san.github.io/publications/conference-paper/vanet-publickey/</link>
+      <pubDate>Mon, 10 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://git4san.github.io/publications/conference-paper/vanet-publickey/</guid>
+      <description>&lt;div class=&#34;citation&#34;&gt;
+S. Mallissery, M. M. Manohara Pai, A. Smitha, R. M. Pai and J. Mouzna, 
+&#34;Improvizing the public key infrastructure to build trust architecture 
+for VANET by using short-time certificate management and Merkle Signature 
+Scheme,&#34; in *2014 Asia-Pacific Conference on Computer Aided System 
+Engineering (APCASE)*, South Kuta, Indonesia, 2014, pp. 146-151, 
+doi: [10.1109/APCASE.2014.6924489]
+(https://doi.org/10.1109/APCASE.2014.6924489).
+&lt;/div&gt;
+&lt;h5 id=&#34;bibtex&#34;&gt;BibTeX&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-BibTeX&#34; data-lang=&#34;BibTeX&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@INPROCEEDINGS&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;6924489&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Mallissery, Sanoop and Pai, M. M. Manohara and Smitha, A. 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;  and Pai, R. M. and Mouzna, Joseph}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Improving the public key infrastructure to build trust architecture f
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;  or VANET by using short-time certificate management and Merkle Signature Scheme}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;booktitle&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{2014 Asia-Pacific Conference on Computer Aided System Engineering 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;  (APCASE)}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;year&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{2014}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;pages&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{146-151}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;doi&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{https://doi.org/10.1109/APCASE.2014.6924489}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;publisher&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{IEEE}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

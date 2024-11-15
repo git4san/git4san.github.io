@@ -82,35 +82,11 @@
     <lastmod>2024-10-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://git4san.github.io/tag/information-flow-tracking/</loc>
-    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+    <loc>https://git4san.github.io/tag/code-analysis/</loc>
+    <lastmod>2023-11-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://git4san.github.io/tag/permit/</loc>
-    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://git4san.github.io/publications/journal-article/permit-method/</loc>
-    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://git4san.github.io/publications/</loc>
-    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://git4san.github.io/tag/security/</loc>
-    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://git4san.github.io/tag/software-security/</loc>
-    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://git4san.github.io/tag/zero-day-vulnerabilities/</loc>
-    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://git4san.github.io/tag/data-leak-prevention/</loc>
+    <loc>https://git4san.github.io/tag/code-instrumentation/</loc>
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -118,19 +94,35 @@
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://git4san.github.io/tag/information-flow-tracking-ift/</loc>
+    <loc>https://git4san.github.io/tag/information-flow-tracking/</loc>
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://git4san.github.io/tag/runtime-logging/</loc>
+    <loc>https://git4san.github.io/tag/memory-management/</loc>
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://git4san.github.io/tag/source-code-analysis/</loc>
+    <loc>https://git4san.github.io/tag/permit/</loc>
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://git4san.github.io/tag/static-code-instrumentation/</loc>
+    <loc>https://git4san.github.io/publications/journal-article/permit-method/</loc>
+    <lastmod>2023-11-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/publications/</loc>
+    <lastmod>2023-11-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/security/</loc>
+    <lastmod>2023-11-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/software-security/</loc>
+    <lastmod>2023-11-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/zero-day-vulnerabilities/</loc>
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -206,6 +198,10 @@
     <lastmod>2021-01-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://git4san.github.io/tag/information-flow-tracking-ift/</loc>
+    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://git4san.github.io/publications/conference-paper/mixed-mode/</loc>
     <lastmod>2021-01-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -248,6 +244,250 @@
   </url><url>
     <loc>https://git4san.github.io/tag/suspicious-data-flow/</loc>
     <lastmod>2020-03-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/intelligent-transportation-systems/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/ns3/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/publications/journal-article/vanet-simulation/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/simulation-tools/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/sumo/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/traffic-control/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/vehicular-networks/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/data-security/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/hypervisor/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/publications/conference-paper/hypervisor/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/malware-detection/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/virtual-machine-introspection/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/virtualization/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/accidents/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/publications/conference-paper/speed-limit/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/automata/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/buchi-automaton/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/computer-security/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/formal-security/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/linear-temporal-logics/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/mathematical-model/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/model-checking/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/ports-computers/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/publications/conference-paper/provable-sec/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/road-density/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/roads/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/traffic-efficiency/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/urban-areas/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/vehicle-emitted-pollutants/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/vehicle-speed-limits/</loc>
+    <lastmod>2017-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/cloud-computing/</loc>
+    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/publications/journal-article/vehicle-health/</loc>
+    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/publications/journal-article/vehicle-congestion/</loc>
+    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/its-application/</loc>
+    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/smart-health-monitoring/</loc>
+    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/traffic-congestion/</loc>
+    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/vehicle-health/</loc>
+    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/vehicular-path-planning/</loc>
+    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/publications/conference-paper/congestion-est/</loc>
+    <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/estimation-models/</loc>
+    <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/intelligent-transportation-systems-its/</loc>
+    <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/traffic-management/</loc>
+    <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/vanet/</loc>
+    <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/vehicular-congestion/</loc>
+    <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/air-quality/</loc>
+    <lastmod>2016-03-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/publications/conference-paper/air-quality/</loc>
+    <lastmod>2016-03-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/iot/</loc>
+    <lastmod>2016-03-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/smart-cities/</loc>
+    <lastmod>2016-03-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/smart-health/</loc>
+    <lastmod>2016-03-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/wireless-sensor-networks/</loc>
+    <lastmod>2016-03-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/its/</loc>
+    <lastmod>2015-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/secure-vanet/</loc>
+    <lastmod>2015-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/traffic-monitoring/</loc>
+    <lastmod>2015-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/publications/conference-paper/transport-traffic/</loc>
+    <lastmod>2015-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/authentication/</loc>
+    <lastmod>2014-11-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/publications/conference-paper/vanet-com/</loc>
+    <lastmod>2014-11-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/communication/</loc>
+    <lastmod>2014-11-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/publications/conference-paper/vanet-publickey/</loc>
+    <lastmod>2014-02-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/merkle-signature-scheme/</loc>
+    <lastmod>2014-02-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/public-key-infrastructure/</loc>
+    <lastmod>2014-02-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/tag/trust-architecture/</loc>
+    <lastmod>2014-02-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://git4san.github.io/about/</loc>

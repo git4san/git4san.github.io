@@ -5,9 +5,9 @@
     <link>https://git4san.github.io/tag/permit/</link>
       <atom:link href="https://git4san.github.io/tag/permit/index.xml" rel="self" type="application/rss+xml" />
     <description>PerMIT</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://git4san.github.io/media/icon_hu14484311124804984102.png</url>
+      <url>https://git4san.github.io/media/icon_hu13840853971166444976.png</url>
       <title>PerMIT</title>
       <link>https://git4san.github.io/tag/permit/</link>
     </image>
@@ -15,12 +15,12 @@
     <item>
       <title>Pervasive Micro Information Flow Tracking</title>
       <link>https://git4san.github.io/publications/journal-article/permit-method/</link>
-      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://git4san.github.io/publications/journal-article/permit-method/</guid>
-      <description>&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
-&lt;div class=&#34;citation&#34;&gt;
+      <description>&lt;div class=&#34;citation&#34;&gt;
 Sanoop Mallissery, Kun-Yi Chiang, Chun-An Bau, and Yu-Sung Wu, &#34;Pervasive Micro Information Flow Tracking,&#34; in IEEE Transactions on Dependable and Secure Computing, vol. 20, no. 6, pp. 4957-4975, Nov.-Dec. 2023, doi: 10.1109/TDSC.2023.3238547.
 &lt;/div&gt;
+&lt;h5 id=&#34;bibtex&#34;&gt;BibTeX&lt;/h5&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-BibTeX&#34; data-lang=&#34;BibTeX&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@article&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;10023951&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Mallissery, Sanoop and Chiang, Kun-Yi and Bau, Chun-An and Wu, Yu-Sung}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;journal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{IEEE Transactions on Dependable and Secure Computing}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
@@ -29,15 +29,9 @@ Sanoop Mallissery, Kun-Yi Chiang, Chun-An Bau, and Yu-Sung Wu, &#34;Pervasive Mi
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;volume&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{20}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{6}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;pages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{4957-4975}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;keywords&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Target tracking;Security;Codes;Malware;Source coding;Emulation;Anomaly detection;Anomaly detection;dynamic information flow tracking;online taint analysis;production system;zero-day attacks}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;doi&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{10.1109/TDSC.2023.3238547}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h5 id=&#34;related-material&#34;&gt;Related material&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://git4san.github.io/2p.pdf&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

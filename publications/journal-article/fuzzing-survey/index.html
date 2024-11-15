@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: November 13, 2024 --><html lang="en-us" >
+<!-- Last Published: November 16, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -269,7 +269,7 @@
 
 
 
-  <meta name="author" content="Sanoop Mallissery" />
+  <meta name="author" content="Sanoop Mallissery, Ph.D." />
 
 
 
@@ -277,7 +277,29 @@
 
   
 
-<meta name="description" content="This work explores fuzzing as a solution to uncover vulnerabilities in complex software applications, which pose cybersecurity risks. It reviews various fuzzing techniques—random mutation, feedback-driven, and constraint-guided—across black-, white-, and grey-box fuzzers. The study highlights how these methods detect vulnerabilities through structural test case analysis, symbolic program states, and code coverage. It also identifies gaps in current fuzzing techniques and suggests improvements for better vulnerability detection." />
+<meta name="description" content="
+Sanoop Mallissery and Yu-Sung Wu. &#34;Demystify the Fuzzing Methods: A Comprehensive Survey.&#34; ACM Computing Surveys, vol. 56, no. 3, article 71, March 2024, pp. 1–38. https://doi.org/10.1145/3623375.
+
+BibTeX
+@article{10.1145/3623375,
+  author = {Mallissery, Sanoop and Wu, Yu-Sung},
+  title = {Demystify the Fuzzing Methods: A Comprehensive Survey},
+  year = {2023},
+  issue_date = {March 2024},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {56},
+  number = {3},
+  issn = {0360-0300},
+  url = {https://doi.org/10.1145/3623375},
+  doi = {10.1145/3623375},
+  journal = {ACM Comput. Surv.},
+  month = oct,
+  articleno = {71},
+  numpages = {38},
+  keywords = {vulnerability discovery, code inspection, fuzzing, automated testing}
+}
+" />
 
 
 
@@ -290,8 +312,8 @@
 
 
 
-<link rel="icon" type="image/png" href="/media/icon_hu3793647621638756154.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu9755463213840541313.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu882995034642304356.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu12000565598491371461.png" />
 
 <meta name="theme-color" content="#2962ff" />
 
@@ -321,8 +343,30 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="SaNs Portfolio" />
 <meta property="og:url" content="https://git4san.github.io/publications/journal-article/fuzzing-survey/" />
-<meta property="og:title" content="Demystify the fuzzing methods: A comprehensive survey | SaNs Portfolio" />
-<meta property="og:description" content="This work explores fuzzing as a solution to uncover vulnerabilities in complex software applications, which pose cybersecurity risks. It reviews various fuzzing techniques—random mutation, feedback-driven, and constraint-guided—across black-, white-, and grey-box fuzzers. The study highlights how these methods detect vulnerabilities through structural test case analysis, symbolic program states, and code coverage. It also identifies gaps in current fuzzing techniques and suggests improvements for better vulnerability detection." /><meta property="og:image" content="https://git4san.github.io/publications/journal-article/fuzzing-survey/featured.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="Demystify the Fuzzing Methods: A Comprehensive Survey | SaNs Portfolio" />
+<meta property="og:description" content="
+Sanoop Mallissery and Yu-Sung Wu. &#34;Demystify the Fuzzing Methods: A Comprehensive Survey.&#34; ACM Computing Surveys, vol. 56, no. 3, article 71, March 2024, pp. 1–38. https://doi.org/10.1145/3623375.
+
+BibTeX
+@article{10.1145/3623375,
+  author = {Mallissery, Sanoop and Wu, Yu-Sung},
+  title = {Demystify the Fuzzing Methods: A Comprehensive Survey},
+  year = {2023},
+  issue_date = {March 2024},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {56},
+  number = {3},
+  issn = {0360-0300},
+  url = {https://doi.org/10.1145/3623375},
+  doi = {10.1145/3623375},
+  journal = {ACM Comput. Surv.},
+  month = oct,
+  articleno = {71},
+  numpages = {38},
+  keywords = {vulnerability discovery, code inspection, fuzzing, automated testing}
+}
+" /><meta property="og:image" content="https://git4san.github.io/publications/journal-article/fuzzing-survey/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -356,7 +400,7 @@
 
 
   
-  <title>Demystify the fuzzing methods: A comprehensive survey | SaNs Portfolio</title>
+  <title>Demystify the Fuzzing Methods: A Comprehensive Survey | SaNs Portfolio</title>
 
   
   
@@ -606,7 +650,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Demystify the fuzzing methods: A comprehensive survey</h1>
+  <h1>Demystify the Fuzzing Methods: A Comprehensive Survey</h1>
 
   
 
@@ -623,8 +667,8 @@
     
 
   <span >
-      Sanoop Mallissery</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Yu-Sung Wu</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+      Sanoop Mallissery</span>, <span >
+      Yu-Sung Wu</span>
   </div>
   
   
@@ -682,30 +726,20 @@
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://dl.acm.org/doi/10.1145/3623375" target="_blank" rel="noopener">
-  Code
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1145/3623375" target="_blank" rel="noopener">
+  DOI
 </a>
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/project/fuzzing-ot-apps/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
 
 
 
@@ -718,7 +752,7 @@
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 216px;">
   <div style="position: relative">
     <img src="/publications/journal-article/fuzzing-survey/featured_hu16922447506834880592.webp" width="720" height="216" alt="" class="featured-image">
-    <span class="article-header-caption">Constraint-guided Fuzzing Process</span>
+    
   </div>
 </div>
 
@@ -727,32 +761,29 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h5 id="citation">Citation</h5>
-<p>Sanoop Mallissery and Yu-Sung Wu. 2023. Demystify the Fuzzing Methods: A Comprehensive Survey. ACM Comput. Surv. 56, 3, Article 71 (March 2024), 38 pages. <a href="https://doi.org/10.1145/3623375" target="_blank" rel="noopener">https://doi.org/10.1145/3623375</a>.</p>
+      <div class="citation">
+Sanoop Mallissery and Yu-Sung Wu. "Demystify the Fuzzing Methods: A Comprehensive Survey." ACM Computing Surveys, vol. 56, no. 3, article 71, March 2024, pp. 1–38. https://doi.org/10.1145/3623375.
+</div>
+<h5 id="bibtex">BibTeX</h5>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-BibTeX" data-lang="BibTeX"><span class="line"><span class="cl"><span class="nc">@article</span><span class="p">{</span><span class="nl">10.1145/3623375</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">author</span> <span class="p">=</span> <span class="s">{Mallissery, Sanoop and Wu, Yu-Sung}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">title</span> <span class="p">=</span> <span class="s">{Demystify the Fuzzing Methods: A Comprehensive Survey}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">issue_date</span> <span class="p">=</span> <span class="s">{March 2024}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computing Machinery}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">address</span> <span class="p">=</span> <span class="s">{New York, NY, USA}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">volume</span> <span class="p">=</span> <span class="s">{56}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">number</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">issn</span> <span class="p">=</span> <span class="s">{0360-0300}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1145/3623375}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3623375}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">journal</span> <span class="p">=</span> <span class="s">{ACM Comput. Surv.}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">month</span> <span class="p">=</span> <span class="nv">oct</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">articleno</span> <span class="p">=</span> <span class="s">{71}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">numpages</span> <span class="p">=</span> <span class="s">{38}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">keywords</span> <span class="p">=</span> <span class="s">{vulnerability discovery, code inspection, fuzzing, Automated testing}</span>
+</span></span><span class="line"><span class="cl">  <span class="na">author</span> <span class="p">=</span> <span class="s">{Mallissery, Sanoop and Wu, Yu-Sung}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">title</span> <span class="p">=</span> <span class="s">{Demystify the Fuzzing Methods: A Comprehensive Survey}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">issue_date</span> <span class="p">=</span> <span class="s">{March 2024}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computing Machinery}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">address</span> <span class="p">=</span> <span class="s">{New York, NY, USA}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">volume</span> <span class="p">=</span> <span class="s">{56}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">number</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">issn</span> <span class="p">=</span> <span class="s">{0360-0300}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1145/3623375}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3623375}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">journal</span> <span class="p">=</span> <span class="s">{ACM Comput. Surv.}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">month</span> <span class="p">=</span> <span class="nv">oct</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">articleno</span> <span class="p">=</span> <span class="s">{71}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">numpages</span> <span class="p">=</span> <span class="s">{38}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{vulnerability discovery, code inspection, fuzzing, automated testing}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><hr>
-<h5 id="related-material">Related material</h5>
-<ul>
-<li><a href="/2p.pdf">Presentation slides</a></li>
-</ul>
-
+</span></span></code></pre></div>
     </div>
 
     
@@ -802,7 +833,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fjournal-article%2Ffuzzing-survey%2F&amp;text=Demystify&#43;the&#43;fuzzing&#43;methods%3A&#43;A&#43;comprehensive&#43;survey" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fjournal-article%2Ffuzzing-survey%2F&amp;text=Demystify&#43;the&#43;Fuzzing&#43;Methods%3A&#43;A&#43;Comprehensive&#43;Survey" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -819,7 +850,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fjournal-article%2Ffuzzing-survey%2F&amp;t=Demystify&#43;the&#43;fuzzing&#43;methods%3A&#43;A&#43;comprehensive&#43;survey" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fjournal-article%2Ffuzzing-survey%2F&amp;t=Demystify&#43;the&#43;Fuzzing&#43;Methods%3A&#43;A&#43;Comprehensive&#43;Survey" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -838,7 +869,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Demystify%20the%20fuzzing%20methods%3A%20A%20comprehensive%20survey&amp;body=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fjournal-article%2Ffuzzing-survey%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Demystify%20the%20Fuzzing%20Methods%3A%20A%20Comprehensive%20Survey&amp;body=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fjournal-article%2Ffuzzing-survey%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -855,7 +886,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fjournal-article%2Ffuzzing-survey%2F&amp;title=Demystify&#43;the&#43;fuzzing&#43;methods%3A&#43;A&#43;comprehensive&#43;survey" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fjournal-article%2Ffuzzing-survey%2F&amp;title=Demystify&#43;the&#43;Fuzzing&#43;Methods%3A&#43;A&#43;Comprehensive&#43;Survey" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -872,7 +903,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Demystify&#43;the&#43;fuzzing&#43;methods%3A&#43;A&#43;comprehensive&#43;survey%20https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fjournal-article%2Ffuzzing-survey%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Demystify&#43;the&#43;Fuzzing&#43;Methods%3A&#43;A&#43;Comprehensive&#43;Survey%20https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fjournal-article%2Ffuzzing-survey%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -889,7 +920,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fjournal-article%2Ffuzzing-survey%2F&amp;title=Demystify&#43;the&#43;fuzzing&#43;methods%3A&#43;A&#43;comprehensive&#43;survey" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fjournal-article%2Ffuzzing-survey%2F&amp;title=Demystify&#43;the&#43;Fuzzing&#43;Methods%3A&#43;A&#43;Comprehensive&#43;Survey" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: November 13, 2024 --><html lang="en-us" >
+<!-- Last Published: November 16, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -269,7 +269,7 @@
 
 
 
-  <meta name="author" content="Sanoop Mallissery" />
+  <meta name="author" content="Sanoop Mallissery, Ph.D." />
 
 
 
@@ -277,7 +277,26 @@
 
   
 
-<meta name="description" content="The proposed hypervisor-based memory introspection method detects data leakage in Health Information Systems (HIS), which are at risk of data breaches due to sensitive personal information. This approach identifies sensitive data in the memory of both client and server machines, overcoming the limitations of traditional Data Leakage Prevention (DLP) solutions that depend on security perimeters. It is compatible with various applications and resilient against encryption. A prototype developed with the Bareflank hypervisor and OpenEMR demonstrated effective results in detecting data leakage." />
+<meta name="description" content="
+Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, 
+Wei-Chun Lin, and Yu-Sung Wu, &#34;Data Leakage Detection for Health Information 
+System Based on Memory Introspection,&#34; 15th ACM Asia Conference on Computer 
+and Communications Security (ASIA CCS), Taipei, Taiwan, 2020, pp. 898-900. 
+doi: 10.1145/3320269.3405437.
+
+BibTeX
+@inproceedings{10.1145/3320269.3405437,
+  author={Mallissery, Sanoop and Wu, Min-Chieh and Bau, Chun-An and Huang, 
+  Guan-Zhang and Yang, Chen-Yu and Lin, Wei-Chun and Wu, Yu-Sung},
+  booktitle={15th ACM Asia Conference on Computer and Communications Security 
+  (ASIA CCS)}, 
+  title={Data Leakage Detection for Health Information System Based on Memory 
+  Introspection}, 
+  year={2020},
+  pages={898-900},
+  doi={10.1145/3320269.3405437}
+}
+" />
 
 
 
@@ -290,8 +309,8 @@
 
 
 
-<link rel="icon" type="image/png" href="/media/icon_hu3793647621638756154.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu9755463213840541313.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu882995034642304356.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu12000565598491371461.png" />
 
 <meta name="theme-color" content="#2962ff" />
 
@@ -321,8 +340,27 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="SaNs Portfolio" />
 <meta property="og:url" content="https://git4san.github.io/publications/conference-paper/data-leak/" />
-<meta property="og:title" content="Data leakage detection for health information system based on memory introspection | SaNs Portfolio" />
-<meta property="og:description" content="The proposed hypervisor-based memory introspection method detects data leakage in Health Information Systems (HIS), which are at risk of data breaches due to sensitive personal information. This approach identifies sensitive data in the memory of both client and server machines, overcoming the limitations of traditional Data Leakage Prevention (DLP) solutions that depend on security perimeters. It is compatible with various applications and resilient against encryption. A prototype developed with the Bareflank hypervisor and OpenEMR demonstrated effective results in detecting data leakage." /><meta property="og:image" content="https://git4san.github.io/publications/conference-paper/data-leak/featured.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="Data Leakage Detection for Health Information System Based on Memory Introspection | SaNs Portfolio" />
+<meta property="og:description" content="
+Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, 
+Wei-Chun Lin, and Yu-Sung Wu, &#34;Data Leakage Detection for Health Information 
+System Based on Memory Introspection,&#34; 15th ACM Asia Conference on Computer 
+and Communications Security (ASIA CCS), Taipei, Taiwan, 2020, pp. 898-900. 
+doi: 10.1145/3320269.3405437.
+
+BibTeX
+@inproceedings{10.1145/3320269.3405437,
+  author={Mallissery, Sanoop and Wu, Min-Chieh and Bau, Chun-An and Huang, 
+  Guan-Zhang and Yang, Chen-Yu and Lin, Wei-Chun and Wu, Yu-Sung},
+  booktitle={15th ACM Asia Conference on Computer and Communications Security 
+  (ASIA CCS)}, 
+  title={Data Leakage Detection for Health Information System Based on Memory 
+  Introspection}, 
+  year={2020},
+  pages={898-900},
+  doi={10.1145/3320269.3405437}
+}
+" /><meta property="og:image" content="https://git4san.github.io/publications/conference-paper/data-leak/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -356,7 +394,7 @@
 
 
   
-  <title>Data leakage detection for health information system based on memory introspection | SaNs Portfolio</title>
+  <title>Data Leakage Detection for Health Information System Based on Memory Introspection | SaNs Portfolio</title>
 
   
   
@@ -606,7 +644,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Data leakage detection for health information system based on memory introspection</h1>
+  <h1>Data Leakage Detection for Health Information System Based on Memory Introspection</h1>
 
   
 
@@ -615,22 +653,6 @@
 
 <div class="article-metadata">
 
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      Sanoop Mallissery</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Min-Chieh Wu</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Chun-an Bau</span>, <span >
-      Guan-Zhang Huang</span>, <span >
-      Chen-Yu Yang</span>, <span >
-      Wei-Chun Lin</span>, <span >
-      Yu-Sung Wu</span>
-  </div>
   
   
 
@@ -686,62 +708,21 @@
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publications/conference-paper/data-leak/cite.bib">
-  Cite
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/https://dl.acm.org/doi/abs/10.1145/3320269.3405437" target="_blank" rel="noopener">
+  DOI
 </a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://dl.acm.org/doi/abs/10.1145/3320269.3405437" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/project/ai-driven-cybersecurity/">
-    Project
-  </a>
-  
-
-  
-    
-  
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/project/explainable-and-interpretable-ai/">
-    Project
-  </a>
-  
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="/My_Paper_Slides/dataleak.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://dl.acm.org/doi/10.1145/3320269.3405437" target="_blank" rel="noopener">
-  Source Document
-</a>
-
 
 
 
@@ -754,7 +735,7 @@
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 313px;">
   <div style="position: relative">
     <img src="/publications/conference-paper/data-leak/featured_hu18317449698379870668.webp" width="720" height="313" alt="" class="featured-image">
-    <span class="article-header-caption">Sensitive Data Identification</span>
+    
   </div>
 </div>
 
@@ -763,32 +744,26 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h5 id="citation">Citation</h5>
-<div class="citation">
-Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, Wei-Chun Lin, and Yu-Sung Wu. 2020. POSTER: Data Leakage Detection for Health Information System based on Memory Introspection. In Proceedings of the 15th ACM Asia Conference on Computer and Communications Security (ASIA CCS '20). Association for Computing Machinery, New York, NY, USA, 898–900. https://doi.org/10.1145/3320269.3405437
+      <div class="citation">
+Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, 
+Wei-Chun Lin, and Yu-Sung Wu, "Data Leakage Detection for Health Information 
+System Based on Memory Introspection," 15th ACM Asia Conference on Computer 
+and Communications Security (ASIA CCS), Taipei, Taiwan, 2020, pp. 898-900. 
+doi: 10.1145/3320269.3405437.
 </div>
+<h5 id="bibtex">BibTeX</h5>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-BibTeX" data-lang="BibTeX"><span class="line"><span class="cl"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10.1145/3320269.3405437</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">author</span> <span class="p">=</span> <span class="s">{Mallissery, Sanoop and Wu, Min-Chieh and Bau, Chun-An and Huang, Guan-Zhang and Yang, Chen-Yu and Lin, Wei-Chun and Wu, Yu-Sung}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">title</span> <span class="p">=</span> <span class="s">{POSTER: Data Leakage Detection for Health Information System based on Memory Introspection}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">isbn</span> <span class="p">=</span> <span class="s">{9781450367509}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computing Machinery}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">address</span> <span class="p">=</span> <span class="s">{New York, NY, USA}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1145/3320269.3405437}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3320269.3405437}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 15th ACM Asia Conference on Computer and Communications Security}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">pages</span> <span class="p">=</span> <span class="s">{898–900}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">numpages</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">keywords</span> <span class="p">=</span> <span class="s">{convolutional neural networks, data privacy, electronic health record, health information system, memory inspection, virtualization}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">location</span> <span class="p">=</span> <span class="s">{Taipei, Taiwan}</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"><span class="na">series</span> <span class="p">=</span> <span class="s">{ASIA CCS &#39;20}</span>
+</span></span><span class="line"><span class="cl">  <span class="na">author</span><span class="p">=</span><span class="s">{Mallissery, Sanoop and Wu, Min-Chieh and Bau, Chun-An and Huang, 
+</span></span></span><span class="line"><span class="cl"><span class="s">  Guan-Zhang and Yang, Chen-Yu and Lin, Wei-Chun and Wu, Yu-Sung}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">booktitle</span><span class="p">=</span><span class="s">{15th ACM Asia Conference on Computer and Communications Security 
+</span></span></span><span class="line"><span class="cl"><span class="s">  (ASIA CCS)}</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">  <span class="na">title</span><span class="p">=</span><span class="s">{Data Leakage Detection for Health Information System Based on Memory 
+</span></span></span><span class="line"><span class="cl"><span class="s">  Introspection}</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">  <span class="na">year</span><span class="p">=</span><span class="s">{2020}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">pages</span><span class="p">=</span><span class="s">{898-900}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">doi</span><span class="p">=</span><span class="s">{10.1145/3320269.3405437}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><hr>
-<h5 id="related-material">Related material</h5>
-<ul>
-<li><a href="/2p.pdf">Presentation slides</a></li>
-</ul>
-
+</span></span></code></pre></div>
     </div>
 
     
@@ -830,7 +805,7 @@ Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, We
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fdata-leak%2F&amp;text=Data&#43;leakage&#43;detection&#43;for&#43;health&#43;information&#43;system&#43;based&#43;on&#43;memory&#43;introspection" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fdata-leak%2F&amp;text=Data&#43;Leakage&#43;Detection&#43;for&#43;Health&#43;Information&#43;System&#43;Based&#43;on&#43;Memory&#43;Introspection" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -847,7 +822,7 @@ Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, We
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fdata-leak%2F&amp;t=Data&#43;leakage&#43;detection&#43;for&#43;health&#43;information&#43;system&#43;based&#43;on&#43;memory&#43;introspection" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fdata-leak%2F&amp;t=Data&#43;Leakage&#43;Detection&#43;for&#43;Health&#43;Information&#43;System&#43;Based&#43;on&#43;Memory&#43;Introspection" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -866,7 +841,7 @@ Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, We
         
       
       <li>
-        <a href="mailto:?subject=Data%20leakage%20detection%20for%20health%20information%20system%20based%20on%20memory%20introspection&amp;body=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fdata-leak%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Data%20Leakage%20Detection%20for%20Health%20Information%20System%20Based%20on%20Memory%20Introspection&amp;body=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fdata-leak%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -883,7 +858,7 @@ Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, We
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fdata-leak%2F&amp;title=Data&#43;leakage&#43;detection&#43;for&#43;health&#43;information&#43;system&#43;based&#43;on&#43;memory&#43;introspection" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fdata-leak%2F&amp;title=Data&#43;Leakage&#43;Detection&#43;for&#43;Health&#43;Information&#43;System&#43;Based&#43;on&#43;Memory&#43;Introspection" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -900,7 +875,7 @@ Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, We
       
       
       <li>
-        <a href="whatsapp://send?text=Data&#43;leakage&#43;detection&#43;for&#43;health&#43;information&#43;system&#43;based&#43;on&#43;memory&#43;introspection%20https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fdata-leak%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Data&#43;Leakage&#43;Detection&#43;for&#43;Health&#43;Information&#43;System&#43;Based&#43;on&#43;Memory&#43;Introspection%20https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fdata-leak%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -917,7 +892,7 @@ Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, We
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fdata-leak%2F&amp;title=Data&#43;leakage&#43;detection&#43;for&#43;health&#43;information&#43;system&#43;based&#43;on&#43;memory&#43;introspection" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fgit4san.github.io%2Fpublications%2Fconference-paper%2Fdata-leak%2F&amp;title=Data&#43;Leakage&#43;Detection&#43;for&#43;Health&#43;Information&#43;System&#43;Based&#43;on&#43;Memory&#43;Introspection" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -937,48 +912,130 @@ Sanoop Mallissery, Min-Chieh Wu, Chun-An Bau, Guan-Zhang Huang, Chen-Yu Yang, We
 
   
   
-    
-
-
-
-
-  
-    
-
 
 
 
   
-    
-
-
-
-
+  
   
     
-
-
-
-
   
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://git4san.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/sanoop-mallissery-ph.d./avatar_hu991634858224825110.jpg" alt="Sanoop Mallissery, Ph.D."></a>
     
 
-
-
-
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://git4san.github.io/">Sanoop Mallissery, Ph.D.</a></h5>
+      <h6 class="card-subtitle"><p>Lecturer</p>
+<p>School of Information Technology</p>
+</h6>
+      <p class="card-text">My research interests include advancing dependable systems security, privacy preservation, and cybersecurity in Operational Technology (OT) and Industrial Control Systems (ICS).</p>
+      <ul class="network-icon" aria-hidden="true">
   
     
-
-
-
-
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:sanoopmallissery@gmil.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
   
     
-
-
-
-
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/git4san" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
   
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/sanoop-mallissery-ph-d-711616a2/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.in/citations?user=2SUBIBkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-3472-2717" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
 
 
 
