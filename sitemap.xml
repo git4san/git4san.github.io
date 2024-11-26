@@ -495,5 +495,8 @@
   </url><url>
     <loc>https://git4san.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://git4san.github.io/swtools/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>
