@@ -1725,32 +1725,67 @@ School of Information Technology
   <div class="col-12 col-lg-8">
     <h1 style="font-size: 24px;">Collaborations and top research areas from the last five years</h1>
 <p>
-<div id="map"></div>
+<div id="map" style="height: 500px;"></div>
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
 <script>
-    var map = L.map('map').setView([51.505, -0.09], 2);  
+    var map = L.map('map').setView([40, 20], 2);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 19
     }).addTo(map);
 
+
+
     
-    var visitedCountries = [
-        {lat: 51.505, lon: -0.09, country: "United Kingdom"},
-        {lat: 40.7128, lon: -74.0060, country: "United States"},
-        {lat: -33.8688, lon: 151.2093, country: "Australia"}
+    fetch('/static/data/countries.geo.json') 
+        .then(response => response.json())
+        .then(data => {
+            L.geoJson(data, {
+                style: {
+                    color: '#000', 
+                    weight: 1
+                },
+                onEachFeature: function (feature, layer) {
+                    
+                    if (feature.properties && feature.properties.name) {
+                        layer.bindPopup(feature.properties.name);
+                    }
+                }
+            }).addTo(map);
+        });
+
+    
+    var markers = [
+        { lat: 27.9506, lon: -82.4572, popup: "Tampa, FL, USA" },
+        { lat: 37.4948, lon: 139.9293, popup: "Aizuwakamatsu, Fukushima, Japan" },
+        { lat: 25.0330, lon: 121.5654, popup: "Taipei, Taiwan" },
+        { lat: 49.1951, lon: 16.6068, popup: "Brno, Czech Republic" },
+        { lat: 38.7169, lon: -9.1390, popup: "Lisbon, Portugal" },
+        { lat: 1.3521, lon: 103.8198, popup: "Singapore" },
+        { lat: -6.9149, lon: 107.6082, popup: "Bandung, Indonesia" },
+        { lat: 49.2827, lon: -123.1207, popup: "Vancouver, BC, Canada" },
+        { lat: 23.5859, lon: 58.4059, popup: "Muscat, Oman" },
+        { lat: 36.1699, lon: -115.1398, popup: "Las Vegas, NV, USA" },
+        { lat: 48.2082, lon: 16.3738, popup: "Vienna, Austria" },
+        { lat: -8.8095, lon: 115.1666, popup: "South Kuta, Indonesia" },
+        { lat: 32.8031, lon: 130.7079, popup: "Kumamoto, Japan" },
+        { lat: 49.4432, lon: 1.0999, popup: "Rouen, France" },
+        { lat: 48.8566, lon: 2.3522, popup: "Paris, France" },
+        { lat: 13.3375, lon: 74.7421, popup: "Manipal, India" },
+        { lat: 11.0168, lon: 76.9558, popup: "Coimbatore, India" }
         
     ];
 
-    visitedCountries.forEach(function(country) {
-        L.marker([country.lat, country.lon]).addTo(map)
-            .bindPopup("<b>" + country.country + "</b>")
-            .openPopup();
-    });
-</script>
+    markers.forEach(function (marker) {
+        L.marker([marker.lat, marker.lon])
+            .addTo(map)
+            .bindPopup(marker.popup);
+    });</script>
  <!-- Correct shortcode syntax here --></p>
 
   </div>
