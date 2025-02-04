@@ -130,6 +130,109 @@
     </item>
     
     <item>
+      <title>LLM powered Cyber Defence</title>
+      <link>https://git4san.github.io/project/llm-in-cyber-defense/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://git4san.github.io/project/llm-in-cyber-defense/</guid>
+      <description>&lt;div class=&#34;research-section&#34;&gt;
+    &lt;div style=&#34;text-align: justify;&#34;&gt;
+        &lt;p&gt;With the increasing sophistication of cyber threats, traditional security solutions struggle to keep pace. This project introduces LLM-SHIELD, an AI-driven cybersecurity framework that utilizes Large Language Models (LLMs), DeepSeek, reinforcement learning, and automated security reasoning to create a next-generation defense system.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    &amp;lt;p&amp;gt; LLM-SHIELD focuses on real-time cyber threat detection, adaptive defense mechanisms, and automated vulnerability analysis, ensuring a proactive security posture against both known and zero-day attacks.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;project-objectives&#34;&gt;Project Objectives&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;LLM-Augmented Threat Intelligence &amp; Prediction&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Utilize DeepSeek-based LLMs for real-time cyber threat analysis, detection, and mitigation.&lt;/li&gt;
+            &lt;li&gt;Employ multi-modal AI models to analyze structured (logs, network traffic) and unstructured (threat reports, dark web discussions) data sources.&lt;/li&gt;
+            &lt;li&gt;Reinforcement learning for adaptive attack response and self-learning security models.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;AI-Powered Automated Security Auditing &amp; Code Analysis&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Deploy LLM-driven penetration testing for autonomous red teaming.&lt;/li&gt;
+            &lt;li&gt;Implement AI-assisted secure code auditing to detect vulnerabilities at source code and binary levels.&lt;/li&gt;
+            &lt;li&gt;Use LLM-powered exploit generation simulations to understand weaknesses before attackers do.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+     &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;Self-Learning Security Assistant &amp; Threat Hunting&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Develop an AI-driven cybersecurity co-pilot for automated incident response and threat analysis.&lt;/li&gt;
+            &lt;li&gt;Implement zero-shot and few-shot learning models to adapt to emerging attack techniques.&lt;/li&gt;
+            &lt;li&gt;Use LLM-powered natural language threat hunting to allow analysts to query security data conversationally.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;methodology&#34;&gt;Methodology&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Data Collection &amp; LLM Training&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Aggregate real-time threat intelligence from network logs, IDS alerts, security advisories, and dark web sources.&lt;/li&gt;
+            &lt;li&gt;Fine-tune DeepSeek &amp; other LLMs with cybersecurity datasets for contextual AI reasoning.&lt;/li&gt;
+            &lt;li&gt;Develop self-learning AI models that continuously adapt to new attack patterns.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;AI-Driven Automated Security Operations&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Utilize LLMs for predictive cyber defense, analyzing attack vectors before they materialize.&lt;/li&gt;
+            &lt;li&gt;Implement autonomous security policy generation based on real-time evolving threats.&lt;/li&gt;
+            &lt;li&gt;Deploy automated risk assessment models to rank vulnerabilities based on exploitability.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;LLM-Augmented Incident Response &amp; Defense&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Integrate AI-driven anomaly detection for early-stage attack identification.&lt;/li&gt;
+            &lt;li&gt;Use LLM-powered attack path prediction to forecast how adversaries may infiltrate systems.&lt;/li&gt;
+            &lt;li&gt;Develop AI-generated playbooks for automated incident response orchestration.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #DC3545;&#34;&gt;Adaptive Response Mechanism&lt;/strong&gt;
+        &lt;ul class=&#34;sub-steps&#34;&gt;
+            &lt;li&gt;Design an adaptive response system using reinforcement learning to improve reaction times and accuracy in identifying and neutralizing threats.&lt;/li&gt;
+            &lt;li&gt;Incorporate automated, multi-layered defense responses to isolate compromised systems and maintain operational continuity.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;future-trends-and-challenges&#34;&gt;Future Trends and Challenges&lt;/h2&gt;
+&lt;ul class=&#34;project-steps&#34;&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #007BFF;&#34;&gt;Scalability &amp; Real-Time Efficiency&lt;/strong&gt;
+        &lt;p&gt;Optimizing LLMs for high-speed real-time security analysis.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #28A745;&#34;&gt;Explainability &amp; Trust&lt;/strong&gt;
+        &lt;p&gt;Enhancing transparency in AI-driven cybersecurity decision-making.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #FFC107;&#34;&gt;Adversarial AI Threats&lt;/strong&gt;
+        &lt;p&gt;Protecting LLMs from poisoning, prompt injection, and model manipulation.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong style=&#34;color: #DC3545;&#34;&gt;Regulatory &amp; Compliance&lt;/strong&gt;
+        &lt;p&gt;Aligning LLM-driven security frameworks with global standards (ISO 27001, NIST, GDPR).&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;expected-outcomes&#34;&gt;Expected Outcomes&lt;/h2&gt;
+&lt;ul class=&#34;skills-list&#34;&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;AI-Powered Cyber Threat Intelligence:&lt;/span&gt; Autonomous, self-learning LLM models that predict and mitigate attacks before they occur.&lt;/li&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;Zero-Touch Security Auditing:&lt;/span&gt; Fully automated penetration testing and vulnerability analysis using AI-driven red teaming.&lt;/li&gt;
+    &lt;li&gt;&lt;span class=&#34;skill-name&#34;&gt;LLM-Augmented Cyber Defense:&lt;/span&gt; Proactive, AI-powered threat mitigation with minimal human intervention.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+    &lt;h4 style=&#34;color: #6C757D;&#34;&gt;Project Summary&lt;/h4&gt;
+    &lt;p&gt;This project proposes an LLM-SHIELD that redefines cybersecurity by harnessing the power of Large Language Models to create an adaptive, autonomous, and AI-driven security ecosystem.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 20px;&#34;&gt;
+    &lt;h4&gt;Latest Works:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://github.com/tmylla/Awesome-LLM4Cybersecurity&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;When LLMs Meet Cybersecurity: A Systematic Literature Review&lt;/a&gt;&lt;/li&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;</description>
+    </item>
+    
+    <item>
       <title>Secure ITS for for Future Smart Cities</title>
       <link>https://git4san.github.io/project/futuristic-trans/</link>
       <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
@@ -219,24 +322,23 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
-    &lt;h4&gt;Related Topics:&lt;/h4&gt;
+    &lt;h4&gt;Interesting Topics:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://www.cisa.gov/ics&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial Control Systems (ICS) Security&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/iiot-security-essentials&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Industrial IoT (IIoT)&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://claroty.com/blog/cyber-physical-systems-security-is-the-new-ot-security&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Security Engineering for Cyber-Physical Systems&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://blog.google/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Google Maps 101: How AI helps predict traffic and determine routes&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://highways.dot.gov/media/50751&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Predictive Real-Time Traffic Management&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div style=&#34;margin-top: 20px;&#34;&gt;
     &lt;h4&gt;Recommended Papers:&lt;/h4&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Detecting and Handling IoT Interaction Threats&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Context-Based Detection of Stealthy IoT&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Automated Discovery of Denial-of-Service Vulnerabilities&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Techniques for Enhancing Security in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Discovering Protocol Implementation Bugs in ICS&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Internet Service Providers and Individuals&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot7.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Make your IoT environments robust against AML&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/iiot8.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Towards Real-time Voice Interaction&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/AITS1.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Systematic Review&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/10736977&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;An Open Vehicle Trajectory Extraction Framework&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/AITS2.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Understanding Decision-Making of Autonomous Driving&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/AITS3.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Multiple Intelligent Control Strategies for Travel-Time&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/https://ieeexplore.ieee.org/document/10769541&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;FL-Based Resource Allocation for V2X Communications&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/AITS4.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;AI enabled applications towards ITS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/AITS5.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;Sustainable Solutions for the ITS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://git4san.github.io/Papers/AITS6.pdf&#34; target=&#34;_blank&#34; style=&#34;color: #007BFF;&#34;&gt;The Role of ITS and AI in Energy Efficiency&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;!--more--&gt;</description>
