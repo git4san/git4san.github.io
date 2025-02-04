@@ -136,7 +136,7 @@
       <guid>https://git4san.github.io/project/llm-in-cyber-defense/</guid>
       <description>&lt;div class=&#34;research-section&#34;&gt;
     &lt;div style=&#34;text-align: justify;&#34;&gt;
-        &lt;p&gt;With the increasing sophistication of cyber threats, traditional security solutions struggle to keep pace. This project introduces LLM-SHIELD, an AI-driven cybersecurity framework that utilizes Large Language Models (LLMs), DeepSeek, reinforcement learning, and automated security reasoning to create a next-generation defense system.&lt;/p&gt;
+        &lt;p&gt;With the increasing sophistication of cyber threats, traditional security solutions struggle to keep pace. This project introduces LLM-SHIELD, an AI-driven cybersecurity framework that utilizes Large Language Models (LLMs), DeepSeek, reinforcement learning (RL), and automated security reasoning to create a next-generation defense system.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;    &amp;lt;p&amp;gt; LLM-SHIELD focuses on real-time cyber threat detection, adaptive defense mechanisms, and automated vulnerability analysis, ensuring a proactive security posture against both known and zero-day attacks.&amp;lt;/p&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
