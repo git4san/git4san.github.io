@@ -1,0 +1,80 @@
+- title: <span style="color:#2F87D0;">Threat Researcher</span>
+    company: <span style="color:#3A9B59;">TXOne Networks</span>
+    company_url: 'https://www.txone.com'
+    company_logo: org-tx
+    location: Taiwan
+    date_start: '2023-07-03'
+    date_end: '2024-07-01'
+    description: |2-
+        <span style="color:#FF7F50;">Responsibilities:</span>
+        
+        * In-depth analysis of emerging cyber threats and vulnerabilities, particularly those affecting Operational Technology (OT) and Industrial Control Systems (ICS).
+        * Innovative security solutions & detection techniques to counteract threats.
+        * Implement & test security measures.
+        * Publish research findings.
+        * Improvement of security products aimed at enhancing OT security environments.
+
+  - title: <span style="color:#2F87D0;">Cyber Security Engineer</span>
+    company: <span style="color:#3A9B59;">Industrial Technology Research Institute (ITRI)</span>
+    company_url: 'https://www.itri.org.tw/english/'
+    company_logo: org-itri
+    location: Taiwan
+    date_start: '2017-10-03'
+    date_end: '2021-12-31'
+    description: |2-
+        <span style="color:#FF7F50;">Responsibilities:</span>
+        
+        * Developing advanced fuzzing techniques.
+        * Analyzing software and hardware systems to identify and mitigate security threats.
+        * Designing and testing security measures to enhance the protection of critical systems.
+        * Generating reports and documentation based on vulnerability assessments and results.
+        * Creation and improvement of security products enhancing OT security environments.
+
+  - title: <span style="color:#2F87D0;">Research Fellowship</span>
+    company: <span style="color:#3A9B59;">The research institute IRSEEM (ESIGELEC)</span>
+    company_url: 'https://www.esigelec.fr/fr/node/262'
+    company_logo: org-es
+    location: France
+    date_start: '2014-01-01'
+    date_end: '2014-12-31'
+    description: |2-
+        <span style="color:#FF7F50;">Responsibilities:</span>
+        
+        * Focusing on vehicular ad-hoc network security in Intelligent Transportation Systems.
+        * Conducting research that led to the publication of various papers in reputable conferences.
+        * Gaining significant insights into smart and connected systems security.
+        * Advancing cybersecurity methods applicable to intelligent transportation systems.
+
+  - title: <span style="color:#2F87D0;">Assistant Professor</span>
+    company: <span style="color:#3A9B59;">Manipal Institute of Technology (MIT), Manipal University</span>
+    company_url: 'https://www.manipal.edu/mit.html'
+    company_logo: org-mu
+    location: India
+    date_start: '2010-08-01'
+    date_end: '2016-12-15'
+    description: |2-
+        <span style="color:#FF7F50;">Responsibilities:</span>
+        
+        * Instructed undergraduate & postgraduate students.
+        * Collaborated with colleagues in interdisciplinary development groups.
+        * Participated in activities aimed at enhancing pedagogical practices.
+        * Published articles & papers in reputable journals & conferences.
+
+        <span style="color:#FF7F50;">Teaching:</span>
+        <span style="color:#0083FF;">Postgraduate Courses</span>:
+        
+        * ICT 502 - Mobile Computing
+        * ICT 505 - Principles of Information Security
+        * ICT 548 - Multimedia Communications
+
+        <span style="color:#FF7F50;">Teaching:</span>
+        <span style="color:#0083FF;">Undergraduate Courses</span>:
+        * ICT 401 - Mobile Communications
+        * ICT 455 - Wireless Sensor & Ad-hoc Networks
+        * ICT 352 - Wireless Communications and Computing
+        * ICT 258 - TCP/IP Protocol Suite
+        * ICT 439 - E-Commerce and Network Security
+        * ICT 301 - Operating Systems
+        * ICT 302 - Internet Technology Applications
+        * ICT 307 - Software Engineering & Project Management
+        * ICT 402 - Seminar

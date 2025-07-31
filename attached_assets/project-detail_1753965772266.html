@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details - Academic Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Dr. Academic Researcher</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link active">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="publications.html" class="nav-link">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cv.html" class="nav-link">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- Project Header -->
+            <div class="project-header">
+                <div class="breadcrumb">
+                    <a href="projects.html"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+                </div>
+                <div class="project-title-section">
+                    <div class="project-icon" id="projectIcon">🤖</div>
+                    <div class="project-title-content">
+                        <h1 id="projectTitle">Project Title</h1>
+                        <div class="project-meta">
+                            <span class="project-category" id="projectCategory">Category</span>
+                            <span class="project-year" id="projectYear">2025</span>
+                            <span class="project-status" id="projectStatus">Active</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Content -->
+            <div class="project-content-layout">
+                <div class="project-main">
+                    <!-- Overview Section -->
+                    <section class="project-section">
+                        <h2><i class="fas fa-info-circle"></i> Project Overview</h2>
+                        <div class="project-description" id="projectDescription">
+                            Loading project description...
+                        </div>
+                    </section>
+
+                    <!-- Objectives Section -->
+                    <section class="project-section">
+                        <h2><i class="fas fa-bullseye"></i> Research Objectives</h2>
+                        <ul class="objectives-list" id="projectObjectives">
+                            <li>Loading objectives...</li>
+                        </ul>
+                    </section>
+
+                    <!-- Methodology Section -->
+                    <section class="project-section">
+                        <h2><i class="fas fa-cogs"></i> Methodology</h2>
+                        <div class="methodology-content" id="projectMethodology">
+                            Loading methodology...
+                        </div>
+                    </section>
+
+                    <!-- Results Section -->
+                    <section class="project-section">
+                        <h2><i class="fas fa-chart-line"></i> Key Results</h2>
+                        <div class="results-content" id="projectResults">
+                            Loading results...
+                        </div>
+                    </section>
+                </div>
+
+                <div class="project-sidebar">
+                    <!-- Project Info Card -->
+                    <div class="sidebar-card">
+                        <h3><i class="fas fa-info"></i> Project Details</h3>
+                        <div class="project-details">
+                            <div class="detail-item">
+                                <strong>Duration:</strong>
+                                <span id="projectDuration">24 months</span>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Funding:</strong>
+                                <span id="projectFunding">ARC Discovery Grant</span>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Collaborators:</strong>
+                                <span id="projectCollaborators">Monash University, CSIRO</span>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Technologies:</strong>
+                                <div class="tech-tags" id="projectTechnologies">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">TensorFlow</span>
+                                    <span class="tech-tag">PyTorch</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Related Publications -->
+                    <div class="sidebar-card">
+                        <h3><i class="fas fa-file-alt"></i> Related Publications</h3>
+                        <div class="publications-list" id="relatedPublications">
+                            <div class="publication-item">
+                                <h4>Loading publications...</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Related Projects -->
+                    <div class="sidebar-card">
+                        <h3><i class="fas fa-project-diagram"></i> Related Projects</h3>
+                        <div class="related-projects" id="relatedProjects">
+                            <div class="related-project-item">
+                                <h4>Loading related projects...</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize project detail page
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const projectId = urlParams.get('id');
+            
+            if (projectId) {
+                loadProjectDetails(projectId);
+            } else {
+                // Redirect to projects page if no ID provided
+                window.location.href = 'projects.html';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "publications": [
+    {
+      "id": "4b1a751b-887f-4f1a-bc12-8f5e92d5c7e1",
+      "title": "Enhancing Vehicle Security in CAVs Through Advanced Intrusion Detection",
+      "authors": ["Sanoop Mallissery", "Yong-Zhi Xu", "Chun-Hao Chen"],
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "year": 2024,
+      "volume": "25",
+      "issue": "8",
+      "pages": "9876-9892",
+      "doi": "10.1109/TITS.2024.1234567",
+      "abstract": "This paper presents a novel approach to intrusion detection in Connected and Autonomous Vehicles (CAVs) using machine learning techniques...",
+      "keywords": ["Connected Vehicles", "Intrusion Detection", "Machine Learning", "Cybersecurity"],
+      "citations": 15,
+      "pdf_url": "https://example.com/paper1.pdf"
+    },
+    {
+      "id": "7c3d9f2e-4a5b-6c7d-8e9f-0a1b2c3d4e5f",
+      "title": "AI-Driven Threat Intelligence for Industrial Control Systems",
+      "authors": ["Sanoop Mallissery", "Wei-Chen Lin"],
+      "journal": "Journal of Industrial Information Security",
+      "year": 2024,
+      "volume": "12",
+      "issue": "3",
+      "pages": "145-162",
+      "doi": "10.1016/j.jiis.2024.04.008",
+      "abstract": "Industrial Control Systems (ICS) face increasing cybersecurity threats. This work proposes an AI-driven threat intelligence framework...",
+      "keywords": ["Industrial Security", "Threat Intelligence", "AI", "SCADA"],
+      "citations": 8,
+      "pdf_url": "https://example.com/paper2.pdf"
+    },
+    {
+      "id": "9e8d7c6b-5a4f-3e2d-1c0b-9a8f7e6d5c4b",
+      "title": "Quantum-Resilient Security Framework for Critical Infrastructure",
+      "authors": ["Sanoop Mallissery", "Alex Johnson", "Maria Rodriguez"],
+      "journal": "Nature Cybersecurity",
+      "year": 2023,
+      "volume": "7",
+      "issue": "12",
+      "pages": "78-95",
+      "doi": "10.1038/s41563-023-1234-5",
+      "abstract": "As quantum computing advances, current cryptographic methods face obsolescence. This paper introduces a quantum-resilient security framework...",
+      "keywords": ["Quantum Security", "Critical Infrastructure", "Post-Quantum Cryptography"],
+      "citations": 23,
+      "pdf_url": "https://example.com/paper3.pdf"
+    }
+  ]
+}
