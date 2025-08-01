@@ -19,7 +19,7 @@ export const projectsData: ProjectData[] = [
     status: 'Active',
     year: 2024,
     icon: '🤖',
-    image: '/attached_assets/featured_1753970702503.png',
+    image: '/assets/featured_1753970702503.png',
     tags: ['AI Security', 'Threat Detection', 'Adversarial ML']
   },
   {
@@ -30,7 +30,7 @@ export const projectsData: ProjectData[] = [
     status: 'Active',
     year: 2024,
     icon: '🧠',
-    image: '/attached_assets/featured_1753971047206.png',
+    image: '/assets/featured_1753971047206.png',
     tags: ['XAI', 'Interpretability', 'Trust in AI']
   },
   {
@@ -41,7 +41,7 @@ export const projectsData: ProjectData[] = [
     status: 'Active',
     year: 2024,
     icon: '🏭',
-    image: '/attached_assets/featured_1753971098336.png',
+    image: '/assets/featured_1753971098336.png',
     tags: ['IIoT Security', 'Protocol Design', 'Industrial Systems']
   },
   {
@@ -52,7 +52,7 @@ export const projectsData: ProjectData[] = [
     status: 'Active',
     year: 2024,
     icon: '🔮',
-    image: '/attached_assets/featured_1753972332337.png',
+    image: '/assets/featured_1753972332337.png',
     tags: ['Digital Twins', 'Quantum Security', 'AI Defense']
   },
   {
@@ -63,7 +63,7 @@ export const projectsData: ProjectData[] = [
     status: 'Active',
     year: 2024,
     icon: '🌐',
-    image: '/attached_assets/featured_1753971681868.png',
+    image: '/assets/featured_1753971681868.png',
     tags: ['Edge Computing', 'Privacy Preservation', 'Data Analytics']
   },
   {
@@ -74,7 +74,7 @@ export const projectsData: ProjectData[] = [
     status: 'Active',
     year: 2024,
     icon: '🧠',
-    image: '/attached_assets/featured_1753971704306.png',
+    image: '/assets/featured_1753971704306.png',
     tags: ['OT Security', 'Protocol Fuzzing', 'Vulnerability Research']
   },
   {
@@ -85,7 +85,7 @@ export const projectsData: ProjectData[] = [
     status: 'Active',
     year: 2024,
     icon: '🔒',
-    image: '/attached_assets/featured_1753971748063.png',
+    image: '/assets/featured_1753971748063.png',
     tags: ['Differential Privacy', 'Data Protection', 'Cryptography']
   },
   {
@@ -96,7 +96,7 @@ export const projectsData: ProjectData[] = [
     status: 'Active',
     year: 2024,
     icon: '🏭',
-    image: '/attached_assets/featured_1753971767162.png',
+    image: '/assets/featured_1753971767162.png',
     tags: ['SCADA Security', 'Protocol Analysis', 'Industrial Systems']
   },
   {
@@ -107,7 +107,7 @@ export const projectsData: ProjectData[] = [
     status: 'Active',
     year: 2024,
     icon: '🚦',
-    image: '/attached_assets/featured_1753971794927.png',
+    image: '/assets/featured_1753971794927.png',
     tags: ['Smart Cities', 'ITS', 'AI Traffic Management']
   },
   {
@@ -118,7 +118,7 @@ export const projectsData: ProjectData[] = [
     status: 'Active',
     year: 2024,
     icon: '🌐',
-    image: '/attached_assets/featured_1753971830552.png',
+    image: '/assets/featured_1753971830552.png',
     tags: ['IoT Security', 'AI Integration', 'Device Proliferation']
   },
   {
@@ -129,7 +129,7 @@ export const projectsData: ProjectData[] = [
     status: 'Active',
     year: 2024,
     icon: '🚗',
-    image: '/attached_assets/featured_1753971853866.png',
+    image: '/assets/featured_1753971853866.png',
     tags: ['VANET Security', 'AI Threat Detection', 'Blockchain Trust']
   },
   {
@@ -140,7 +140,7 @@ export const projectsData: ProjectData[] = [
     status: 'Active',
     year: 2024,
     icon: '🔍',
-    image: '/attached_assets/featured_1753971878515.png',
+    image: '/assets/featured_1753971878515.png',
     tags: ['AI Fuzzing', 'Hybrid Testing', 'Vulnerability Detection']
   },
   {
@@ -151,7 +151,7 @@ export const projectsData: ProjectData[] = [
     status: 'Active',
     year: 2024,
     icon: '🛡️',
-    image: '/attached_assets/featured_1753971918314.png',
+    image: '/assets/featured_1753971918314.png',
     tags: ['LLM Security', 'AI Defense', 'Automated Response']
   }
 ];
