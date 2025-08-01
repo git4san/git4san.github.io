@@ -70,7 +70,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="w-80 h-80 mx-auto lg:ml-auto rounded-full overflow-hidden border-4 border-[var(--primary-color)] shadow-2xl">
                     <img 
-                      src="/attached_assets/avatar_1753979688296.jpg" 
+                      src="/assets/avatar_1753979688296.jpg" 
                       alt="Sanoop Mallissery, Ph.D."
                       className="w-full h-full object-cover"
                     />
@@ -79,7 +79,7 @@ export default function Home() {
                     <div className="text-center">
                       <div className="bg-white p-3 rounded-xl shadow-sm inline-block mb-4">
                         <img 
-                          src="/attached_assets/monash-university_1753980274718.webp" 
+                          src="/assets/monash-university_1753980274718.webp" 
                           alt="Monash University Logo"
                           className="h-8 w-auto object-contain"
                         />

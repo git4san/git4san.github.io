@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'wouter';
 import { Menu, X } from 'lucide-react';
-import logoSvg from '@/assets/logo.svg';
+// Using public path for GitHub Pages deployment
 
 export default function Navigation() {
   const [location] = useLocation();
@@ -28,7 +28,7 @@ export default function Navigation() {
             <div className="flex items-center">
               <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
                 <img 
-                  src={logoSvg} 
+                  src="/assets/logo.svg" 
                   alt="SanSPortfolio Logo"
                   className="h-8 w-auto"
                 />
@@ -75,7 +75,7 @@ export default function Navigation() {
         <div className="flex flex-col h-full pt-20 px-6">
           <div className="flex justify-center mb-8">
             <img 
-              src={logoSvg} 
+              src="/assets/logo.svg" 
               alt="SanSPortfolio Logo"
               className="h-12 w-auto"
             />

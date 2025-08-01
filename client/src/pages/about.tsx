@@ -270,7 +270,7 @@ export default function About() {
                     <div className="flex items-center gap-3 mb-2">
                       <div className="bg-white p-2 rounded-lg shadow-sm">
                         <img 
-                          src="/attached_assets/monash-university_1753980274718.webp" 
+                          src="/assets/monash-university_1753980274718.webp" 
                           alt="Monash University Logo"
                           className="h-6 w-auto object-contain"
                         />
@@ -325,7 +325,7 @@ export default function About() {
                     <div className="flex items-center gap-3 mb-2">
                       <div className="bg-white p-2 rounded-lg shadow-sm">
                         <img 
-                          src="/attached_assets/TX-ONE--png_1753980091199.webp" 
+                          src="/assets/TX-ONE--png_1753980091199.webp" 
                           alt="TXOne Networks Logo"
                           className="h-6 w-auto object-contain"
                         />
@@ -380,7 +380,7 @@ export default function About() {
                     <div className="flex items-center gap-3 mb-2">
                       <div className="bg-white p-2 rounded-lg shadow-sm">
                         <img 
-                          src="/attached_assets/itri_1753979983298.png" 
+                          src="/assets/itri_1753979983298.png" 
                           alt="ITRI Logo"
                           className="h-6 w-auto object-contain"
                         />
@@ -435,7 +435,7 @@ export default function About() {
                     <div className="flex items-center gap-3 mb-2">
                       <div className="bg-white p-2 rounded-lg shadow-sm">
                         <img 
-                          src="/attached_assets/RTU_logo_esigelec_1753980542391.png" 
+                          src="/assets/RTU_logo_esigelec_1753980542391.png" 
                           alt="ESIGELEC Logo"
                           className="h-6 w-auto object-contain"
                         />
@@ -486,7 +486,7 @@ export default function About() {
                     <div className="flex items-center gap-3 mb-2">
                       <div className="bg-white p-2 rounded-lg shadow-sm">
                         <img 
-                          src="/attached_assets/manipal_1753980624083.png" 
+                          src="/assets/manipal_1753980624083.png" 
                           alt="Manipal University Logo"
                           className="h-6 w-auto object-contain"
                         />
@@ -594,7 +594,7 @@ export default function About() {
                     <div className="flex items-center gap-3 mb-2">
                       <div className="bg-white p-2 rounded-lg shadow-sm">
                         <img 
-                          src="/attached_assets/NYCU_logo_with_namestyle_1753980716251.png" 
+                          src="/assets/NYCU_logo_with_namestyle_1753980716251.png" 
                           alt="NYCU Logo"
                           className="h-6 w-auto object-contain"
                         />
@@ -644,7 +644,7 @@ export default function About() {
                     <div className="flex items-center gap-3 mb-2">
                       <div className="bg-white p-2 rounded-lg shadow-sm">
                         <img 
-                          src="/attached_assets/Amrita-vishwa-vidyapeetham-logo.svg_1753980791475.png" 
+                          src="/assets/Amrita-vishwa-vidyapeetham-logo.svg_1753980791475.png" 
                           alt="Amrita Vishwa Vidyapeetham Logo"
                           className="h-6 w-auto object-contain"
                         />
@@ -686,7 +686,7 @@ export default function About() {
                     <div className="flex items-center gap-3 mb-2">
                       <div className="bg-white p-2 rounded-lg shadow-sm">
                         <img 
-                          src="/attached_assets/Uni_of_cali_1753980870889.png" 
+                          src="/assets/Uni_of_cali_1753980870889.png" 
                           alt="University of Calicut Logo"
                           className="h-6 w-auto object-contain"
                         />
