@@ -1,49 +1,75 @@
 {
   "publications": [
     {
-      "id": "4b1a751b-887f-4f1a-bc12-8f5e92d5c7e1",
-      "title": "Enhancing Vehicle Security in CAVs Through Advanced Intrusion Detection",
-      "authors": ["Sanoop Mallissery", "Yong-Zhi Xu", "Chun-Hao Chen"],
-      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "id": 1,
+      "title": "AI-Driven Cybersecurity: A Comprehensive Survey on Machine Learning Applications in Security",
+      "authors": ["Sanoop Mallissery", "John Smith", "Jane Doe"],
       "year": 2024,
-      "volume": "25",
-      "issue": "8",
-      "pages": "9876-9892",
-      "doi": "10.1109/TITS.2024.1234567",
-      "abstract": "This paper presents a novel approach to intrusion detection in Connected and Autonomous Vehicles (CAVs) using machine learning techniques...",
-      "keywords": ["Connected Vehicles", "Intrusion Detection", "Machine Learning", "Cybersecurity"],
-      "citations": 15,
-      "pdf_url": "https://example.com/paper1.pdf"
+      "venue": "IEEE Transactions on Information Forensics and Security",
+      "type": "Journal",
+      "citations": 45,
+      "url": "https://ieeexplore.ieee.org/document/example1",
+      "abstract": "This comprehensive survey examines the integration of artificial intelligence and machine learning techniques in cybersecurity applications, focusing on threat detection, vulnerability assessment, and automated defense mechanisms.",
+      "keywords": ["AI", "Cybersecurity", "Machine Learning", "Threat Detection"]
     },
     {
-      "id": "7c3d9f2e-4a5b-6c7d-8e9f-0a1b2c3d4e5f",
-      "title": "AI-Driven Threat Intelligence for Industrial Control Systems",
-      "authors": ["Sanoop Mallissery", "Wei-Chen Lin"],
-      "journal": "Journal of Industrial Information Security",
+      "id": 2,
+      "title": "Explainable AI for Security Operations Centers: Enhancing Trust in Automated Threat Detection",
+      "authors": ["Sanoop Mallissery", "Alice Johnson"],
       "year": 2024,
-      "volume": "12",
-      "issue": "3",
-      "pages": "145-162",
-      "doi": "10.1016/j.jiis.2024.04.008",
-      "abstract": "Industrial Control Systems (ICS) face increasing cybersecurity threats. This work proposes an AI-driven threat intelligence framework...",
-      "keywords": ["Industrial Security", "Threat Intelligence", "AI", "SCADA"],
-      "citations": 8,
-      "pdf_url": "https://example.com/paper2.pdf"
-    },
-    {
-      "id": "9e8d7c6b-5a4f-3e2d-1c0b-9a8f7e6d5c4b",
-      "title": "Quantum-Resilient Security Framework for Critical Infrastructure",
-      "authors": ["Sanoop Mallissery", "Alex Johnson", "Maria Rodriguez"],
-      "journal": "Nature Cybersecurity",
-      "year": 2023,
-      "volume": "7",
-      "issue": "12",
-      "pages": "78-95",
-      "doi": "10.1038/s41563-023-1234-5",
-      "abstract": "As quantum computing advances, current cryptographic methods face obsolescence. This paper introduces a quantum-resilient security framework...",
-      "keywords": ["Quantum Security", "Critical Infrastructure", "Post-Quantum Cryptography"],
+      "venue": "ACM Conference on Computer and Communications Security",
+      "type": "Conference",
       "citations": 23,
-      "pdf_url": "https://example.com/paper3.pdf"
+      "url": "https://dl.acm.org/doi/example2",
+      "abstract": "We present a novel framework for implementing explainable AI in security operations centers, addressing the critical need for transparency in automated threat detection systems.",
+      "keywords": ["Explainable AI", "SOC", "Threat Detection", "Trust"]
+    },
+    {
+      "id": 3,
+      "title": "Blockchain-Enhanced Security for Vehicular Ad-Hoc Networks: A Hybrid AI Approach",
+      "authors": ["Sanoop Mallissery", "Bob Wilson", "Carol Brown"],
+      "year": 2023,
+      "venue": "IEEE Vehicular Technology Magazine",
+      "type": "Journal",
+      "citations": 67,
+      "url": "https://ieeexplore.ieee.org/document/example3",
+      "abstract": "This paper proposes a novel hybrid approach combining blockchain technology and artificial intelligence for securing vehicular ad-hoc networks against various attack vectors.",
+      "keywords": ["Blockchain", "VANET", "AI", "Network Security"]
+    },
+    {
+      "id": 4,
+      "title": "LLM-SHIELD: Large Language Model Powered Cyber Defense Framework",
+      "authors": ["Sanoop Mallissery", "David Lee"],
+      "year": 2023,
+      "venue": "NDSS Symposium",
+      "type": "Conference",
+      "citations": 89,
+      "url": "https://www.ndss-symposium.org/example4",
+      "abstract": "We introduce LLM-SHIELD, a comprehensive cyber defense framework that leverages large language models for real-time threat intelligence and automated incident response.",
+      "keywords": ["LLM", "Cyber Defense", "Threat Intelligence", "Automation"]
+    },
+    {
+      "id": 5,
+      "title": "Secure Protocol Design for Industrial Internet of Things: A Comprehensive Analysis",
+      "authors": ["Sanoop Mallissery", "Eva Martinez", "Frank Chen"],
+      "year": 2023,
+      "venue": "IEEE Internet of Things Journal",
+      "type": "Journal",
+      "citations": 34,
+      "url": "https://ieeexplore.ieee.org/document/example5",
+      "abstract": "This work presents a comprehensive analysis of secure protocol design challenges in Industrial IoT environments and proposes novel solutions for critical infrastructure protection.",
+      "keywords": ["IIoT", "Protocol Security", "Industrial Systems", "Critical Infrastructure"]
     }
-  ]
+  ],
+  "metrics": {
+    "totalCitations": 258,
+    "hIndex": 15,
+    "i10Index": 8,
+    "citationsByYear": {
+      "2021": 12,
+      "2022": 45,
+      "2023": 89,
+      "2024": 112
+    }
+  }
 }
