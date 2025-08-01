@@ -1,66 +1,31 @@
 import Navigation from '@/components/navigation';
 import { motion } from 'framer-motion';
-import { ExternalLink, FileText, Quote, TrendingUp, RefreshCw } from 'lucide-react';
-import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
-import type { Publication, ScholarMetrics } from '@shared/schema';
+import { ExternalLink, FileText, Quote, TrendingUp } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar } from 'recharts';
+import publicationsData from '@/data/publications.json';
 
-function usePublications() {
-  return useQuery({
-    queryKey: ['/api/publications'],
-    queryFn: async (): Promise<{ publications: Publication[], metrics: ScholarMetrics | null }> => {
-      const response = await fetch('/api/publications');
-      if (!response.ok) throw new Error('Failed to fetch publications');
-      return response.json();
-    }
-  });
-}
+type Publication = {
+  id: number;
+  title: string;
+  authors: string[];
+  year: number;
+  venue: string;
+  type: string;
+  citations: number;
+  url: string;
+  abstract: string;
+  keywords: string[];
+};
 
-function useUpdatePublications() {
-  const queryClient = useQueryClient();
-  return useMutation({
-    mutationFn: async () => {
-      const response = await fetch('/api/publications/update', { method: 'POST' });
-      if (!response.ok) throw new Error('Failed to update publications');
-      return response.json();
-    },
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['/api/publications'] });
-    }
-  });
-}
+type ScholarMetrics = {
+  totalCitations: number;
+  hIndex: number;
+  i10Index: number;
+  citationsByYear: Record<string, number>;
+};
 
 export default function Publications() {
-  const { data, isLoading, error } = usePublications();
-  const updateMutation = useUpdatePublications();
-
-  if (isLoading) {
-    return (
-      <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)]">
-        <Navigation />
-        <div className="container mx-auto px-4 py-16">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold mb-8">Loading Publications...</h1>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  if (error || !data) {
-    return (
-      <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)]">
-        <Navigation />
-        <div className="container mx-auto px-4 py-16">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold mb-8 text-red-600">Error Loading Publications</h1>
-            <p>Please try refreshing the page.</p>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
+  const data = publicationsData;
   const { publications, metrics } = data;
   const totalCitations = metrics?.totalCitations || 0;
   const journals = publications.filter(pub => pub.type === 'Journal').length;
@@ -101,14 +66,7 @@ export default function Publications() {
               Research contributions in cybersecurity, AI, and dependable systems security
             </p>
             
-            <button
-              onClick={() => updateMutation.mutate()}
-              disabled={updateMutation.isPending}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--primary-color)] hover:bg-[var(--primary-dark)] text-white rounded-lg font-semibold transition-all duration-300 disabled:opacity-50"
-            >
-              <RefreshCw className={`w-4 h-4 ${updateMutation.isPending ? 'animate-spin' : ''}`} />
-              {updateMutation.isPending ? 'Updating...' : 'Update Data'}
-            </button>
+
           </div>
 
           {/* Metrics Overview */}
@@ -261,39 +219,20 @@ export default function Publications() {
                         {pub.authors}
                       </p>
                       
-                      <div className="flex items-center gap-4 mb-2">
-                        <p className="text-sm text-[var(--text-secondary)]">
-                          {pub.venue}
-                        </p>
-                        {pub.type === 'Journal' && pub.impactFactor && (
-                          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200">
-                            IF: {pub.impactFactor}
-                          </span>
-                        )}
-                        {pub.type === 'Journal' && pub.quartile && (
-                          <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
-                            pub.quartile === 'Q1' ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200' :
-                            pub.quartile === 'Q2' ? 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200' :
-                            pub.quartile === 'Q3' ? 'bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200' :
-                            'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200'
-                          }`}>
-                            {pub.quartile}
-                          </span>
-                        )}
-                      </div>
+                      <p className="text-sm text-[var(--text-secondary)] mb-2">
+                        {pub.venue}
+                      </p>
                     </div>
                     
-                    {pub.link && (
-                      <a
-                        href={pub.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-3 py-2 text-sm text-[var(--primary-color)] hover:text-[var(--primary-dark)] hover:bg-[var(--bg-hover)] rounded-lg transition-colors"
-                      >
-                        <ExternalLink className="w-4 h-4" />
-                        View
-                      </a>
-                    )}
+                    <a
+                      href={pub.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 px-3 py-2 text-sm text-[var(--primary-color)] hover:text-[var(--primary-dark)] hover:bg-[var(--bg-hover)] rounded-lg transition-colors"
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                      View Paper
+                    </a>
                   </div>
                 </motion.article>
               ))}
