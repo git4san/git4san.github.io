@@ -1,4 +1,5 @@
 import { useLocation } from 'wouter';
+import { useSearch } from 'wouter';
 import { motion } from 'framer-motion';
 import Navigation from '@/components/navigation';
 import { ArrowLeft, ExternalLink, FileText, Target, Cog, TrendingUp } from 'lucide-react';
@@ -1044,8 +1045,10 @@ const projectDetails = {
 };
 
 export default function ProjectDetail() {
-  const [location] = useLocation();
-  const projectId = new URLSearchParams(location.split('?')[1] || '').get('id') || '1';
+  //const [location] = useLocation();
+  //const projectId = new URLSearchParams(location.split('?')[1] || '').get('id') || '1';
+  const search = useSearch();
+  const projectId = new URLSearchParams(search).get('id') || '1';
   const project = projectDetails[projectId as keyof typeof projectDetails];
 
   if (!project) {
