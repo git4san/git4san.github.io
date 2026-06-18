@@ -229,7 +229,7 @@ export default function Home() {
               <h3 className="font-bold text-sm">QS World Ranking 2025</h3>
               <p className="text-xs opacity-90 mb-1">Monash University</p>
               <div className="flex items-center gap-2">
-                <span className="text-2xl font-bold">#36</span>
+                <span className="text-2xl font-bold">#31</span>
                 <a 
                   href="https://www.topuniversities.com/universities/monash-university" 
                   target="_blank" 
