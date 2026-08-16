@@ -7,7 +7,7 @@
       "year": 2023,
       "venue": "ACM Computing Surveys",
       "type": "Journal",
-      "citations": 60,
+      "citations": 104,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2SUBIBkAAAAJ&citation_for_view=2SUBIBkAAAAJ:8k81kl-MbHgC",
       "abstract": "A comprehensive survey of fuzzing methodologies and techniques for software security testing.",
       "keywords": ["Fuzzing", "Software Security", "Testing", "Survey"]
@@ -19,7 +19,7 @@
       "year": 2016,
       "venue": "2016 3rd MEC international conference on big data and smart city (ICBDSC)",
       "type": "Conference",
-      "citations": 55,
+      "citations": 56,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2SUBIBkAAAAJ&citation_for_view=2SUBIBkAAAAJ:Y0pCki6q_DkC",
       "abstract": "Cloud-enabled system for air quality monitoring and prediction in smart cities.",
       "keywords": ["Smart City", "Air Quality", "Cloud Computing", "Health"]
@@ -31,7 +31,7 @@
       "year": 2015,
       "venue": "2015 12th Annual IEEE Consumer Communications and Networking Conference (CCNC)",
       "type": "Conference",
-      "citations": 29,
+      "citations": 33,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2SUBIBkAAAAJ&citation_for_view=2SUBIBkAAAAJ:qjMakFHDy7sC",
       "abstract": "Secured VANET cloud application for traffic monitoring and rule violation detection.",
       "keywords": ["VANET", "ITS", "Traffic Monitoring", "Cloud Security"]
@@ -43,7 +43,7 @@
       "year": 2013,
       "venue": "Proc. International Conference on Future Trends in Computing and Communication",
       "type": "Conference",
-      "citations": 18,
+      "citations": 19,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2SUBIBkAAAAJ&citation_for_view=2SUBIBkAAAAJ:u-x6o8ySG0sC",
       "abstract": "Comparative analysis of machine learning algorithms for intrusion detection systems.",
       "keywords": ["Machine Learning", "Intrusion Detection", "NSL-KDD", "Security"]
@@ -67,7 +67,7 @@
       "year": 2019,
       "venue": "Journal of High Speed Networks",
       "type": "Journal",
-      "citations": 12,
+      "citations": 13,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2SUBIBkAAAAJ&citation_for_view=2SUBIBkAAAAJ:roLk4NBRz8UC",
       "abstract": "Communication architecture for vehicular networks with NS3 and SUMO simulation.",
       "keywords": ["VANET", "NS3", "SUMO", "Network Simulation"]
@@ -79,7 +79,7 @@
       "year": 2011,
       "venue": "3rd International Conference on Advances in Recent Technologies in Communication and Computing (ARTCom)",
       "type": "Conference",
-      "citations": 12,
+      "citations": 13,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2SUBIBkAAAAJ&citation_for_view=2SUBIBkAAAAJ:u5HHmVD_uO8C",
       "abstract": "Comprehensive survey of intrusion detection methods and techniques.",
       "keywords": ["Intrusion Detection", "Survey", "Network Security", "Cybersecurity"]
@@ -139,7 +139,7 @@
       "year": 2020,
       "venue": "Proceedings of the 15th ACM Asia Conference on Computer and Communications Security",
       "type": "Conference",
-      "citations": 3,
+      "citations": 4,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2SUBIBkAAAAJ&citation_for_view=2SUBIBkAAAAJ:UebtZRa9Y70C",
       "abstract": "Memory introspection-based data leakage detection for health information systems.",
       "keywords": ["Data Leakage", "Health Information", "Memory Introspection", "Healthcare Security"]
@@ -175,7 +175,7 @@
       "year": 2021,
       "venue": "2021 IEEE Conference on Dependable and Secure Computing (DSC)",
       "type": "Conference",
-      "citations": 2,
+      "citations": 3,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2SUBIBkAAAAJ&citation_for_view=2SUBIBkAAAAJ:hqOjcs7Dif8C",
       "abstract": "Mixed-mode information flow tracking with compile-time analysis.",
       "keywords": ["Information Flow", "Taint Analysis", "Compile-time Analysis", "Security"]
@@ -242,22 +242,24 @@
     }
   ],
   "metrics": {
-    "totalCitations": 238,
+    "totalCitations": 292,
     "hIndex": 7,
     "i10Index": 7,
     "citationsByYear": {
-      "2013": 3,
-      "2014": 1,
-      "2015": 1,
-      "2016": 5,
-      "2017": 15,
-      "2018": 12,
-      "2019": 25,
-      "2020": 30,
-      "2021": 14,
-      "2022": 18,
-      "2023": 33,
-      "2024": 35
+      //"2013": 3,
+      //"2014": 1,
+      //"2015": 1,
+      //"2016": 5,
+      //"2017": 15,
+      //"2018": 12,
+      "2019": 28,
+      "2020": 14,
+      "2021": 29,
+      "2022": 14,
+      "2023": 17,
+      "2024": 51,
+      "2025": 58,
+      "2026": 32
     }
   }
 }
