@@ -128,7 +128,7 @@ export default function About() {
             
             <div className="prose prose-lg max-w-none dark:prose-invert">
               <p className="text-justify leading-relaxed mb-4 text-[var(--text-secondary)]">
-                Sanoop Mallissery, Ph.D. is a Lecturer at the School of Information Technology, Monash University Malaysia. 
+                Sanoop Mallissery, Ph.D. is a Lecturer/Asst. Professor at the School of Information Technology, Monash University Malaysia. 
                 He holds a Ph.D. in Computer Science from National Yang Ming Chiao Tung University (NYCU) in Taiwan, 
                 where he specializes in advanced cybersecurity research. He earned his Bachelor's degree in Information 
                 Technology and a Master's in Cyber Security, building a solid foundation.
@@ -261,12 +261,12 @@ export default function About() {
             </h3>
             
             <div className="space-y-8">
-              {/* Current Position - Lecturer */}
+              {/* Current Position - Lecturer/Asst. Professor */}
               <div className="border-l-4 border-[var(--primary-color)] pl-6 relative">
                 <div className="absolute -left-2 top-0 w-4 h-4 bg-[var(--primary-color)] rounded-full"></div>
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex-1">
-                    <h4 className="text-xl font-bold mb-2 text-[var(--primary-color)]">Lecturer</h4>
+                    <h4 className="text-xl font-bold mb-2 text-[var(--primary-color)]">Lecturer/Asst. Professor</h4>
                     <div className="flex items-center gap-3 mb-2">
                       <div className="bg-white p-2 rounded-lg shadow-sm">
                         <img 
