@@ -84,7 +84,7 @@ export default function Home() {
                           className="h-8 w-auto object-contain"
                         />
                       </div>
-                      <h3 className="text-lg font-bold text-[var(--primary-color)] mb-1">Lecturer</h3>
+                      <h3 className="text-lg font-bold text-[var(--primary-color)] mb-1">Lecturer/Asst. Professor</h3>
                       <p className="text-[var(--text-secondary)] mb-1">School of Information Technology</p>
                       <a 
                         href="https://research.monash.edu/en/persons/sanoop-mallissery" 
@@ -122,11 +122,11 @@ export default function Home() {
                 <div className="text-[var(--text-secondary)]">Publications</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-[var(--primary-color)] mb-2">10+</div>
+                <div className="text-4xl font-bold text-[var(--primary-color)] mb-2">15+</div>
                 <div className="text-[var(--text-secondary)]">Research Projects</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-[var(--primary-color)] mb-2">230+</div>
+                <div className="text-4xl font-bold text-[var(--primary-color)] mb-2">290+</div>
                 <div className="text-[var(--text-secondary)]">Citations</div>
               </div>
             </motion.div>
