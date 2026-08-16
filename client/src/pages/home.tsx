@@ -70,7 +70,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="w-80 h-80 mx-auto lg:ml-auto rounded-full overflow-hidden border-4 border-[var(--primary-color)] shadow-2xl">
                     <img 
-                      src="/assets/avatar_1753979688296.png" 
+                      src="/assets/avatar_1753979688296.jpg" 
                       alt="Sanoop Mallissery, Ph.D."
                       className="w-full h-full object-cover"
                     />
