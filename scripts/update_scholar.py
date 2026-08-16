@@ -1,171 +1,266 @@
 import json
 import os
-import re
 import sys
 from datetime import datetime, timezone
 
 from scholarly import scholarly
 
+
 SCHOLAR_ID = "2SUBIBkAAAAJ"
 OUTPUT_FILE = os.path.join("client", "src", "data", "publications.json")
-PROFILE_URL = f"https://scholar.google.com/citations?user={SCHOLAR_ID}&hl=en"
 
 
-def normalize_title(value: str) -> str:
-    value = (value or "").casefold()
-    value = re.sub(r"[^\w\s]", " ", value)
-    return re.sub(r"\s+", " ", value).strip()
+def normalize_title(title):
+    return " ".join((title or "").lower().split())
 
 
-def load_existing_data():
-    try:
-        with open(OUTPUT_FILE, "r", encoding="utf-8") as handle:
-            return json.load(handle)
-    except FileNotFoundError:
-        return {"publications": [], "metrics": {}}
+def guess_publication_type(venue):
+    venue_lower = (venue or "").lower()
 
+    conference_terms = [
+        "conference",
+        "proceedings",
+        "symposium",
+        "workshop",
+        "congress",
+    ]
 
-def parse_authors(raw):
-    if isinstance(raw, list):
-        return [str(a).strip() for a in raw if str(a).strip()]
-    if not raw:
-        return []
-    text = str(raw).strip()
-    if " and " in text:
-        return [part.strip() for part in text.split(" and ") if part.strip()]
-    return [part.strip() for part in text.split(",") if part.strip()]
-
-
-def parse_year(raw):
-    try:
-        return int(raw)
-    except (TypeError, ValueError):
-        return 0
-
-
-def classify_type(venue: str, existing_type: str | None = None) -> str:
-    if existing_type in {"Journal", "Conference"}:
-        return existing_type
-
-    value = (venue or "").casefold()
-    conference_markers = (
-        "conference", "proceedings", "symposium", "workshop", "congress",
-        "annual meeting", "international conf", "ieee conf", "acm asia"
-    )
-    if any(marker in value for marker in conference_markers):
+    if any(term in venue_lower for term in conference_terms):
         return "Conference"
+
     return "Journal"
 
 
-def publication_url(pub):
-    author_pub_id = pub.get("author_pub_id")
-    if author_pub_id:
-        return (
-            "https://scholar.google.com/citations?"
-            f"view_op=view_citation&hl=en&user={SCHOLAR_ID}"
-            f"&citation_for_view={author_pub_id}"
-        )
-    return pub.get("pub_url") or PROFILE_URL
+def load_existing_data():
+    if not os.path.exists(OUTPUT_FILE):
+        return {"publications": [], "metrics": {}}
+
+    with open(OUTPUT_FILE, "r", encoding="utf-8") as file:
+        return json.load(file)
 
 
 def main():
-    existing = load_existing_data()
-    previous_by_title = {
-        normalize_title(item.get("title", "")): item
-        for item in existing.get("publications", [])
+
+    print(f"Fetching Google Scholar profile: {SCHOLAR_ID}")
+
+    # Avoid waiting indefinitely
+    scholarly.set_timeout(30)
+    scholarly.set_retries(2)
+
+    existing_data = load_existing_data()
+
+    existing_lookup = {
+        normalize_title(pub.get("title")): pub
+        for pub in existing_data.get("publications", [])
     }
 
-    print(f"Fetching Google Scholar profile {SCHOLAR_ID}...")
+    print("Finding Scholar author profile...")
+
     author = scholarly.search_author_id(SCHOLAR_ID)
-    if not author:
-        raise RuntimeError("Google Scholar profile could not be retrieved")
+
+    print("Loading publications and metrics...")
 
     author = scholarly.fill(
         author,
-        sections=["basics", "indices", "counts", "publications"],
-        sortby="year",
-        publication_limit=0,
+        sections=[
+            "basics",
+            "indices",
+            "counts",
+            "publications",
+        ],
     )
 
-    output_publications = []
-    for pub in author.get("publications", []):
-        bib = pub.get("bib", {}) or {}
-        title = str(bib.get("title") or "").strip()
+    scholar_publications = author.get("publications", [])
+
+    print(f"Scholar returned {len(scholar_publications)} publications.")
+
+    publications = []
+
+    for index, publication in enumerate(
+        scholar_publications,
+        start=1,
+    ):
+
+        bib = publication.get("bib", {})
+
+        title = (bib.get("title") or "").strip()
+
         if not title:
             continue
 
-        previous = previous_by_title.get(normalize_title(title), {})
-        authors = parse_authors(bib.get("author"))
-        year = parse_year(bib.get("pub_year") or bib.get("year"))
-        venue = str(
+        authors_raw = bib.get("author", "")
+
+        if isinstance(authors_raw, str):
+            authors = [
+                author_name.strip()
+                for author_name in authors_raw.split(" and ")
+                if author_name.strip()
+            ]
+        elif isinstance(authors_raw, list):
+            authors = authors_raw
+        else:
+            authors = []
+
+        year_raw = (
+            bib.get("pub_year")
+            or bib.get("year")
+            or 0
+        )
+
+        try:
+            year = int(year_raw)
+        except (TypeError, ValueError):
+            year = 0
+
+        venue = (
             bib.get("citation")
             or bib.get("venue")
             or bib.get("journal")
             or bib.get("conference")
-            or previous.get("venue")
             or ""
-        ).strip()
+        )
 
-        output_publications.append({
-            "id": 0,
+        citations = publication.get(
+            "num_citations",
+            0,
+        )
+
+        author_pub_id = publication.get(
+            "author_pub_id",
+            "",
+        )
+
+        if author_pub_id:
+            scholar_url = (
+                "https://scholar.google.com/citations?"
+                f"view_op=view_citation&hl=en"
+                f"&user={SCHOLAR_ID}"
+                f"&citation_for_view={author_pub_id}"
+            )
+        else:
+            scholar_url = (
+                "https://scholar.google.com/citations?"
+                f"user={SCHOLAR_ID}&hl=en"
+            )
+
+        previous = existing_lookup.get(
+            normalize_title(title),
+            {},
+        )
+
+        publications.append({
+            "id": index,
             "title": title,
-            "authors": authors or previous.get("authors", []),
-            "year": year or previous.get("year", 0),
+            "authors": authors,
+            "year": year,
             "venue": venue,
-            "type": classify_type(venue, previous.get("type")),
-            "citations": int(pub.get("num_citations") or 0),
-            "url": publication_url(pub),
-            "abstract": previous.get("abstract", ""),
-            "keywords": previous.get("keywords", []),
+            "type": previous.get(
+                "type",
+                guess_publication_type(venue),
+            ),
+            "citations": citations or 0,
+            "url": scholar_url,
+            "abstract": previous.get(
+                "abstract",
+                "",
+            ),
+            "keywords": previous.get(
+                "keywords",
+                [],
+            ),
         })
 
-    if not output_publications:
-        raise RuntimeError("Scholar returned no publications; refusing to overwrite existing data")
-
-    output_publications.sort(
-        key=lambda item: (item.get("year", 0), item.get("citations", 0), item.get("title", "")),
+    publications.sort(
+        key=lambda pub: (
+            pub.get("year", 0),
+            pub.get("citations", 0),
+        ),
         reverse=True,
     )
-    for index, item in enumerate(output_publications, start=1):
-        item["id"] = index
 
-    cites_per_year = author.get("cites_per_year", {}) or {}
+    for index, publication in enumerate(
+        publications,
+        start=1,
+    ):
+        publication["id"] = index
+
     citations_by_year = {
-        str(year): int(count)
-        for year, count in sorted(cites_per_year.items(), key=lambda pair: int(pair[0]))
+        str(year): citations
+        for year, citations
+        in author.get(
+            "cites_per_year",
+            {},
+        ).items()
     }
 
     metrics = {
-        "totalCitations": int(author.get("citedby") or 0),
-        "hIndex": int(author.get("hindex") or 0),
-        "i10Index": int(author.get("i10index") or 0),
+        "totalCitations": author.get(
+            "citedby",
+            0,
+        ),
+        "hIndex": author.get(
+            "hindex",
+            0,
+        ),
+        "i10Index": author.get(
+            "i10index",
+            0,
+        ),
         "citationsByYear": citations_by_year,
     }
 
-    result = {
-        "publications": output_publications,
+    output = {
+        "publications": publications,
         "metrics": metrics,
-        "lastUpdated": datetime.now(timezone.utc).isoformat(),
-        "scholarProfile": PROFILE_URL,
+        "lastUpdated": datetime.now(
+            timezone.utc
+        ).isoformat(),
+        "scholarProfile": (
+            "https://scholar.google.com/citations?"
+            f"user={SCHOLAR_ID}&hl=en"
+        ),
     }
 
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    temp_file = OUTPUT_FILE + ".tmp"
-    with open(temp_file, "w", encoding="utf-8") as handle:
-        json.dump(result, handle, indent=2, ensure_ascii=False)
-        handle.write("\n")
-    os.replace(temp_file, OUTPUT_FILE)
+    os.makedirs(
+        os.path.dirname(OUTPUT_FILE),
+        exist_ok=True,
+    )
 
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            output,
+            file,
+            indent=2,
+            ensure_ascii=False,
+        )
+
+    print("")
+    print("Google Scholar update completed.")
     print(
-        f"Updated {len(output_publications)} publications; "
-        f"citations={metrics['totalCitations']}, "
-        f"h-index={metrics['hIndex']}, i10-index={metrics['i10Index']}"
+        f"Publications: {len(publications)}"
+    )
+    print(
+        f"Total citations: "
+        f"{metrics['totalCitations']}"
+    )
+    print(
+        f"h-index: {metrics['hIndex']}"
+    )
+    print(
+        f"i10-index: {metrics['i10Index']}"
     )
 
 
 if __name__ == "__main__":
     try:
         main()
-    except Exception as exc:
-        print(f"Scholar update failed: {exc}", file=sys.stderr)
+
+    except Exception as error:
+        print(
+            f"Google Scholar update failed: {error}"
+        )
         sys.exit(1)
