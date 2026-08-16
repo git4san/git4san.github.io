@@ -26,7 +26,9 @@ type ScholarMetrics = {
 
 export default function Publications() {
   const data = publicationsData;
-  const { publications, metrics } = data;
+  const publications = [...data.publications];
+  const metrics = data.metrics;
+  const lastUpdated = (data as typeof data & { lastUpdated?: string }).lastUpdated;
   const totalCitations = metrics?.totalCitations || 0;
   const journals = publications.filter(pub => pub.type === 'Journal').length;
   const conferences = publications.filter(pub => pub.type === 'Conference').length;
@@ -238,6 +240,12 @@ export default function Publications() {
               ))}
             </div>
           </motion.div>
+
+          {lastUpdated && (
+            <p className="text-center text-sm text-[var(--text-secondary)] mt-4">
+              Scholar data last updated: {new Date(lastUpdated).toLocaleDateString()}
+            </p>
+          )}
 
           {/* Scholar Profile Link */}
           <motion.div
